@@ -1,0 +1,6 @@
+quiero que me creer un .md donde me responda las siguientes preguntas con relación a dokumen.pub_ieee-std-1028-2008-standard-for-software-reviews-and-audits-978-0-7381-5768-9-978-0-7381-5769-6.pdf la cual es la estandarización para software y SIGRA.pdf el cual es el software que voy a desarrollar.
+preguntas:
+Enfócate en la tarea "INSPECCIONES"
+1. Una definición de inspecciones según el documento de estandarización y como se relaciona con sigra.
+2. Una descripción del proceso según como esta en la estandarización y como lo puedo se ve en sigra.
+3. Un instructivo de como aplicar el método según la estandarización y como hacerlo en sigra.

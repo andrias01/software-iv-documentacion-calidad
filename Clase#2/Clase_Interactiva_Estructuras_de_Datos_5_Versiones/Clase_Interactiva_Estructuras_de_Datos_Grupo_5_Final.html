@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estructuras de Datos · Taller Interactivo Piloto</title>
+<style>
+:root{--green:#176b45;--dark:#16342b;--light:#f4f8f6;--accent:#e8b94d;--red:#b43b3b}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#eef3f1;color:#18322b}
+header{background:linear-gradient(135deg,#16342b,#176b45);color:white;padding:28px}
+header h1{margin:0 0 8px;font-size:30px}header p{margin:0}
+main{max-width:1050px;margin:auto;padding:22px}
+.card,.hero{background:white;border-radius:16px;padding:22px;margin:16px 0;box-shadow:0 5px 18px #00000012}
+.hero{border-left:6px solid var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}
+label{font-weight:bold;display:block}input,select,textarea{width:100%;padding:11px;margin-top:7px;border:1px solid #ccd8d3;border-radius:9px;font-size:15px}textarea{min-height:90px}
+button{border:0;border-radius:9px;padding:11px 16px;margin:6px 5px 6px 0;cursor:pointer;font-weight:bold}.btn{background:var(--green);color:white}.option{background:#eaf2ee;color:#17372d;text-align:left;width:100%}.option.correct{background:#bde5c9}.option.wrong{background:#f3c5c5}
+.progress{height:13px;background:#dce6e2;border-radius:10px;overflow:hidden}.bar{height:100%;background:var(--green);width:0;transition:.3s}
+.stat{padding:15px;border-radius:12px;background:var(--light);text-align:center}.stat strong{font-size:27px;display:block}
+.success{padding:10px;border-radius:8px;background:#e0f4e7;color:#176b45;margin-top:8px}.error{padding:10px;border-radius:8px;background:#fbe2e2;color:#8f2525;margin-top:8px}
+pre{background:#17251f;color:#f3f7f5;padding:10px;border-radius:8px;overflow:auto;white-space:pre-wrap;word-break:break-word}
+.hidden{display:none}.score{font-size:46px;font-weight:800;color:var(--green)}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{vertical-align:top;word-break:break-word}th,td{padding:9px;border:1px solid #ccd8d3;text-align:left}
+footer{text-align:center;padding:25px;color:#52635d}
+@media print{body{background:white}.no-print{display:none!important}.print-area{display:block!important}.card{box-shadow:none;border:1px solid #ddd}}
+</style>
+</head>
+<body>
+<header>
+<h1>🌳 Estructuras de Datos · Taller Interactivo</h1>
+<p>Versión piloto basada en la clase del 11 de agosto de 2026</p>
+</header>
+
+<main>
+<section class="card no-print">
+<h2>👤 Identificación</h2>
+<div class="grid">
+<label>Nombre completo *<input id="name" required placeholder="Escriba su nombre completo"></label>
+<label>Grupo<input id="group" placeholder="Grupo" value="Grupo 5"></label>
+<label>Fecha<input id="date" type="date"></label>
+</div>
+<p><b>* El nombre es obligatorio para calcular la calificación y generar el PDF.</b></p>
+</section>
+
+<section class="card no-print">
+<h2>📊 Progreso</h2>
+<div class="progress"><div class="bar" id="bar"></div></div>
+<p id="progressText">0% completado</p>
+<div class="grid">
+<div class="stat"><strong id="points">0</strong>Puntos</div>
+<div class="stat"><strong id="grade">0.00</strong> / 5.0</div>
+<div class="stat"><strong id="done">0</strong> actividades</div>
+</div>
+</section>
+
+<section class="hero no-print">
+<h2>🎯 Propósito</h2>
+<p>Comprender nociones básicas de estructuras de datos, diferenciar datos e información, reconocer tipos de datos, trabajar con <code>struct</code> en C++ y aplicar razonamiento paso a paso en ejercicios de recursividad.</p>
+</section>
+
+<section class="card no-print" id="q1">
+<h2>1. Datos e información · 10 puntos</h2>
+<p>¿Cuál opción representa mejor la diferencia presentada en la clase?</p>
+<button class="option" onclick="answer('q1',this,false)">Un dato siempre contiene contexto y una información nunca.</button>
+<button class="option" onclick="answer('q1',this,true)">El dato es un elemento primario; la información es un conjunto organizado y contextualizado de datos.</button>
+<button class="option" onclick="answer('q1',this,false)">Dato e información son exactamente lo mismo.</button>
+<button class="option" onclick="answer('q1',this,false)">La información solo puede estar formada por números.</button>
+<div id="q1r"></div>
+</section>
+
+<section class="card no-print" id="q2">
+<h2>2. Tipos de datos · 10 puntos</h2>
+<p>Clasifique cada elemento según los tipos explicados en la clase.</p>
+<div class="grid">
+<label>42<select id="t1"><option value="">Seleccione</option><option>Numérico</option><option>Alfanumérico</option><option>Booleano</option></select></label>
+<label>"Juan"<select id="t2"><option value="">Seleccione</option><option>Numérico</option><option>Alfanumérico</option><option>Booleano</option></select></label>
+<label>verdadero<select id="t3"><option value="">Seleccione</option><option>Numérico</option><option>Alfanumérico</option><option>Booleano</option></select></label>
+</div>
+<button class="btn" onclick="checkTypes()">Comprobar</button><div id="q2r"></div>
+</section>
+
+<section class="card no-print" id="q3">
+<h2>3. Estructuras en C++ · 15 puntos</h2>
+<p>Observe el código:</p>
+<pre>struct coord {
+    int x;
+    int y;
+};</pre>
+<p>¿Qué hace principalmente este fragmento?</p>
+<button class="option" onclick="answer('q3',this,true)">Define un nuevo tipo estructurado llamado coord.</button>
+<button class="option" onclick="answer('q3',this,false)">Declara automáticamente tres variables enteras.</button>
+<button class="option" onclick="answer('q3',this,false)">Crea una función recursiva.</button>
+<button class="option" onclick="answer('q3',this,false)">Define un arreglo de caracteres.</button>
+<div id="q3r"></div>
+</section>
+
+
+
+<section class="card no-print version-assessment" id="version1" style="display:none">
+<h2>🎯 Evaluación diferenciada · Grupo 1</h2>
+<p><b>Contexto:</b> Una biblioteca requiere registrar libros con código, título, autor, año y disponibilidad.</p>
+
+<div class="card">
+<h3>Pregunta 1 · Datos e información</h3>
+<p>¿Cuál opción representa mejor un dato?</p>
+<button class="option" onclick="vAnswer(this,1,0,true)">Un elemento que puede ser procesado</button><button class="option" onclick="vAnswer(this,1,1,false)">Una conclusión</button><button class="option" onclick="vAnswer(this,1,2,false)">Un informe final</button><button class="option" onclick="vAnswer(this,1,3,false)">Una interpretación</button>
+<div id="v1r1"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 2 · Tipos de datos</h3>
+<p>¿Cuál valor es booleano?</p>
+<button class="option" onclick="vAnswer2(this,1,0,false)">3.14</button><button class="option" onclick="vAnswer2(this,1,1,false)">&quot;Ana&quot;</button><button class="option" onclick="vAnswer2(this,1,2,true)">true</button><button class="option" onclick="vAnswer2(this,1,3,false)">25</button>
+<div id="v1r2"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 3 · Diseño del struct</h3>
+<p>Para el contexto presentado, escriba un <code>struct</code> con <b>cinco atributos</b>. Incluya tipos de datos adecuados.</p>
+<textarea id="v1struct" style="min-height:190px" placeholder="Escriba aquí su estructura en C++..."></textarea>
+<button class="btn" onclick="saveVText(1,'struct')">Guardar estructura</button>
+<div id="v1sr"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 4 · Operaciones</h3>
+<p>Agregue las operaciones <code>crear</code> e <code>imprimir</code> para la estructura anterior. Escriba el código completo.</p>
+<textarea id="v1ops" style="min-height:220px" placeholder="Escriba aquí crear e imprimir..."></textarea>
+<button class="btn" onclick="saveVText(1,'ops')">Guardar operaciones</button>
+<div id="v1or"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 5 · Ackermann</h3>
+<p>¿Cuál es A(0,4)?</p>
+<button class="option" onclick="vAck(this,1,0,false)">4</button><button class="option" onclick="vAck(this,1,1,true)">5</button><button class="option" onclick="vAck(this,1,2,false)">0</button><button class="option" onclick="vAck(this,1,3,false)">A(1,4)</button>
+<div id="v1r5"></div>
+<textarea id="v1trace" placeholder="Explique paso a paso cómo obtuvo el resultado."></textarea>
+<button class="btn" onclick="saveVText(1,'trace')">Guardar trazado</button>
+<div id="v1tr"></div>
+</div>
+</section>
+
+
+<section class="card no-print version-assessment" id="version2" style="display:none">
+<h2>🎯 Evaluación diferenciada · Grupo 2</h2>
+<p><b>Contexto:</b> Una clínica necesita registrar pacientes con identificación, nombre, edad, peso y estado de atención.</p>
+
+<div class="card">
+<h3>Pregunta 1 · Datos e información</h3>
+<p>¿Qué convierte un conjunto de datos en información útil?</p>
+<button class="option" onclick="vAnswer(this,2,0,true)">La organización y el contexto</button><button class="option" onclick="vAnswer(this,2,1,false)">Cambiar el color</button><button class="option" onclick="vAnswer(this,2,2,false)">Eliminar los datos</button><button class="option" onclick="vAnswer(this,2,3,false)">Usar siempre un vector</button>
+<div id="v2r1"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 2 · Tipos de datos</h3>
+<p>¿Cuál valor es alfanumérico?</p>
+<button class="option" onclick="vAnswer2(this,2,0,false)">false</button><button class="option" onclick="vAnswer2(this,2,1,false)">17</button><button class="option" onclick="vAnswer2(this,2,2,true)">A102</button><button class="option" onclick="vAnswer2(this,2,3,false)">4.5</button>
+<div id="v2r2"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 3 · Diseño del struct</h3>
+<p>Para el contexto presentado, escriba un <code>struct</code> con <b>cinco atributos</b>. Incluya tipos de datos adecuados.</p>
+<textarea id="v2struct" style="min-height:190px" placeholder="Escriba aquí su estructura en C++..."></textarea>
+<button class="btn" onclick="saveVText(2,'struct')">Guardar estructura</button>
+<div id="v2sr"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 4 · Operaciones</h3>
+<p>Agregue las operaciones <code>crear</code> e <code>imprimir</code> para la estructura anterior. Escriba el código completo.</p>
+<textarea id="v2ops" style="min-height:220px" placeholder="Escriba aquí crear e imprimir..."></textarea>
+<button class="btn" onclick="saveVText(2,'ops')">Guardar operaciones</button>
+<div id="v2or"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 5 · Ackermann</h3>
+<p>¿Cuál es A(0,6)?</p>
+<button class="option" onclick="vAck(this,2,0,false)">6</button><button class="option" onclick="vAck(this,2,1,true)">7</button><button class="option" onclick="vAck(this,2,2,false)">0</button><button class="option" onclick="vAck(this,2,3,false)">A(1,6)</button>
+<div id="v2r5"></div>
+<textarea id="v2trace" placeholder="Explique paso a paso cómo obtuvo el resultado."></textarea>
+<button class="btn" onclick="saveVText(2,'trace')">Guardar trazado</button>
+<div id="v2tr"></div>
+</div>
+</section>
+
+
+<section class="card no-print version-assessment" id="version3" style="display:none">
+<h2>🎯 Evaluación diferenciada · Grupo 3</h2>
+<p><b>Contexto:</b> Una universidad requiere registrar estudiantes con código, nombre, semestre, promedio y estado activo.</p>
+
+<div class="card">
+<h3>Pregunta 1 · Datos e información</h3>
+<p>¿Por qué es importante elegir una estructura de datos adecuada?</p>
+<button class="option" onclick="vAnswer(this,3,0,true)">Facilita la organización y manipulación de los datos</button><button class="option" onclick="vAnswer(this,3,1,false)">Elimina los algoritmos</button><button class="option" onclick="vAnswer(this,3,2,false)">Hace iguales todos los datos</button><button class="option" onclick="vAnswer(this,3,3,false)">Reemplaza C++</button>
+<div id="v3r1"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 2 · Tipos de datos</h3>
+<p>¿Cuál valor es numérico?</p>
+<button class="option" onclick="vAnswer2(this,3,0,false)">&quot;UCO&quot;</button><button class="option" onclick="vAnswer2(this,3,1,false)">false</button><button class="option" onclick="vAnswer2(this,3,2,true)">128</button><button class="option" onclick="vAnswer2(this,3,3,false)">&quot;128&quot;</button>
+<div id="v3r2"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 3 · Diseño del struct</h3>
+<p>Para el contexto presentado, escriba un <code>struct</code> con <b>cinco atributos</b>. Incluya tipos de datos adecuados.</p>
+<textarea id="v3struct" style="min-height:190px" placeholder="Escriba aquí su estructura en C++..."></textarea>
+<button class="btn" onclick="saveVText(3,'struct')">Guardar estructura</button>
+<div id="v3sr"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 4 · Operaciones</h3>
+<p>Agregue las operaciones <code>crear</code> e <code>imprimir</code> para la estructura anterior. Escriba el código completo.</p>
+<textarea id="v3ops" style="min-height:220px" placeholder="Escriba aquí crear e imprimir..."></textarea>
+<button class="btn" onclick="saveVText(3,'ops')">Guardar operaciones</button>
+<div id="v3or"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 5 · Ackermann</h3>
+<p>¿Cuál es A(0,3)?</p>
+<button class="option" onclick="vAck(this,3,0,false)">3</button><button class="option" onclick="vAck(this,3,1,true)">4</button><button class="option" onclick="vAck(this,3,2,false)">2</button><button class="option" onclick="vAck(this,3,3,false)">A(1,3)</button>
+<div id="v3r5"></div>
+<textarea id="v3trace" placeholder="Explique paso a paso cómo obtuvo el resultado."></textarea>
+<button class="btn" onclick="saveVText(3,'trace')">Guardar trazado</button>
+<div id="v3tr"></div>
+</div>
+</section>
+
+
+<section class="card no-print version-assessment" id="version4" style="display:none">
+<h2>🎯 Evaluación diferenciada · Grupo 4</h2>
+<p><b>Contexto:</b> Una empresa necesita registrar empleados con identificación, nombre, salario, área y estado activo.</p>
+
+<div class="card">
+<h3>Pregunta 1 · Datos e información</h3>
+<p>¿Cuál afirmación diferencia correctamente dato e información?</p>
+<button class="option" onclick="vAnswer(this,4,0,true)">La información surge al organizar e interpretar datos</button><button class="option" onclick="vAnswer(this,4,1,false)">El dato siempre es más complejo</button><button class="option" onclick="vAnswer(this,4,2,false)">La información no usa datos</button><button class="option" onclick="vAnswer(this,4,3,false)">Son conceptos idénticos</button>
+<div id="v4r1"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 2 · Tipos de datos</h3>
+<p>¿Cuál opción es alfanumérica?</p>
+<button class="option" onclick="vAnswer2(this,4,0,false)">false</button><button class="option" onclick="vAnswer2(this,4,1,false)">99</button><button class="option" onclick="vAnswer2(this,4,2,true)">ED-2026</button><button class="option" onclick="vAnswer2(this,4,3,false)">2.7</button>
+<div id="v4r2"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 3 · Diseño del struct</h3>
+<p>Para el contexto presentado, escriba un <code>struct</code> con <b>cinco atributos</b>. Incluya tipos de datos adecuados.</p>
+<textarea id="v4struct" style="min-height:190px" placeholder="Escriba aquí su estructura en C++..."></textarea>
+<button class="btn" onclick="saveVText(4,'struct')">Guardar estructura</button>
+<div id="v4sr"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 4 · Operaciones</h3>
+<p>Agregue las operaciones <code>crear</code> e <code>imprimir</code> para la estructura anterior. Escriba el código completo.</p>
+<textarea id="v4ops" style="min-height:220px" placeholder="Escriba aquí crear e imprimir..."></textarea>
+<button class="btn" onclick="saveVText(4,'ops')">Guardar operaciones</button>
+<div id="v4or"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 5 · Ackermann</h3>
+<p>¿Cuál es A(0,7)?</p>
+<button class="option" onclick="vAck(this,4,0,false)">7</button><button class="option" onclick="vAck(this,4,1,true)">8</button><button class="option" onclick="vAck(this,4,2,false)">6</button><button class="option" onclick="vAck(this,4,3,false)">A(1,7)</button>
+<div id="v4r5"></div>
+<textarea id="v4trace" placeholder="Explique paso a paso cómo obtuvo el resultado."></textarea>
+<button class="btn" onclick="saveVText(4,'trace')">Guardar trazado</button>
+<div id="v4tr"></div>
+</div>
+</section>
+
+
+<section class="card no-print version-assessment" id="version5">
+<h2>🎯 Evaluación diferenciada · Grupo 5</h2>
+<p><b>Contexto:</b> Una plataforma deportiva registra deportistas con identificación, nombre, edad, disciplina y estado.</p>
+
+<div class="card">
+<h3>Pregunta 1 · Datos e información</h3>
+<p>¿Qué característica corresponde a una estructura de datos?</p>
+<button class="option" onclick="vAnswer(this,5,0,true)">Organiza datos para facilitar su almacenamiento y manipulación</button><button class="option" onclick="vAnswer(this,5,1,false)">Solo almacena números</button><button class="option" onclick="vAnswer(this,5,2,false)">Siempre requiere recursividad</button><button class="option" onclick="vAnswer(this,5,3,false)">Es exclusivamente una función</button>
+<div id="v5r1"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 2 · Tipos de datos</h3>
+<p>¿Cuál valor es booleano?</p>
+<button class="option" onclick="vAnswer2(this,5,0,false)">&quot;true&quot;</button><button class="option" onclick="vAnswer2(this,5,1,true)">true</button><button class="option" onclick="vAnswer2(this,5,2,false)">10</button><button class="option" onclick="vAnswer2(this,5,3,false)">3.2</button>
+<div id="v5r2"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 3 · Diseño del struct</h3>
+<p>Para el contexto presentado, escriba un <code>struct</code> con <b>cinco atributos</b>. Incluya tipos de datos adecuados.</p>
+<textarea id="v5struct" style="min-height:190px" placeholder="Escriba aquí su estructura en C++..."></textarea>
+<button class="btn" onclick="saveVText(5,'struct')">Guardar estructura</button>
+<div id="v5sr"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 4 · Operaciones</h3>
+<p>Agregue las operaciones <code>crear</code> e <code>imprimir</code> para la estructura anterior. Escriba el código completo.</p>
+<textarea id="v5ops" style="min-height:220px" placeholder="Escriba aquí crear e imprimir..."></textarea>
+<button class="btn" onclick="saveVText(5,'ops')">Guardar operaciones</button>
+<div id="v5or"></div>
+</div>
+
+<div class="card">
+<h3>Pregunta 5 · Ackermann</h3>
+<p>¿Cuál es A(0,8)?</p>
+<button class="option" onclick="vAck(this,5,0,false)">8</button><button class="option" onclick="vAck(this,5,1,true)">9</button><button class="option" onclick="vAck(this,5,2,false)">7</button><button class="option" onclick="vAck(this,5,3,false)">A(1,8)</button>
+<div id="v5r5"></div>
+<textarea id="v5trace" placeholder="Explique paso a paso cómo obtuvo el resultado."></textarea>
+<button class="btn" onclick="saveVText(5,'trace')">Guardar trazado</button>
+<div id="v5tr"></div>
+</div>
+</section>
+<section class="card no-print" id="qStruct">
+<h2>🧩 4A. Construcción paso a paso de un <code>struct</code> · 20 puntos</h2>
+<p>Construiremos una estructura <b>Persona</b> con cinco atributos y dos operaciones: <code>crearPersona</code> e <code>imprimirPersona</code>.</p>
+
+<div class="card"><h3>Paso 1 · Definir los cinco atributos</h3>
+<p>Seleccione exactamente estos cinco atributos, con su tipo de dato.</p>
+<div class="grid">
+<label>1<select id="p1"><option value="">Seleccione</option><option>nombre : string</option><option>documento : string</option><option>edad : int</option><option>altura : float</option><option>activo : bool</option></select></label>
+<label>2<select id="p2"><option value="">Seleccione</option><option>nombre : string</option><option>documento : string</option><option>edad : int</option><option>altura : float</option><option>activo : bool</option></select></label>
+<label>3<select id="p3"><option value="">Seleccione</option><option>nombre : string</option><option>documento : string</option><option>edad : int</option><option>altura : float</option><option>activo : bool</option></select></label>
+<label>4<select id="p4"><option value="">Seleccione</option><option>nombre : string</option><option>documento : string</option><option>edad : int</option><option>altura : float</option><option>activo : bool</option></select></label>
+<label>5<select id="p5"><option value="">Seleccione</option><option>nombre : string</option><option>documento : string</option><option>edad : int</option><option>altura : float</option><option>activo : bool</option></select></label>
+</div>
+<button class="btn" onclick="checkStructStep()">Comprobar</button><div id="structr1"></div></div>
+
+<div class="card"><h3>Paso 2 · Declarar el <code>struct</code></h3>
+<p>¿Qué instrucción inicia correctamente la estructura?</p>
+<button class="option" onclick="structAnswer(this,true,2)"><code>struct Persona {</code></button>
+<button class="option" onclick="structAnswer(this,false,2)"><code>Persona struct {</code></button>
+<button class="option" onclick="structAnswer(this,false,2)"><code>create struct Persona {</code></button>
+<div id="structr2"></div></div>
+
+<div class="card"><h3>Paso 3 · Crear una variable Persona</h3>
+<p>Una vez definida la estructura, ¿cómo se declara <code>persona1</code>?</p>
+<button class="option" onclick="structAnswer(this,true,3)"><code>Persona persona1;</code></button>
+<button class="option" onclick="structAnswer(this,false,3)"><code>struct persona1 Persona;</code></button>
+<button class="option" onclick="structAnswer(this,false,3)"><code>crear Persona persona1;</code></button>
+<div id="structr3"></div></div>
+
+<div class="card"><h3>Paso 4 · Asignar atributos</h3>
+<p>¿Cómo se asigna <b>"Ana"</b> al nombre de <code>persona1</code>?</p>
+<button class="option" onclick="structAnswer(this,true,4)"><code>persona1.nombre = "Ana";</code></button>
+<button class="option" onclick="structAnswer(this,false,4)"><code>Persona.nombre = "Ana";</code></button>
+<button class="option" onclick="structAnswer(this,false,4)"><code>nombre.persona1 = "Ana";</code></button>
+<div id="structr4"></div></div>
+
+<div class="card"><h3>Paso 5 · Operación <code>crearPersona</code></h3>
+<p>Seleccione una firma adecuada para una función que reciba los cinco datos y retorne una persona.</p>
+<button class="option" onclick="structAnswer(this,true,5)"><code>Persona crearPersona(string n, string doc, int e, float a, bool act);</code></button>
+<button class="option" onclick="structAnswer(this,false,5)"><code>void Persona(string n);</code></button>
+<button class="option" onclick="structAnswer(this,false,5)"><code>crear Persona(n,doc,e,a,act);</code></button>
+<div id="structr5"></div></div>
+
+<div class="card"><h3>Paso 6 · Operación <code>imprimirPersona</code></h3>
+<p>Seleccione una firma adecuada para imprimir los datos de una persona.</p>
+<button class="option" onclick="structAnswer(this,true,6)"><code>void imprimirPersona(Persona p);</code></button>
+<button class="option" onclick="structAnswer(this,false,6)"><code>Persona imprimirPersona();</code></button>
+<button class="option" onclick="structAnswer(this,false,6)"><code>print struct Persona;</code></button>
+<div id="structr6"></div></div>
+
+<div class="card"><h3>Reto final · Construcción completa</h3>
+<p>Escriba una solución en C++ que incluya los cinco atributos, <code>crearPersona</code>, <code>imprimirPersona</code> y la creación de una persona.</p>
+<textarea id="structCode" style="min-height:230px" placeholder="Escriba aquí su solución en C++..."></textarea>
+<button class="btn" onclick="saveStructCode()">Guardar solución</button><div id="structCodeR"></div></div>
+</section>
+
+<section class="card no-print" id="qImaginary">
+<h2>🧠 4B. Ejercicio guiado: Número Imaginario · 15 puntos</h2>
+<p>Construya paso a paso una estructura para representar un número imaginario con parte <code>real</code> e <code>imaginaria</code>.</p>
+
+<div class="card"><h3>Paso 1 · Nombre de la estructura</h3>
+<p>¿Qué instrucción escribiría?</p>
+<button class="option" onclick="imagAnswer(this,true,1)"><code>struct NumeroImaginario {</code></button>
+<button class="option" onclick="imagAnswer(this,false,1)"><code>NumeroImaginario struct {</code></button>
+<div id="imgr1"></div></div>
+
+<div class="card"><h3>Paso 2 · Declarar la parte real</h3>
+<p>¿Qué instrucción agregaría dentro de la estructura?</p>
+<button class="option" onclick="imagAnswer(this,true,2)"><code>float real;</code></button>
+<button class="option" onclick="imagAnswer(this,false,2)"><code>real float;</code></button>
+<div id="imgr2"></div></div>
+
+<div class="card"><h3>Paso 3 · Declarar la parte imaginaria</h3>
+<button class="option" onclick="imagAnswer(this,true,3)"><code>float imaginaria;</code></button>
+<button class="option" onclick="imagAnswer(this,false,3)"><code>imaginaria float;</code></button>
+<div id="imgr3"></div></div>
+
+<div class="card"><h3>Paso 4 · Crear la variable</h3>
+<p>¿Cómo declararía una variable <code>z1</code>?</p>
+<button class="option" onclick="imagAnswer(this,true,4)"><code>NumeroImaginario z1;</code></button>
+<button class="option" onclick="imagAnswer(this,false,4)"><code>z1 NumeroImaginario;</code></button>
+<div id="imgr4"></div></div>
+
+<div class="card"><h3>Paso 5 · Asignar 3 + 4i</h3>
+<p>Seleccione la instrucción correcta.</p>
+<button class="option" onclick="imagAnswer(this,true,5)"><code>z1.real = 3; z1.imaginaria = 4;</code></button>
+<button class="option" onclick="imagAnswer(this,false,5)"><code>z1 = 3 + 4i;</code></button>
+<div id="imgr5"></div></div>
+
+<div class="card"><h3>Reto final</h3>
+<p>Escriba las instrucciones para imprimir la parte real y la parte imaginaria.</p>
+<textarea id="imagCode" placeholder='Ejemplo de formato esperado: cout << ...;'></textarea>
+<button class="btn" onclick="saveImagCode()">Guardar</button><div id="imagCodeR"></div></div>
+</section>
+
+<section class="card no-print" id="qAckermann">
+<h2>🔁 4C. Recursividad paso a paso: función de Ackermann · 20 puntos</h2>
+<p>La función de Ackermann es un ejemplo clásico de recursividad. En este ejercicio se trabajará el <b>trazado de llamadas</b> paso a paso, sin ejecutar el programa.</p>
+<pre>A(m,n) =
+  n + 1,                         si m = 0
+  A(m-1,1),                      si m > 0 y n = 0
+  A(m-1, A(m,n-1)),              si m > 0 y n > 0</pre>
+
+<div class="card"><h3>Paso 1 · Caso base</h3>
+<p>¿Cuánto vale <code>A(0,5)</code>?</p>
+<button class="option" onclick="ackAnswer(this,true,1)"><code>6</code></button>
+<button class="option" onclick="ackAnswer(this,false,1)"><code>5</code></button>
+<button class="option" onclick="ackAnswer(this,false,1)"><code>0</code></button>
+<div id="ackr1"></div></div>
+
+<div class="card"><h3>Paso 2 · Segundo caso</h3>
+<p>Si <code>m &gt; 0</code> y <code>n = 0</code>, ¿a qué llamada se transforma <code>A(1,0)</code>?</p>
+<button class="option" onclick="ackAnswer(this,true,2)"><code>A(0,1)</code></button>
+<button class="option" onclick="ackAnswer(this,false,2)"><code>A(1,1)</code></button>
+<button class="option" onclick="ackAnswer(this,false,2)"><code>A(0,0)</code></button>
+<div id="ackr2"></div></div>
+
+<div class="card"><h3>Paso 3 · Resolver una llamada</h3>
+<p>Complete la cadena: <code>A(1,1) → A(0, A(1,0)) → A(0, ___)</code></p>
+<input id="ack3" type="number" placeholder="Número">
+<button class="btn" onclick="checkAck3()">Comprobar</button><div id="ackr3"></div></div>
+
+<div class="card"><h3>Paso 4 · Resultado</h3>
+<p>¿Cuál es el resultado de <code>A(1,1)</code>?</p>
+<button class="option" onclick="ackAnswer(this,true,4)"><code>3</code></button>
+<button class="option" onclick="ackAnswer(this,false,4)"><code>2</code></button>
+<button class="option" onclick="ackAnswer(this,false,4)"><code>4</code></button>
+<div id="ackr4"></div></div>
+
+<div class="card"><h3>Paso 5 · Trace la recursividad</h3>
+<p>Para <code>A(1,2)</code>, escriba las llamadas principales que observa antes de llegar al caso base.</p>
+<textarea id="ackTrace" placeholder="Ejemplo de formato: A(1,2) → ... → ..."></textarea>
+<button class="btn" onclick="saveAckTrace()">Guardar trazado</button><div id="ackr5"></div></div>
+
+<div class="card"><h3>Reto de análisis</h3>
+<p>Explique por qué Ackermann es un buen ejemplo para estudiar recursividad y qué característica hace que el número de llamadas crezca rápidamente.</p>
+<textarea id="ackExplain" placeholder="Explique con sus palabras..."></textarea>
+<button class="btn" onclick="saveAckExplain()">Guardar análisis</button><div id="ackr6"></div></div>
+</section>
+<section class="card no-print" id="q4">
+<h2>4. Declaración de variables struct · 15 puntos</h2>
+<p>Complete mentalmente el código de la clase:</p>
+<pre>struct coord {
+    int x, y;
+};
+
+coord first, second;
+coord third;</pre>
+<p>¿Cuántas variables de tipo <code>coord</code> se declaran?</p>
+<input id="q4input" type="number" min="0" placeholder="Número de variables">
+<button class="btn" onclick="checkNumber('q4',3)">Comprobar</button><div id="q4r"></div>
+</section>
+
+<section class="card no-print" id="q5">
+<h2>5. Recursividad · 15 puntos</h2>
+<p>La clase define la recursividad como una técnica donde:</p>
+<button class="option" onclick="answer('q5',this,false)">Una función siempre usa un ciclo for.</button>
+<button class="option" onclick="answer('q5',this,true)">Una función o algoritmo se llama a sí mismo para resolver un subproblema de menor tamaño o complejidad.</button>
+<button class="option" onclick="answer('q5',this,false)">Los datos se almacenan únicamente en vectores.</button>
+<button class="option" onclick="answer('q5',this,false)">Un programa deja de ejecutar funciones.</button>
+<div id="q5r"></div>
+</section>
+
+<section class="card no-print" id="q6">
+<h2>6. Prueba de escritorio: contarCeros · 15 puntos</h2>
+<p>En la presentación aparece el ejercicio <code>contarCeros({0, 1, 0, 2, 0, 3}, 5)</code>. Sin ejecutar el programa, determine cuántos ceros contiene el segmento indicado por el segundo parámetro.</p>
+<input id="q6input" type="number" min="0" placeholder="Resultado">
+<textarea id="q6just" placeholder="Explique brevemente su prueba de escritorio."></textarea>
+<button class="btn" onclick="checkCount()">Comprobar</button><div id="q6r"></div>
+</section>
+
+<section class="card no-print" id="q7">
+<h2>7. Prueba de escritorio: sumaPares · 20 puntos</h2>
+<p>La presentación plantea: <code>¿Cuál es el resultado de sumaPares(10)?</code>. Escriba el resultado que obtiene después de realizar su prueba de escritorio.</p>
+<input id="q7input" type="number" placeholder="Resultado">
+<textarea id="q7just" placeholder="Escriba los pasos de su razonamiento."></textarea>
+<p><i>Nota: el archivo suministrado plantea el ejercicio, pero no muestra en el texto extraído la implementación completa de sumaPares. El resultado no se calificará automáticamente sin la definición de la función.</i></p>
+<button class="btn" onclick="saveOpen('q7')">Guardar respuesta</button><div id="q7r"></div>
+</section>
+
+<section class="card no-print" id="q8">
+<h2>8. Aplicación · 10 puntos</h2>
+<p>Explique con sus palabras por qué la elección adecuada de una estructura de datos puede mejorar un programa.</p>
+<textarea id="q8text" placeholder="Escriba su respuesta..."></textarea>
+<button class="btn" onclick="saveOpen('q8')">Guardar respuesta</button><div id="q8r"></div>
+</section>
+
+<section class="card no-print">
+<h2>🏁 Finalizar</h2>
+<p>Revise sus respuestas y genere el resumen.</p>
+<button class="btn" onclick="calculate()">Calcular calificación</button>
+<button class="btn" onclick="makePDF()">📄 Generar PDF</button>
+<div id="final"></div>
+</section>
+
+<section id="pdf" class="print-area hidden"></section>
+</main>
+
+<footer class="no-print">Taller interactivo piloto · Estructuras de Datos · Ingeniería de Sistemas</footer>
+
+<script>
+const total=110;
+let earned=0, completed=new Set(), responses={};
+
+function answer(id,btn,correct){
+ const parent=btn.parentElement;
+ parent.querySelectorAll(".option").forEach(b=>b.disabled=true);
+ btn.classList.add(correct?"correct":"wrong");
+ const r=document.getElementById(id+"r");
+ r.innerHTML=correct?'<div class="success">✓ Correcta. La respuesta está de acuerdo con el contenido de la clase.</div>':'<div class="error">✗ Incorrecta. Revise el concepto y vuelva a estudiar esta sección.</div>';
+ if(correct) responses[id]="Correcta";
+ completed.add(id); update();
+}
+function checkTypes(){
+ const ok=document.getElementById("t1").value==="Numérico"&&document.getElementById("t2").value==="Alfanumérico"&&document.getElementById("t3").value==="Booleano";
+ responses.q2=[t1.value,t2.value,t3.value];
+ completed.add("q2"); earned=score(); update();
+ document.getElementById("q2r").innerHTML=ok?'<div class="success">✓ Clasificación correcta.</div>':'<div class="error">✗ Revise los tipos de datos y vuelva a intentarlo.</div>';
+ if(ok) responses.q2score=10;
+}
+function checkNumber(id,expected){
+ const v=Number(document.getElementById(id+"input").value);
+ if(!v&&v!==0)return;
+ completed.add(id); responses[id]=v; if(v===expected) responses[id+"score"]=15;
+ document.getElementById(id+"r").innerHTML=v===expected?'<div class="success">✓ Correcto: se declaran tres variables de tipo coord.</div>':'<div class="error">✗ Revise cuántas variables aparecen en la declaración.</div>';
+ update();
+}
+function checkCount(){
+ const v=Number(q6input.value);
+ if(!q6input.value)return;
+ completed.add("q6"); responses.q6=v; if(v===3&&q6just.value.trim())responses.q6score=15;
+ q6r.innerHTML=(v===3&&q6just.value.trim())?'<div class="success">✓ Correcto. Hay tres ceros en el conjunto indicado.</div>':'<div class="error">✗ Revise la prueba de escritorio y asegúrese de justificarla.</div>';
+ update();
+}
+function saveOpen(id){
+ const el=document.getElementById(id==="q7"?"q7input":id==="q8"?"q8text":id+"text");
+ if(!el.value.trim()){alert("Debe ingresar una respuesta.");return}
+ completed.add(id);responses[id]=el.value; document.getElementById(id+"r").innerHTML='<div class="success">Respuesta guardada para revisión.</div>';update();
+}
+
+function structAnswer(btn,correct,step){
+ btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+ btn.classList.add(correct?"correct":"wrong");
+ document.getElementById("structr"+step).innerHTML=correct?'<div class="success">✓ Correcto. Continúe con el siguiente paso.</div>':'<div class="error">✗ Revise la sintaxis y vuelva a intentarlo.</div>';
+ if(correct) responses["struct"+step]=true;
+ completed.add("qStruct"); update();
+}
+function checkStructStep(){
+ const v=[p1.value,p2.value,p3.value,p4.value,p5.value];
+ const required=["nombre : string","documento : string","edad : int","altura : float","activo : bool"];
+ const ok=v.length===5 && required.every(x=>v.includes(x));
+ responses.structStep1=ok; completed.add("qStruct");
+ structr1.innerHTML=ok?'<div class="success">✓ Correcto. La estructura Persona tiene cinco atributos con tipos apropiados.</div>':'<div class="error">✗ Debe seleccionar exactamente nombre, documento, edad, altura y activo.</div>';
+ update();
+}
+function saveStructCode(){
+ if(!structCode.value.trim()){alert("Escriba primero su solución.");return}
+ responses.structCode=structCode.value; completed.add("qStruct");
+ structCodeR.innerHTML='<div class="success">✓ Solución guardada.</div>'; update();
+}
+function imagAnswer(btn,correct,step){
+ btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+ btn.classList.add(correct?"correct":"wrong");
+ document.getElementById("imgr"+step).innerHTML=correct?'<div class="success">✓ Correcto.</div>':'<div class="error">✗ Revise este paso.</div>';
+ if(correct) responses["imag"+step]=true;
+ completed.add("qImaginary"); update();
+}
+function saveImagCode(){
+ if(!imagCode.value.trim()){alert("Escriba las instrucciones.");return}
+ responses.imagCode=imagCode.value; completed.add("qImaginary");
+ imagCodeR.innerHTML='<div class="success">✓ Guardado.</div>'; update();
+}
+function ackAnswer(btn,correct,step){
+ btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+ btn.classList.add(correct?"correct":"wrong");
+ document.getElementById("ackr"+step).innerHTML=correct?'<div class="success">✓ Correcto. Continúe con el trazado.</div>':'<div class="error">✗ Revise la regla de Ackermann correspondiente.</div>';
+ if(correct) responses["ack"+step]=true;
+ completed.add("qAckermann"); update();
+}
+function checkAck3(){
+ const v=Number(ack3.value); if(!ack3.value)return;
+ const ok=v===2; responses.ack3=ok; completed.add("qAckermann");
+ ackr3.innerHTML=ok?'<div class="success">✓ Correcto: A(1,0)=A(0,1)=2.</div>':'<div class="error">✗ Revise primero A(1,0) y luego el caso base A(0,n)=n+1.</div>';
+ update();
+}
+function saveAckTrace(){
+ if(!ackTrace.value.trim()){alert("Escriba el trazado.");return}
+ responses.ackTrace=ackTrace.value; completed.add("qAckermann");
+ ackr5.innerHTML='<div class="success">✓ Trazado guardado.</div>'; update();
+}
+function saveAckExplain(){
+ if(!ackExplain.value.trim()){alert("Escriba su análisis.");return}
+ responses.ackExplain=ackExplain.value; completed.add("qAckermann");
+ ackr6.innerHTML='<div class="success">✓ Análisis guardado para revisión.</div>'; update();
+}
+
+
+function vAnswer(btn,g,i,c){
+  btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+  btn.classList.add(c?"correct":"wrong");
+  document.getElementById("v"+g+"r1").innerHTML=c?'<div class="success">✓ Correcta.</div>':'<div class="error">✗ Incorrecta.</div>';
+  responses["v"+g+"q1"]=c?"Correcta":"Incorrecta";
+  completed.add("version"+g); update();
+}
+function vAnswer2(btn,g,i,c){
+  btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+  btn.classList.add(c?"correct":"wrong");
+  document.getElementById("v"+g+"r2").innerHTML=c?'<div class="success">✓ Correcta.</div>':'<div class="error">✗ Incorrecta.</div>';
+  responses["v"+g+"q2"]=c?"Correcta":"Incorrecta";
+  completed.add("version"+g); update();
+}
+function vAck(btn,g,i,c){
+  btn.parentElement.querySelectorAll(".option").forEach(b=>b.disabled=true);
+  btn.classList.add(c?"correct":"wrong");
+  document.getElementById("v"+g+"r5").innerHTML=c?'<div class="success">✓ Correcta.</div>':'<div class="error">✗ Incorrecta.</div>';
+  responses["v"+g+"ack"]=c?"Correcta":"Incorrecta";
+  completed.add("version"+g); update();
+}
+function saveVText(g,type){
+  const id="v"+g+type;
+  const el=document.getElementById(id);
+  if(!el.value.trim()){alert("Escriba primero la respuesta."); return;}
+  responses[id]=el.value;
+  completed.add("version"+g);
+  document.getElementById("v"+g+(type==="struct"?"sr":type==="ops"?"or":"tr")).innerHTML='<div class="success">✓ Respuesta guardada.</div>';
+  update();
+}
+
+function score(){
+ let s=0;
+ ["q1","q3","q5"].forEach(id=>{if(responses[id]==="Correcta")s+=10});
+ if(responses.q2score)s+=10;
+ if(responses.q4score)s+=15;
+ if(responses.q6score)s+=15;
+
+ const ss=[1,2,3,4,5,6].filter(n=>responses["struct"+n]).length;
+ if(ss===6 && responses.structStep1 && responses.structCode)s+=20;
+
+ const ii=[1,2,3,4,5].filter(n=>responses["imag"+n]).length;
+ if(ii===5 && responses.imagCode)s+=15;
+
+ const aa=[1,2,4].filter(n=>responses["ack"+n]).length;
+ if(aa===3 && responses.ack3 && responses.ackTrace && responses.ackExplain)s+=20;
+
+ const g=(document.getElementById("group")?.value.match(/[1-5]/)||["1"])[0];
+ if(responses["v"+g+"q1"]==="Correcta")s+=5;
+ if(responses["v"+g+"q2"]==="Correcta")s+=5;
+ if(responses["v"+g+"struct"])s+=8;
+ if(responses["v"+g+"ops"])s+=7;
+ if(responses["v"+g+"ack"]==="Correcta")s+=3;
+ if(responses["v"+g+"trace"])s+=2;
+
+ return Math.min(s,100);
+}
+function calculate(){
+ earned=score();
+ const grade=Math.round((earned/100)*5*100)/100;
+ const pct=Math.round((completed.size/11)*100);
+ final.innerHTML='<div class="stat"><div class="score">'+grade.toFixed(2)+' / 5.0</div><b>'+earned+' puntos automáticos · '+pct+'% de actividades registradas</b><p>Las respuestas abiertas requieren revisión docente.</p></div>';
+ update();
+}
+function update(){
+ const pct=Math.min(Math.round((completed.size/11)*100),100);
+ bar.style.width=pct+"%";progressText.textContent=pct+"% completado";points.textContent=score();grade.textContent=(score()/100*5).toFixed(2);done.textContent=completed.size;
+}
+function makePDF(){
+ const name=document.getElementById("name").value.trim();
+ if(!name){alert("El nombre del estudiante es obligatorio.");document.getElementById("name").focus();return}
+ calculate();
+
+ const grade=(score()/100*5).toFixed(2);
+ const group=(document.getElementById("group").value.match(/[1-5]/)||["1"])[0];
+
+ const q6justEl=document.getElementById("q6just");
+ const q7inputEl=document.getElementById("q7input");
+ const q7justEl=document.getElementById("q7just");
+ const q8textEl=document.getElementById("q8text");
+
+ let rows="";
+ function addRow(question,answer,correct,result,points){
+   rows += '<tr><td>'+esc(question)+'</td><td><pre>'+esc(answer||"Sin respuesta")+
+   '</pre></td><td><pre>'+esc(correct||"—")+'</pre></td><td>'+esc(result||"Revisión")+
+   '</td><td>'+esc(points||"—")+'</td></tr>';
+ }
+
+ // Original activities.
+ addRow("1. Datos e información",
+        responses.q1==="Correcta" ? "Opción seleccionada correcta" : "Opción seleccionada incorrecta",
+        "Respuesta correcta según la actividad",
+        responses.q1==="Correcta"?"Correcta":"Incorrecta","10");
+ addRow("2. Tipos de datos",
+        responses.q2score?"Clasificación correcta":"Clasificación registrada",
+        "Clasificación esperada por la actividad",
+        responses.q2score?"Correcta":"Revisión","10");
+ addRow("3. struct",
+        responses.q3==="Correcta"?"struct":"Respuesta incorrecta",
+        "struct","Correcta","10");
+ addRow("4. Declaración de variables",
+        document.getElementById("q4input")?.value,
+        "3","Correcta","15");
+ addRow("5. Recursividad",
+        responses.q5==="Correcta"?"Definición correcta":"Respuesta incorrecta",
+        "Una función se llama a sí misma para resolver un subproblema menor.",
+        responses.q5==="Correcta"?"Correcta":"Incorrecta","10");
+ addRow("6. contarCeros",
+        document.getElementById("q6input")?.value,
+        "3","Revisión automática","15");
+ addRow("6. Justificación contarCeros",
+        q6justEl?.value,
+        "—","Respuesta abierta","—");
+ addRow("7. sumaPares(10)",
+        q7inputEl?.value,
+        "—","Revisión docente","—");
+ addRow("7. Justificación sumaPares",
+        q7justEl?.value,
+        "—","Respuesta abierta","—");
+ addRow("8. Aplicación",
+        q8textEl?.value,
+        "—","Revisión docente","—");
+
+ // Persona, imaginario y Ackermann.
+ addRow("9. struct Persona — código completo",
+        document.getElementById("structCode")?.value,
+        "Debe incluir 5 atributos, crearPersona e imprimirPersona.",
+        "Revisión docente","20");
+ addRow("10. Número Imaginario — solución",
+        document.getElementById("imagCode")?.value,
+        "Debe acceder a real e imaginaria mediante la variable.",
+        "Revisión docente","15");
+ addRow("11. Ackermann — A(1,1)",
+        document.getElementById("ack3")?.value,
+        "2","Revisión automática","—");
+ addRow("11. Ackermann — trazado",
+        document.getElementById("ackTrace")?.value,
+        "—","Revisión docente","—");
+ addRow("11. Ackermann — análisis",
+        document.getElementById("ackExplain")?.value,
+        "—","Revisión docente","—");
+
+ // Differentiated group section.
+ addRow("12. Pregunta diferenciada 1",
+        responses["v"+group+"q1"],
+        "Respuesta correcta de la versión del Grupo "+group,
+        responses["v"+group+"q1"]==="Correcta"?"Correcta":"Incorrecta","5");
+ addRow("13. Pregunta diferenciada 2",
+        responses["v"+group+"q2"],
+        "Respuesta correcta de la versión del Grupo "+group,
+        responses["v"+group+"q2"]==="Correcta"?"Correcta":"Incorrecta","5");
+ addRow("14. struct aplicado al caso",
+        responses["v"+group+"struct"],
+        "struct con 5 atributos pertinentes al caso.",
+        "Revisión docente","8");
+ addRow("15. Operaciones crear/imprimir",
+        responses["v"+group+"ops"],
+        "Funciones crear e imprimir.",
+        "Revisión docente","7");
+ addRow("16. Ackermann diferenciada",
+        responses["v"+group+"ack"],
+        "Respuesta correcta de la versión del Grupo "+group,
+        responses["v"+group+"ack"]==="Correcta"?"Correcta":"Incorrecta","3");
+ addRow("17. Trazado Ackermann diferenciado",
+        responses["v"+group+"trace"],
+        "—","Revisión docente","2");
+
+ pdf.innerHTML =
+ '<div class="card"><h1>Informe de actividad · Estructuras de Datos</h1>'+
+ '<p><b>Estudiante:</b> '+esc(name)+'</p>'+
+ '<p><b>Grupo:</b> '+esc(group)+' &nbsp; <b>Fecha:</b> '+esc(document.getElementById("date").value)+'</p>'+
+ '<div class="stat"><div class="score">'+grade+' / 5.0</div><b>'+score()+' / 100 puntos automáticos</b></div></div>'+
+ '<div class="card"><h2>Preguntas y respuestas</h2>'+
+ '<table><tr><th>Pregunta / actividad</th><th>Respuesta del estudiante</th><th>Respuesta esperada</th><th>Resultado</th><th>Puntos</th></tr>'+
+ rows+'</table></div>'+
+ '<div class="card"><h2>Resumen</h2><p>El informe contiene las preguntas, las respuestas registradas por el estudiante, las respuestas esperadas cuando existe una clave automática y la indicación de revisión docente para las respuestas abiertas o código.</p></div>';
+
+ pdf.classList.remove("hidden");
+ window.print();
+}
+
+function esc(v){return String(v||"—").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+</script>
+</body>
+</html>
