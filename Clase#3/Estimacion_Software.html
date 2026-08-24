@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estimación de Software - Clase Interactiva</title>
+<style>
+:root{--bg:#f4f7f6;--card:#fff;--ink:#17322d;--muted:#60736e;--primary:#176b5b;--soft:#e7f2ef;--gold:#e6b83f;--ok:#2e7d5b;--bad:#b94a48;--line:#d8e3df}
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+header{background:linear-gradient(135deg,#103f36,#176b5b);color:#fff;padding:28px 20px;position:sticky;top:0;z-index:20;box-shadow:0 3px 15px #0002}
+.head{max-width:1180px;margin:auto;display:flex;justify-content:space-between;gap:20px;align-items:center}.head h1{margin:0;font-size:clamp(1.7rem,4vw,2.8rem)}.head p{margin:4px 0 0;opacity:.9}
+.progressBox{width:250px}.bar{height:10px;background:#ffffff35;border-radius:10px;overflow:hidden}.fill{height:100%;width:0;background:#f3ce61;transition:.3s}
+nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:99px;z-index:15;overflow:auto}.nav{max-width:1180px;margin:auto;display:flex;gap:5px;padding:7px 10px}.nav button{border:0;background:transparent;padding:9px 11px;border-radius:9px;color:var(--ink);white-space:nowrap}.nav button.active,.nav button:hover{background:var(--soft);color:var(--primary)}
+main{max-width:1180px;margin:auto;padding:25px 16px 70px}section{display:none;animation:fade .2s}.active{display:block}@keyframes fade{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}
+.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:24px;margin-bottom:18px;box-shadow:0 8px 25px #17322d10}.hero{background:linear-gradient(145deg,#fff,#eef7f4)}
+h2{margin:0 0 7px;font-size:2rem}h3{margin-top:0}.kicker{color:var(--primary);font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.stat{border:1px solid var(--line);border-radius:13px;padding:16px;background:#fbfdfc}.stat strong{display:block;font-size:1.45rem;color:var(--primary)}
+.btn{border:0;border-radius:10px;padding:10px 15px;background:var(--primary);color:#fff;font-weight:700}.btn.gold{background:var(--gold);color:#26311e}.btn.gray{background:#e8efed;color:var(--ink)}.btn.red{background:var(--bad)}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+.q{border:1px solid var(--line);border-radius:13px;padding:17px;margin:13px 0}.q label{display:block;margin:7px 0;padding:8px;border-radius:8px;background:#f7faf9;cursor:pointer}.q label:hover{background:var(--soft)}
+.feedback{display:none;margin-top:10px;padding:10px;border-radius:9px}.correct{background:#e6f5ec;color:#1f6247}.incorrect{background:#fbe9e8;color:#863d3b}
+input,select,textarea{width:100%;padding:10px;border:1px solid #c9d8d3;border-radius:9px;background:#fff;color:var(--ink)}textarea{min-height:100px;resize:vertical}
+table{width:100%;border-collapse:collapse;margin-top:12px}th,td{border:1px solid var(--line);padding:9px;text-align:left}th{background:var(--soft)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{padding:9px 14px;border:1px solid var(--line);border-radius:20px;background:#fff}.chip.selected{background:var(--primary);color:#fff}
+
+.timer{font-size:2.4rem;font-weight:800;text-align:center;color:var(--primary);margin:8px}.score{position:fixed;right:18px;bottom:18px;background:var(--ink);color:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 5px 18px #0003;z-index:30}
+.notice{padding:13px 15px;background:#fff7dc;border-left:4px solid var(--gold);border-radius:8px}.success{padding:13px;background:#e6f5ec;border-left:4px solid var(--ok);border-radius:8px}
+footer{text-align:center;color:var(--muted);padding:25px}
+@media(max-width:720px){.head{display:block}.progressBox{width:100%;margin-top:15px}nav{top:145px}.hero,.card{padding:18px}}
+@media print{header,nav,.score,.no-print,.actions{display:none!important}body{background:#fff;font-size:11pt}main{max-width:none;padding:0}section{display:block!important;page-break-before:always}.hero{page-break-before:auto;box-shadow:none}.card{box-shadow:none;break-inside:avoid}textarea,input{border:1px solid #999}.feedback{display:block!important}.print-only{display:block!important}}
+.print-only{display:none}
+
+.grade-result{margin:18px 0;padding:22px;border-radius:16px;border:2px solid #1f7a4d;text-align:center;background:#f5fbf7}
+.grade-result .grade-number{font-size:42px;font-weight:800;line-height:1.1}
+.grade-result .grade-level{font-size:18px;font-weight:700;margin-top:6px}
+.grade-breakdown{width:100%;border-collapse:collapse;margin-top:15px}
+.grade-breakdown th,.grade-breakdown td{border:1px solid #ccc;padding:8px;text-align:left}
+</style>
+</head>
+<body>
+<header>
+<div class="head">
+<div><div class="kicker" style="color:#f3ce61">Ingeniería de Sistemas · 8.º semestre</div><h1>Estimación de Software</h1><p>Clase interactiva · Juicio experto · Delphi · Puntos de Función</p></div>
+<div class="progressBox"><div id="progressText">Progreso: 0%</div><div class="bar"><div class="fill" id="progressFill"></div></div></div>
+</div>
+</header>
+<nav><div class="nav" id="nav"></div></nav>
+
+<main>
+<section id="inicio" class="active">
+<div class="hero">
+<div class="kicker">Inicio</div><h2>¿Cuánto cuesta desarrollar software?</h2>
+<p>Una estimación no es una promesa: es una predicción basada en información disponible, supuestos, datos históricos y una técnica de estimación.</p>
+<div class="grid">
+<div class="stat"><strong>3</strong>técnicas principales</div><div class="stat"><strong>6</strong>actividades interactivas</div><div class="stat"><strong>100%</strong>del resultado exportable</div>
+</div>
+<div class="actions"><button class="btn" onclick="go('diagnostico')">Comenzar clase →</button><button class="btn gold" onclick="generatePDF()">🖨️ Calificar e imprimir informe</button></div>
+</div>
+<div class="card"><h3>Resultados de aprendizaje</h3><ol><li>Diferenciar tamaño, esfuerzo, duración y costo.</li><li>Aplicar juicio experto, Delphi y Puntos de Función.</li><li>Reconocer el uso de Puntos de Función y sus aplicaciones.</li><li>Comparar técnicas y comunicar incertidumbre.</li><li>Comparar técnicas y seleccionar la más adecuada según el contexto.</li></ol></div>
+<div class="card"><h3>Datos del estudiante</h3><div class="grid"><label>Nombre<input id="studentName" placeholder="Escriba su nombre" required aria-required="true"></label><label>Grupo<input id="studentGroup" placeholder="Grupo" value="Grupo 1"></label><label>Fecha<input id="studentDate" type="date"></label></div></div>
+</section>
+
+<section id="diagnostico">
+<div class="hero"><div class="kicker">Actividad 1 · Diagnóstico</div><h2>¿Cuánto crees?</h2><p>Estima un sistema de reservas para una clínica con pacientes, médicos, disponibilidad, citas, cancelaciones, notificaciones, reportes e integración externa.</p></div>
+<div class="card"><h3>Tu estimación inicial</h3><div class="grid"><label>Horas estimadas<input id="estimate" type="number" min="0" placeholder="Ej. 800"></label><label>Confianza<select id="confidence"><option>Alta</option><option>Media</option><option>Baja</option></select></label></div><button class="btn" onclick="saveEstimate()">Registrar estimación</button><div id="estimateMsg"></div></div>
+<div class="card"><h3>Pregunta de discusión</h3><p>¿Por qué personas que leen el mismo problema pueden obtener estimaciones diferentes?</p><textarea id="diagReflection" placeholder="Escriba su respuesta..."></textarea></div>
+</section>
+
+<section id="juicio">
+<div class="hero"><div class="kicker">Técnica 1</div><h2>Juicio experto</h2><p>Utiliza la experiencia de personas con conocimiento relevante. Es rápido y útil, pero puede incorporar sesgos.</p></div>
+<div class="card"><h3>Ejercicio</h3><table><tr><th>Experto</th><th>Estimación (h)</th></tr><tr><td>A</td><td><input class="expert" type="number"></td></tr><tr><td>B</td><td><input class="expert" type="number"></td></tr><tr><td>C</td><td><input class="expert" type="number"></td></tr></table><div class="actions"><button class="btn" onclick="calcExpert()">Calcular promedio</button></div><div id="expertResult"></div></div>
+<div class="card"><h3>Pregunta crítica</h3><p>¿El promedio de tres expertos es automáticamente confiable? Explique.</p><textarea id="expertReflection"></textarea></div>
+</section>
+
+<section id="delphi">
+<div class="hero"><div class="kicker">Técnica 2</div><h2>Delphi Express</h2><p>Realiza estimaciones individuales, consolida resultados, entrega retroalimentación y permite una nueva ronda.</p></div>
+<div class="card"><h3>Proyecto: app de eventos universitarios</h3><p>Realice una estimación para el esfuerzo total.</p><div class="grid"><label>Ronda 1 (horas)<input id="delphi1" type="number"></label><label>Ronda 2 (horas)<input id="delphi2" type="number"></label></div><button class="btn" onclick="delphi()">Comparar rondas</button><div id="delphiResult"></div></div>
+<div class="card"><h3>¿Qué cambió tu estimación?</h3><textarea id="delphiReflection" placeholder="Supuestos, información nueva, discusión del equipo..."></textarea></div>
+</section>
+
+<section id="funcion">
+<div class="hero"><div class="kicker">Técnica 3</div><h2>Puntos de Función</h2><p>Permiten dimensionar funcionalmente el software sin depender directamente del lenguaje de programación.</p></div>
+<div class="card"><h3>Clasifica las funciones</h3><p>Para cada elemento del sistema de biblioteca, selecciona EI, EO o EQ.</p><div id="fpQuiz"></div><button class="btn" onclick="checkFP()">Comprobar</button><div id="fpResult"></div></div>
+<div class="card"><h3>Recuerda</h3><table><tr><th>Tipo</th><th>Idea</th></tr><tr><td>EI</td><td>Entrada externa que mantiene/procesa datos.</td></tr><tr><td>EO</td><td>Salida externa con procesamiento.</td></tr><tr><td>EQ</td><td>Consulta externa sin procesamiento significativo.</td></tr><tr><td>ILF</td><td>Grupo lógico de datos mantenido por la aplicación.</td></tr><tr><td>EIF</td><td>Datos mantenidos por otra aplicación y usados por esta.</td></tr></table></div>
+</section>
+
+<section id="comparar">
+<div class="hero"><div class="kicker">Actividad integradora</div><h2>Elige tu técnica</h2><p>Relaciona cada escenario con la técnica que utilizarías primero.</p></div>
+<div class="card" id="scenarioQuiz"></div>
+</section>
+
+<section id="casos" class="panel">
+  <h2>Casos prácticos · Funcionalidades pequeñas</h2>
+  <p class="lead">
+    Estima funcionalidades pequeñas y bien delimitadas. Para cada caso,
+    identifica la técnica más apropiada, establece los supuestos necesarios
+    y explica brevemente cómo realizarías la estimación.
+  </p>
+
+  <div class="card case">
+    <h3>Caso 1 · Recuperar contraseña</h3>
+    <p>
+      Un usuario solicita recuperar su contraseña. El sistema recibe su correo,
+      valida que la cuenta exista y envía un enlace temporal para restablecerla.
+    </p>
+    <label>¿Qué técnica utilizarías?</label>
+    <select id="caso1Tecnica">
+      <option value="">Selecciona...</option>
+      <option>Juicio experto</option>
+      <option>Delphi</option>
+      <option>Puntos de Función</option>
+      <option>Enfoque híbrido</option>
+    </select>
+    <label>Explica brevemente cómo estimarías esta funcionalidad</label>
+    <textarea id="caso1Respuesta" rows="4"
+      placeholder="Indica el procedimiento, supuestos y resultado esperado..."></textarea>
+  </div>
+
+  <div class="card case">
+    <h3>Caso 2 · Registrar usuario</h3>
+    <p>
+      Un visitante diligencia nombre, correo y contraseña. El sistema valida
+      los datos, verifica que el correo no esté registrado y crea la cuenta.
+    </p>
+    <label>¿Qué técnica utilizarías?</label>
+    <select id="caso2Tecnica">
+      <option value="">Selecciona...</option>
+      <option>Juicio experto</option>
+      <option>Delphi</option>
+      <option>Puntos de Función</option>
+      <option>Enfoque híbrido</option>
+    </select>
+    <label>Explica brevemente cómo estimarías esta funcionalidad</label>
+    <textarea id="caso2Respuesta" rows="4"
+      placeholder="Indica el procedimiento, supuestos y resultado esperado..."></textarea>
+  </div>
+
+  <div class="card case">
+    <h3>Caso 3 · Consultar detalle de producto</h3>
+    <p>
+      El usuario selecciona un producto y el sistema muestra nombre,
+      descripción, precio, disponibilidad e imagen.
+    </p>
+    <label>¿Qué técnica utilizarías?</label>
+    <select id="caso3Tecnica">
+      <option value="">Selecciona...</option>
+      <option>Juicio experto</option>
+      <option>Delphi</option>
+      <option>Puntos de Función</option>
+      <option>Enfoque híbrido</option>
+    </select>
+    <label>Explica brevemente cómo estimarías esta funcionalidad</label>
+    <textarea id="caso3Respuesta" rows="4"
+      placeholder="Indica el procedimiento, supuestos y resultado esperado..."></textarea>
+  </div>
+
+  <div class="card case">
+    <h3>Caso 4 · Registrar una reserva</h3>
+    <p>
+      El usuario selecciona una fecha y una franja horaria disponible.
+      El sistema valida la disponibilidad y registra la reserva.
+    </p>
+    <label>¿Qué técnica utilizarías?</label>
+    <select id="caso4Tecnica">
+      <option value="">Selecciona...</option>
+      <option>Juicio experto</option>
+      <option>Delphi</option>
+      <option>Puntos de Función</option>
+      <option>Enfoque híbrido</option>
+    </select>
+    <label>Explica brevemente cómo estimarías esta funcionalidad</label>
+    <textarea id="caso4Respuesta" rows="4"
+      placeholder="Indica el procedimiento, supuestos y resultado esperado..."></textarea>
+  </div>
+
+  <div class="actions">
+    <button type="button" onclick="saveSmallCases()">Guardar casos prácticos</button>
+  </div>
+  <div id="casosFeedback" class="feedback" aria-live="polite"></div>
+</section></main>
+
+<div class="score">Puntaje: <span id="score">0</span></div>
+<footer>Clase interactiva · Estimación de Software · Ingeniería de Sistemas</footer>
+
+<script>
+const sections=["inicio","diagnostico","juicio","delphi","funcion","comparar","casos"];
+const labels=["Inicio","Diagnóstico","Juicio experto","Delphi","Puntos de Función","Comparar","Casos"];
+let score=0, completed=new Set();
+
+function buildNav(){
+  const n=document.getElementById("nav");
+  n.innerHTML="";
+  sections.forEach((s,i)=>{
+    const b=document.createElement("button");
+    b.textContent=labels[i];
+    b.onclick=()=>go(s);
+    b.id="nav-"+s;
+    n.appendChild(b);
+  });
+  document.getElementById("nav-inicio").classList.add("active");
+}
+function go(id){
+  sections.forEach(s=>{
+    const el=document.getElementById(s);
+    if(el) el.classList.toggle("active",s===id);
+  });
+  document.querySelectorAll(".nav button").forEach(b=>b.classList.remove("active"));
+  document.getElementById("nav-"+id)?.classList.add("active");
+  updateProgress();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+function updateProgress(){
+  const total=sections.length-1;
+  const p=Math.round((completed.size/total)*100);
+  document.getElementById("progressFill").style.width=Math.min(p,100)+"%";
+  document.getElementById("progressText").textContent="Progreso: "+Math.min(p,100)+"%";
+}
+function mark(id){
+  if(!completed.has(id)){
+    completed.add(id);
+    score++;
+    document.getElementById("score").textContent=score;
+    updateProgress();
+  }
+}
+
+function saveEstimate(){
+  if(document.getElementById("estimate").value){
+    document.getElementById("estimateMsg").innerHTML='<div class="success">Estimación registrada. Recuerda: una cifra sin supuestos tiene poca utilidad.</div>';
+    mark("diagnostico");
+  }else alert("Ingrese una estimación.");
+}
+function calcExpert(){
+  const a=[...document.querySelectorAll(".expert")].map(x=>Number(x.value)).filter(x=>x>0);
+  if(a.length===3){
+    const avg=a.reduce((x,y)=>x+y,0)/3;
+    document.getElementById("expertResult").innerHTML='<div class="success">Promedio: <b>'+avg.toFixed(1)+' horas</b>. Mínimo: '+Math.min(...a)+' h · Máximo: '+Math.max(...a)+' h.</div>';
+    mark("juicio");
+  }else alert("Ingrese las tres estimaciones.");
+}
+function delphi(){
+  const a=Number(document.getElementById("delphi1").value);
+  const b=Number(document.getElementById("delphi2").value);
+  if(a>0 && b>0){
+    const d=b-a;
+    document.getElementById("delphiResult").innerHTML='<div class="'+(Math.abs(d)>0?'notice':'success')+'">Cambio entre rondas: <b>'+d+' horas</b> ('+(a?((d/a)*100).toFixed(1):0)+'%).</div>';
+    mark("delphi");
+  }else alert("Ingrese ambas rondas.");
+}
+
+const fp=[
+  ["Registrar libro","EI"],
+  ["Registrar estudiante","EI"],
+  ["Consultar libro","EQ"],
+  ["Registrar préstamo","EI"],
+  ["Registrar devolución","EI"],
+  ["Reporte de libros prestados","EO"],
+  ["Consultar disponibilidad","EQ"]
+];
+function buildFP(){
+  const d=document.getElementById("fpQuiz");
+  d.innerHTML="";
+  fp.forEach((x,i)=>{
+    const div=document.createElement("div");
+    div.className="q";
+    div.innerHTML="<b>"+x[0]+"</b><select data-fp='"+i+"'><option value=''>Seleccione...</option><option>EI</option><option>EO</option><option>EQ</option></select>";
+    d.appendChild(div);
+  });
+}
+function checkFP(){
+  let ok=0;
+  document.querySelectorAll("[data-fp]").forEach((s,i)=>{if(s.value===fp[i][1]) ok++;});
+  document.getElementById("fpResult").innerHTML='<div class="'+(ok===fp.length?'success':'notice')+'">Resultado: <b>'+ok+'/'+fp.length+'</b>. '+(ok===fp.length?'¡Excelente!':'Revise las clasificaciones y vuelva a intentarlo.')+'</div>';
+  if(ok===fp.length) mark("funcion");
+}
+
+const scenarios=[
+  ["Poca información y equipo con experiencia relevante","Juicio experto"],
+  ["Proyecto complejo donde se busca convergencia de varios expertos","Delphi"],
+  ["Proyecto con funciones bien definidas y requisitos funcionales","Puntos de Función"],
+  ["Proyecto donde conviene combinar evidencia histórica y varias técnicas","Enfoque híbrido"]
+];
+function buildScenarios(){
+  const d=document.getElementById("scenarioQuiz");
+  d.innerHTML="";
+  scenarios.forEach((x,i)=>{
+    const q=document.createElement("div");
+    q.className="q";
+    q.innerHTML="<p><b>Escenario "+(i+1)+":</b> "+x[0]+"</p>"+
+      "<select data-s='"+i+"'><option value=''>Seleccione...</option><option>Juicio experto</option><option>Delphi</option><option>Puntos de Función</option><option>Enfoque híbrido</option></select>";
+    d.appendChild(q);
+  });
+  const b=document.createElement("button");
+  b.className="btn";
+  b.textContent="Comprobar";
+  b.onclick=checkScenarios;
+  d.appendChild(b);
+  const r=document.createElement("div");
+  r.id="scenarioResult";
+  d.appendChild(r);
+}
+function checkScenarios(){
+  let ok=0;
+  document.querySelectorAll("[data-s]").forEach((s,i)=>{if(s.value===scenarios[i][1]) ok++;});
+  document.getElementById("scenarioResult").innerHTML='<div class="'+(ok===scenarios.length?'success':'notice')+'">Resultado: <b>'+ok+'/'+scenarios.length+'</b>.</div>';
+  if(ok===scenarios.length) mark("comparar");
+}
+
+function saveCase(n){
+  const h=document.querySelector('[data-case="'+n+'"]')?.value;
+  const t=document.querySelector('[data-tech="'+n+'"]')?.value;
+  const j=document.querySelector('[data-just="'+n+'"]')?.value;
+  if(h && t && j){
+    const msg=document.getElementById("caseMsg"+n);
+    if(msg) msg.innerHTML='<div class="success">Caso '+n+' guardado.</div>';
+    mark("casos");
+  }else alert("Complete estimación, técnica y justificación.");
+}
+
+function answerGroupQ(btn,g,q){
+  const box=btn.parentElement;
+  box.querySelectorAll("button").forEach(b=>b.disabled=true);
+  const out=document.getElementById("g"+g+"q"+q);
+  out.innerHTML=btn.dataset.correct==="1"
+    ? '<div class="success">✓ Correcta.</div>'
+    : '<div class="feedback incorrect" style="display:block">✗ Incorrecta. Revise el concepto.</div>';
+}
+function saveGroupCase(g,c){
+  const v=document.getElementById("g"+g+"c"+c+"v")?.value;
+  const t=document.getElementById("g"+g+"c"+c+"t")?.value;
+  const j=document.getElementById("g"+g+"c"+c+"j")?.value;
+  if(v && t && j){
+    document.getElementById("g"+g+"c"+c+"m").innerHTML='<div class="success">Caso guardado.</div>';
+    mark("evaluacion-grupo-"+g);
+  }else alert("Complete resultado, técnica y justificación.");
+}
+function saveChallenge(g){
+  const v=document.getElementById("g"+g+"challenge")?.value;
+  const j=document.getElementById("g"+g+"chj")?.value;
+  if(v && j){
+    document.getElementById("g"+g+"chm").innerHTML='<div class="success">Desafío guardado.</div>';
+    mark("evaluacion-grupo-"+g);
+  }else alert("Complete resultado y procedimiento.");
+}
+
+function esc(v){
+  return String(v==null || v==="" ? "—" : v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+}
+
+function selectedGroup(){
+  const raw=(document.getElementById("studentGroup")?.value||"1").toLowerCase();
+  const m=raw.match(/[123]/);
+  return m ? Number(m[0]) : 1;
+}
+
+function calculateGrade(){
+  const g=selectedGroup();
+  const groupId="evaluacion-grupo-"+g;
+  const groupSection=document.getElementById(groupId);
+
+  const groupQ1=document.getElementById("g"+g+"q1");
+  const groupQ2=document.getElementById("g"+g+"q2");
+  const qAnswered=groupQ1?.textContent.trim() && groupQ2?.textContent.trim();
+
+  let groupCases=0;
+  for(let c=1;c<=4;c++){
+    const v=document.getElementById("g"+g+"c"+c+"v")?.value;
+    const t=document.getElementById("g"+g+"c"+c+"t")?.value;
+    const j=document.getElementById("g"+g+"c"+c+"j")?.value;
+    if(v&&t&&j) groupCases++;
+  }
+  const challenge=document.getElementById("g"+g+"challenge")?.value && document.getElementById("g"+g+"chj")?.value;
+
+  const activities=[
+    ["Diagnóstico",10,!!document.getElementById("estimate")?.value],
+    ["Juicio experto",15,[...document.querySelectorAll(".expert")].every(x=>Number(x.value)>0)],
+    ["Delphi",15,!!document.getElementById("delphi1")?.value && !!document.getElementById("delphi2")?.value],
+    ["Puntos de Función",20,completed.has("funcion")],
+    ["Comparación de técnicas",10,completed.has("comparar")],
+    ["Casos prácticos",15,groupCases===4],
+    ["Evaluación conceptual",5,!!qAnswered],
+    ["Aplicación de casos",5,groupCases>=2],
+    ["Desafío numérico",5,!!challenge]
+  ];
+  let earned=0;
+  const rows=activities.map(a=>{
+    const pts=a[2]?a[1]:0;
+    earned+=pts;
+    return {name:a[0],weight:a[1],earned:pts};
+  });
+  const grade=Math.round((earned/100)*5*100)/100;
+  return {earned,grade,rows,group:g,groupCases};
+}
+
+function showGrade(){
+  const name=document.getElementById("studentName");
+  if(!name || !name.value.trim()){
+    alert("El nombre del estudiante es obligatorio.");
+    name?.focus();
+    return;
+  }
+  const g=calculateGrade();
+  const old=document.getElementById("gradeResult");
+  if(old) old.remove();
+
+  const level=g.grade>=4.5?"Desempeño sobresaliente":g.grade>=4.0?"Desempeño alto":g.grade>=3.0?"Desempeño básico":"Desempeño bajo";
+  const box=document.createElement("div");
+  box.id="gradeResult";
+  box.className="grade-result";
+  box.innerHTML='<div class="grade-number">'+g.grade.toFixed(2)+' / 5.0</div>'+
+    '<div><b>'+g.earned+' / 100 puntos</b></div>'+
+    '<div class="grade-level">'+level+'</div>';
+  const target=document.getElementById("evaluacion-grupo-"+g.group) || document.querySelector("main");
+  target.prepend(box);
+  go("evaluacion-grupo-"+g.group);
+  return g;
+}
+
+function valueOrDash(id){
+  const e=document.getElementById(id);
+  return e ? e.value : "—";
+}
+function getCasesHTML(){
+  return [1,2,3,4].map(n=>{
+    const h=document.querySelector('[data-case="'+n+'"]')?.value||"—";
+    const t=document.querySelector('[data-tech="'+n+'"]')?.value||"—";
+    const j=document.querySelector('[data-just="'+n+'"]')?.value||"—";
+    return '<tr><td>Caso '+n+'</td><td>'+esc(h)+'</td><td>'+esc(t)+'</td><td>'+esc(j)+'</td></tr>';
+  }).join("");
+}
+function getGroupHTML(g){
+  let html="";
+  for(let q=1;q<=2;q++){
+    const box=document.getElementById("g"+g+"q"+q);
+    html+='<p><b>Pregunta conceptual '+q+':</b> '+esc(box?.textContent||"Sin respuesta")+'</p>';
+  }
+  html+='<table><tr><th>Caso</th><th>Resultado</th><th>Técnica</th><th>Justificación</th></tr>';
+  for(let c=1;c<=4;c++){
+    html+='<tr><td>Caso '+c+'</td><td>'+esc(valueOrDash("g"+g+"c"+c+"v"))+'</td><td>'+esc(valueOrDash("g"+g+"c"+c+"t"))+'</td><td>'+esc(valueOrDash("g"+g+"c"+c+"j"))+'</td></tr>';
+  }
+  html+='</table>';
+  html+='<p><b>Desafío numérico:</b> '+esc(valueOrDash("g"+g+"challenge"))+'</p>';
+  html+='<p><b>Procedimiento:</b> '+esc(valueOrDash("g"+g+"chj"))+'</p>';
+  return html;
+}
+
+function generatePDF(){
+  const name=document.getElementById("studentName");
+  if(!name || !name.value.trim()){
+    alert("El nombre del estudiante es obligatorio. Ingrésalo antes de generar el PDF.");
+    name?.focus();
+    return;
+  }
+
+  const gradeData=calculateGrade();
+  const progress=Math.min(Math.round((completed.size/(sections.length-1))*100),100);
+  const old=document.getElementById("pdfSummary");
+  if(old) old.remove();
+
+  const d=document.createElement("section");
+  d.id="pdfSummary";
+  d.className="print-only";
+  d.innerHTML=
+    '<div class="hero"><div class="kicker">Informe de resultados</div><h2>Estimación de Software</h2>'+
+    '<p><b>Estudiante:</b> '+esc(name.value)+' &nbsp; <b>Grupo:</b> '+esc(valueOrDash("studentGroup"))+' &nbsp; <b>Fecha:</b> '+esc(valueOrDash("studentDate"))+'</p>'+
+    '<div class="grid"><div class="stat"><strong>'+gradeData.grade.toFixed(2)+'</strong> / 5.0</div><div class="stat"><strong>'+gradeData.earned+'</strong> / 100 puntos</div><div class="stat"><strong>'+progress+'%</strong> progreso</div></div></div>'+
+    '<div class="card"><h3>Desglose de calificación</h3>'+
+    '<table class="grade-breakdown"><tr><th>Actividad</th><th>Peso</th><th>Obtenido</th></tr>'+
+    gradeData.rows.map(r=>'<tr><td>'+esc(r.name)+'</td><td>'+r.weight+'%</td><td>'+r.earned+'%</td></tr>').join("")+
+    '</table></div>'+
+    '<div class="card"><h3>Resultados de actividades</h3><table>'+
+    '<tr><th>Actividad</th><th>Resultado</th></tr>'+
+    '<tr><td>Diagnóstico</td><td>'+esc(valueOrDash("estimate"))+' h · Confianza: '+esc(valueOrDash("confidence"))+'</td></tr>'+
+    '<tr><td>Juicio experto</td><td>'+esc([...document.querySelectorAll(".expert")].map(x=>x.value||"—").join(" / "))+' h</td></tr>'+
+    '<tr><td>Promedio / análisis</td><td>'+esc(document.getElementById("expertResult")?.textContent||"—")+'</td></tr>'+
+    '<tr><td>Delphi</td><td>Ronda 1: '+esc(valueOrDash("delphi1"))+' · Ronda 2: '+esc(valueOrDash("delphi2"))+'<br>'+esc(document.getElementById("delphiResult")?.textContent||"")+'</td></tr>'+
+    '<tr><td>Puntos de Función</td><td>'+esc(document.getElementById("fpResult")?.textContent||"Sin completar")+'</td></tr>'+
+    '<tr><td>Comparación</td><td>'+esc(document.getElementById("scenarioResult")?.textContent||"Sin completar")+'</td></tr>'+
+    '</table></div>'+
+    '<div class="card"><h3>Casos prácticos</h3><table><tr><th>Caso</th><th>Estimación</th><th>Técnica</th><th>Justificación</th></tr>'+getCasesHTML()+'</table></div>'+
+    '<div class="card"><h3>Reflexiones</h3>'+
+    '<p><b>Diagnóstico:</b> '+esc(valueOrDash("diagReflection"))+'</p>'+
+    '<p><b>Juicio experto:</b> '+esc(valueOrDash("expertReflection"))+'</p>'+
+    '<p><b>Delphi:</b> '+esc(valueOrDash("delphiReflection"))+'</p></div>'+
+    '<div class="card"><h3>Evaluación correspondiente al Grupo '+gradeData.group+'</h3>'+
+    getGroupHTML(gradeData.group)+'</div>';
+
+  document.querySelector("main").appendChild(d);
+  window.print();
+}
+
+function finish(){
+  const name=document.getElementById("studentName").value||"Estudiante";
+  document.getElementById("finishMsg").innerHTML='<div class="success">¡Clase finalizada, '+esc(name)+'! Usa "Calcular calificación" para ver la nota y "Imprimir / Guardar PDF" para generar el informe.</div>';
+}
+
+function init(){
+  const date=document.getElementById("studentDate");
+  if(date) date.value=new Date().toISOString().slice(0,10);
+  buildNav();
+  buildFP();
+  buildScenarios();
+  updateProgress();
+}
+init();
+
+function saveSmallCases(){
+  const ids = [
+    ["caso1Tecnica","caso1Respuesta"],
+    ["caso2Tecnica","caso2Respuesta"],
+    ["caso3Tecnica","caso3Respuesta"],
+    ["caso4Tecnica","caso4Respuesta"]
+  ];
+  const complete = ids.every(([t,r]) =>
+    document.getElementById(t)?.value &&
+    document.getElementById(r)?.value.trim()
+  );
+
+  const feedback = document.getElementById("casosFeedback");
+  if(!feedback) return;
+
+  if(complete){
+    if(typeof completed !== "undefined") completed.add("casos");
+    if(typeof mark === "function") mark("casos");
+    feedback.textContent = "✓ Los cuatro casos prácticos fueron registrados correctamente.";
+    feedback.className = "feedback ok";
+  }else{
+    feedback.textContent = "Completa la técnica y la explicación de los cuatro casos antes de guardar.";
+    feedback.className = "feedback warn";
+  }
+}
+
+</script>
+</body>
+</html>
