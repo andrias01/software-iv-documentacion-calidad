@@ -46,6 +46,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#1/`](Clase%231/) | 05/08/2026 | Semana 3 | Calidad, Verificación y Validación, IEEE Std 1028-2008 |
 | [`Clase#2/`](Clase%232/) | 12/08/2026 | Semana 4 | Los tipos de revisión del IEEE 1028 (exposiciones) |
 | [`Clase#3/`](Clase%233/) | 19/08/2026 | Semana 5 | Estimación de software y Puntos de Función |
+| [`Clase#4/`](Clase%234/) | 26/08/2026 | Semana 6 | Planificación de proyectos: EDT / WBS y Microsoft Planner |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -117,6 +118,40 @@ Cpa = 0,65 + (0,01 × Cp)        PFa = PF × Cpa
 **Trabajo de la semana:** estimación del proyecto integrador con Puntos de Función y una
 segunda técnica, validada con una herramienta de IA como mecanismo de contraste.
 
+### Clase 4 — Planificación de proyectos de software (26/08/2026)
+
+La sesión tuvo dos partes. Primero las **exposiciones de los métodos de estimación** de
+los compañeros, con evaluación entre pares de la exposición y del taller práctico
+(Puntos de Función y Planning Poker / Puntos de Historia de Usuario).
+
+Luego entró el tema nuevo: **cómo se planifica un proyecto**. Un proyecto es un esfuerzo
+temporal para crear un producto o resultado único, con inicio y fin definidos y recursos
+limitados; se sostiene sobre tres dimensiones —requisitos técnicos, aspectos humanos y
+gestión—. Se compararon el modelo en cascada y los modelos incrementales (por incrementos
+y por iteraciones) discutiendo cuál conviene según qué tan estables sean los requisitos,
+y se repasaron los artefactos sugeridos en cada etapa del proyecto.
+
+La herramienta central de la clase fue la **EDT / WBS (Estructura de Descomposición del
+Trabajo)**, que baja el proyecto por niveles hasta hacerlo manejable:
+
+```
+Proyecto completo  →  Fases principales  →  Entregables por fase  →  Actividades
+```
+
+Esa estructura se lleva después a un tablero en **Microsoft Planner**, donde los *buckets*
+representan las fases y cada tarea tiene responsable, fechas, etiquetas de prioridad y
+lista de verificación. Dos reglas prácticas que quedaron de la sesión: una tarea debe
+poder completarse en **1 a 5 días** (si no, se divide en subtareas) y conviene dejar un
+**margen de seguridad del 10 % al 20 %** sobre la duración estimada.
+
+La clase cerró con cuatro **casos de mitigación de riesgos** (fallas en la pasarela de
+pagos, ausencia de un integrante clave, una vulnerabilidad de seguridad y un cambio tardío
+de requisitos), decidiendo en cada uno la estrategia según su impacto en cronograma,
+recursos, calidad y motivación del equipo.
+
+**Trabajo de la semana:** planificación del proceso a entregar con su documentación
+asociada, la EDT del proyecto y el tablero de seguimiento en Microsoft Planner.
+
 ---
 
 ## Estructura del repositorio
@@ -139,6 +174,11 @@ BITACORAS DE CLASE/
 │   ├── Clase 19 de agosto 2026.pdf
 │   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 5
 │   └── Clase_Interactiva_Estimacion_Software_v3.html
+├── Clase#4/
+│   ├── Clase 26 Agosto 2026.pdf
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 6
+│   ├── Curso_ INGENIERIA Camilo.pdf                # evaluación entre pares
+│   └── Curso_ INGENIERIA Arbelaez.pdf              # evaluación entre pares
 └── README.md
 ```
 
