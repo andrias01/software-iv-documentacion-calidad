@@ -47,6 +47,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#2/`](Clase%232/) | 12/08/2026 | Semana 4 | Los tipos de revisión del IEEE 1028 (exposiciones) |
 | [`Clase#3/`](Clase%233/) | 19/08/2026 | Semana 5 | Estimación de software y Puntos de Función |
 | [`Clase#4/`](Clase%234/) | 26/08/2026 | Semana 6 | Planificación de proyectos: EDT / WBS y Microsoft Planner |
+| [`Clase#5/`](Clase%235/) | 02/09/2026 | Semana 7 | Pruebas de software: principios, ciclo de vida, tipos y niveles |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -152,6 +153,32 @@ recursos, calidad y motivación del equipo.
 **Trabajo de la semana:** planificación del proceso a entregar con su documentación
 asociada, la EDT del proyecto y el tablero de seguimiento en Microsoft Planner.
 
+### Clase 5 — Pruebas de software (02/09/2026)
+
+La sesión repasó primero la diferencia entre **verificación y validación** y luego se
+centró en las **pruebas de software**: qué son, para qué sirven y por qué importan tanto.
+Para eso se revisaron varios casos reales de fallas costosas por no probar bien —el
+cohete **Ariane 5**, la máquina de radioterapia **Therac-25**, el radar del misil
+**Patriot** y el **Mars Climate Orbiter** de la NASA—, todos con pérdidas millonarias o
+humanas por errores que unas pruebas adecuadas habrían detectado a tiempo.
+
+Se vieron los **principios de la prueba de software** (se planifican desde antes del
+desarrollo, les aplica el principio de Pareto, no son posibles las pruebas exhaustivas) y
+el **ciclo de vida de las pruebas**: planificación, diseño, ejecución y cierre. Sobre la
+clasificación, se compararon **caja negra, caja blanca y caja gris** según el
+conocimiento del código, y se subió por la **pirámide de niveles de prueba** —unitarias,
+integración, sistema y aceptación (con sus variantes alfa y beta)— cerrando con la
+diferencia entre pruebas **funcionales** (el "qué" hace el sistema) y **no funcionales**
+(el "cómo" lo hace).
+
+En paralelo al tema teórico, el equipo avanzó en el aseguramiento de calidad del proyecto
+integrador **SIGRA**: se consolidó el documento de entendimiento del problema con sus 22
+requisitos funcionales, y se montó un ambiente local de **TestLink** con Docker para
+empezar a diseñar los casos de prueba a partir de esos requisitos.
+
+**Trabajo de la semana:** entendimiento del problema y requisitos funcionales de SIGRA,
+instalación de TestLink y diseño de los primeros casos de prueba por módulo.
+
 ---
 
 ## Estructura del repositorio
@@ -179,6 +206,13 @@ BITACORAS DE CLASE/
 │   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 6
 │   ├── Curso_ INGENIERIA Camilo.pdf                # evaluación entre pares
 │   └── Curso_ INGENIERIA Arbelaez.pdf              # evaluación entre pares
+├── Clase#5/
+│   ├── Clase 2 Septiembre 2026.pdf
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 7
+│   ├── Calificacion_a_Ivan Daniel Naranjo Botero.pdf   # evaluación entre pares
+│   ├── Calificacion_a_Jean Paul Ortiz Restrepo.pdf     # evaluación entre pares
+│   ├── requisitos_funcionales/                     # problema y RF-01 a RF-22 de SIGRA
+│   └── testlink-sigra/                             # guía Docker para TestLink
 └── README.md
 ```
 
