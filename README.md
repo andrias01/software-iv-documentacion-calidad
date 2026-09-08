@@ -117,7 +117,11 @@ Cpa = 0,65 + (0,01 × Cp)        PFa = PF × Cpa
 ```
 
 **Trabajo de la semana:** estimación del proyecto integrador con Puntos de Función y una
-segunda técnica, validada con una herramienta de IA como mecanismo de contraste.
+segunda técnica, validada con una herramienta de IA como mecanismo de contraste. El
+resultado quedó consolidado en `Estimación del Proyecto SIGRA.docx`, con las plantillas de
+cálculo de Puntos de Función y del panel de Juicio de Expertos (Wideband Delphi) que
+respaldan las dos técnicas, además del SRS base del proyecto (`SIGRA.docx`, 22 requisitos
+funcionales y 21 no funcionales).
 
 ### Clase 4 — Planificación de proyectos de software (26/08/2026)
 
@@ -200,7 +204,12 @@ BITACORAS DE CLASE/
 ├── Clase#3/
 │   ├── Clase 19 de agosto 2026.pdf
 │   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 5
-│   └── Clase_Interactiva_Estimacion_Software_v3.html
+│   ├── Clase_Interactiva_Estimacion_Software_v3.html
+│   ├── SIGRA.docx                              # SRS del proyecto SIGRA (22 RF / 21 RNF)
+│   ├── Estimación del Proyecto SIGRA.docx      # estimación consolidada del equipo
+│   ├── Plantilla_Calculo_Puntos_de_Funci.xlsx  # cálculo de Puntos de Función
+│   ├── Plantilla_Juicio_De_Expertos_Delph.xlsx # panel Wideband Delphi
+│   └── Estimacion.png                          # captura de la estimación
 ├── Clase#4/
 │   ├── Clase 26 Agosto 2026.pdf
 │   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 6
