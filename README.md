@@ -48,6 +48,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#3/`](Clase%233/) | 19/08/2026 | Semana 5 | Estimación de software y Puntos de Función |
 | [`Clase#4/`](Clase%234/) | 26/08/2026 | Semana 6 | Planificación de proyectos: EDT / WBS y Microsoft Planner |
 | [`Clase#5/`](Clase%235/) | 02/09/2026 | Semana 7 | Pruebas de software: principios, ciclo de vida, tipos y niveles |
+| [`Clase#6/`](Clase%236/) | 16/09/2026 | Semana 9 | Técnicas de validación: caja blanca (camino básico) y caja negra |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -183,6 +184,49 @@ empezar a diseñar los casos de prueba a partir de esos requisitos.
 **Trabajo de la semana:** entendimiento del problema y requisitos funcionales de SIGRA,
 instalación de TestLink y diseño de los primeros casos de prueba por módulo.
 
+### Clase 6 — Técnicas de validación: caja blanca y caja negra (16/09/2026)
+
+La sesión abrió con dos revisiones. Primero un repaso de los **modelos de desarrollo**
+(cascada, incremental por incrementos e incremental por iteraciones) y cuándo conviene
+cada uno; después la revisión del **tablero de Microsoft Planner** de los proyectos, donde
+aparecieron hallazgos concretos: tareas sin criterios de aceptación, sin fechas de inicio
+ni de vencimiento, sin responsable asignado y sin registro de progreso. También se explicó
+la estructura del parcial: teoría (25 %), el trabajo del **Ceiba DevFest 2026** (25 %) y la
+entrega de los artefactos del proyecto con el **plan de pruebas y los casos de prueba**
+(50 %).
+
+El tema de fondo fueron las **técnicas de validación**, es decir, cómo se diseñan los casos
+de prueba. Tras repasar la relación entre **error, defecto y fallo** y el **Ciclo en V**, se
+separaron los dos enfoques: la **caja negra**, que mira solo entradas y salidas, y la
+**caja blanca**, que parte de cómo está diseñado o codificado el software. En caja blanca
+se trabajaron los tres **criterios de cobertura** —sentencias, decisiones y condiciones— y
+la **prueba de camino básico** de Tom McCabe, con sus cuatro pasos:
+
+```
+1. Dibujar el grafo de flujo a partir del código
+2. Calcular la complejidad ciclomática V(G)
+3. Determinar el conjunto básico de caminos independientes
+4. Preparar un caso de prueba por cada camino
+```
+
+La complejidad ciclomática se puede calcular de tres formas que deben coincidir:
+`V(G) = a − n + 2` (arcos y nodos), `V(G) = 1 + nps` (nodos predicado) y `V(G) = rr + 1`
+(regiones). En caja negra se vio el **particionamiento equivalente**: dividir todas las
+entradas posibles en clases válidas e inválidas y tomar al menos un caso de cada una.
+
+La clase incluyó un **ejercicio práctico** en el que cada estudiante recibió un programa
+según el último dígito de su cédula. A mí me correspondió el **código par** —clasificación
+de un triángulo a partir de sus tres lados en C++— y sobre él se aplicaron los cuatro pasos
+del camino básico: el grafo quedó con 9 nodos, 11 aristas y 3 nodos predicado, dando
+**V(G) = 4** por las tres definiciones, con cuatro caminos independientes y sus cuatro
+casos de prueba. La revisión de cobertura mostró que esos cuatro casos cubren el 100 % de
+las sentencias y de las decisiones, pero no el criterio de condiciones, porque el primer
+`if` combina tres condiciones con `&&`; por eso se agregaron dos casos más.
+
+**Trabajo de la semana:** taller de caja blanca sobre el código asignado, evaluación entre
+pares de las exposiciones de **ISO/IEC/IEEE 29119**, corrección del tablero de Planner y
+construcción del plan de pruebas y los casos de prueba de SIGRA para el parcial.
+
 ---
 
 ## Estructura del repositorio
@@ -222,6 +266,12 @@ BITACORAS DE CLASE/
 │   ├── Calificacion_a_Jean Paul Ortiz Restrepo.pdf     # evaluación entre pares
 │   ├── requisitos_funcionales/                     # problema y RF-01 a RF-22 de SIGRA
 │   └── testlink-sigra/                             # guía Docker para TestLink
+├── Clase#6/
+│   ├── Clase 16 de septiembre.pdf
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 9
+│   ├── Evaluacion Pares ISO IEC IEEE 29119 _ *.pdf # evaluaciones entre pares (3)
+│   ├── Taller_Caja_Blanca_Camino_Basico.docx       # taller de camino básico (código par)
+│   └── Grafo_flujo_triangulos.png                  # grafo de flujo del ejercicio
 └── README.md
 ```
 
