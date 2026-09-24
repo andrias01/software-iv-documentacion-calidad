@@ -1,0 +1,3087 @@
+7:22 a.m.
+Eh. 
+
+Hola! 
+
+7:24 a.m.
+Y eficacia. 
+
+Para. 
+
+Eliminar transforma el caos en claridad, prueba la gratis. 
+
+7:25 a.m.
+Que alguien hable más de la cuenta. 
+
+Debido quedarme en silencio o cuentas algo. 
+
+Y luego te acuerdas que era como decir. 
+
+O te han dicho de ti? 
+
+Eso o te dices a ti mismo? 
+
+Yo no estoy pidiendo tu opinión porque esta persona opina de lo que yo no le estoy preguntando o dices. 
+
+Juicios señalamientos de alguien sin fundamento alguno califica o sea en ninguna lo condenas y de que esto pasa que hablando familiar grupal de los electrones decir que aprendí cómo me llama el empleador y no me acordar el título de la conferencia. 
+
+El lenguaje genera consecuencia, el lenguaje. 
+
+Las palabras son son dinámicas, están en permanente transformación. 
+
+7:30 a.m.
+A la comunidad que a veces conectar de diferentes países, Colombia, México, República Dominicana. 
+
+Canadá nos acompañan también desde Panamá, Ecuador, Perú y toda Latinoamérica bienvenidos. 
+
+Mi nombre es Robinson, que es un placer para mí dar inicio a este espacio. 
+
+Un saludo muy especial para ti para toda la comunidad que se conecta desde los diferentes rincones de la región. 
+
+Mi nombre es Andrea y junto con robins vamos a estar acompañando los durante toda esta forma de transmisión en vivo para quienes se conectan por primera vez. 
+
+El seis es nuestro encuentro anual de tecnología e innovación. 
+
+Es un espacio que nació hace más de una década y que hoy reúne especialistas líderes profesionales y estas del ecosistema digital. 
+
+En esta edición damos un salto indispensable y dejamos atrás la fascinación por la tecnología como Navidad, pero nos enfocamos en lo que realmente genera valor la orquestación con gobierno técnico método y sobre todo el criterio experto de nuestro equipo así es sangre y para ello tendremos una jornada con nueve conferencias lideradas por dos expertos que conectarán ingeniería de software inteligencia artificial, arquitectura, diseñar el producto, cultura organizacional y estrategia de negocio de este evento. 
+
+Les contamos que pueden dejar sus preguntas y comentarios en el chat de la transmisión en cualquier momento, ya que al final deja de obtendremos un espacio para resolverlas con cada uno de nuestros expertos. 
+
+Así mismo, queremos que esa conversación vaya más allá de la pantalla, así que los animamos a que tomen una foto o una captura de sucesión favorita y la compartan en sus redes sociales. 
+
+También la idea que más nos inspire los invitamos como arroba sabemos reposándolos a todos. 
+
+Sin más preámbulos hemos inicio al selva del y para abrir este seis bases tecnológico colombiano nos acompañan Jorge Arias, vicepresidente arquitectura y soluciones evangélicas para América Latina a través de una transformación estructural. 
+
+Un paso de un modelo de procesos atómicos automatizados hacia empresas autónomas donde los humanos y los agentes colaboran diariamente Jorge bienvenido. 
+
+Muchas gracias por aceptar la invitación. 
+
+Bueno, buenos días a todos. 
+
+Muchas gracias a ustedes por invitarme. 
+
+Buenos días a todos los que están conectados. 
+
+Un placer estar aquí y muy contento de poder compartir esta visión que hemos llamado como trabaja el mundo probabilístico de los agentes con el determinismo de los humanos. 
+
+Entonces la idea es como la mezcla de ambos elementos, pues nos van a ayudar a que una u otra manera a crear o rea que intentar las aplicaciones de negocio. 
+
+Bueno entonces yo creo que arranquemos y nuevamente muchas gracias. 
+
+Espero que disfruten esta presentación. 
+
+Eh y vamos entonces a compartir. 
+
+Mire yo lo que nosotros estamos viviendo quizás el mejor momento de la historia para vivir lo que estamos viviendo en este momento es algo único. 
+
+Es la competencia de innovación es la convergencia de nuevos modelos de negocio. 
+
+Es la convergencia del nuevo mainz es la convergencia de muchas variables y todas ellas con un propósito único. 
+
+Realmente creamos soluciones de tecnología que al final del día ayuden a llevar hacia adelante la humanidad o crear cosas muy diferenciadas. 
+
+La inteligencia artificial no puede verse de manera distópica. 
+
+Existe el mundo de la distopía o el mundo de la utopía. 
+
+Es un futuro posible positivo. 
+
+Visto en vías un futuro posible negativo de invitación que yo les hago a cada uno de ustedes. 
+
+Es que vean esto con una visión muy puntica, es decir, un futuro posible, pero positivo. 
+
+Esto no es terminamiento por nosotros y acabar la humanidad. 
+
+Sino más bien. 
+
+Como la intelig superficial es ayudarlos a maximizarnos autonomía no automatización, sino autonomía. 
+
+Hablaremos de eso, eh en cada uno de los eh. 
+
+Como llevamos esa autonomía con inteligencia artificial para maximizar la forma como pensamos como trabajamos, como hacemos el día a día? 
+
+Entonces de eso se trata y y arranquemos. 
+
+Entonces entonces eh la primera parte? 
+
+Quiero compartirles es una frase de mar vinilos eh incluso antes de venirme a Google. 
+
+Lo utilizaba esta frase durante mucho tiempo. 
+
+Eh antes de Dios cinco meses sacarse. 
+
+Estuve cerca de seis años en Google y antes de cerca de tres años en Oracle, trabajando y siempre la arquitectura en ingeniería y mucho foco en los últimos seis siete años de inteligencia artificial y y un poco eh me llamó la atención. 
+
+Esta frase hace como seis meses veía esa frase en diferentes lugares en estado en Estados Unidos y decían para contratar humanos. 
+
+Qué significará esa pared contratar humanos y es la invitación de muchas organizaciones. 
+
+A lo siguiente algo interesante y es quizás vamos a hacer recordados como la última generación de líderes donde solamente lideramos humanos. 
+
+Ahora los nuevos líderes cada uno de ustedes liderando equipos de ingeniería de software cada uno de ustedes liberando organizaciones eh para tener que gobernar humanos van a tener que gobernar agentes y la pregunta es qué significa gobernará gentes o qué significa liderar agentes. 
+
+Entonces bienvenidos a al presente yo diría el futuro sino el presente que estamos viviendo y es un presente en el cual humano se agentes. 
+
+Trabajamos en conjunto para llevar al siguiente nivel, la ejecución de las organizaciones y siempre piensa en algo al final del día. 
+
+Lo que le busca una organización es crear experiencias memorables para sus clientes, vender más gastar menos y crear mucha eficiencia operacional y eso se va a lograr a través de digital workforce. 
+
+Es decir, fuerzas de trabajo, humanas y fuerza de trabajos muy bien. 
+
+Eh entonces aquí obtiene introducir un primer concepto que es el concepto de automatización versus autonomía eh si nosotros vemos acá durante muchos años y hasta hace poco el mes de las organizaciones trabajan las famosas transformación digital que es la forma como realmente automatizábamos. 
+
+Procesos apoyados con aplicaciones móviles con aplicaciones que corrían en la nube con Internet de las cosas para monitorear y hacer y censar elementos. 
+
+Entonces es una es. 
+
+Una automatización muy válida. 
+
+Es la parte de la izquierda. 
+
+La parte de la izquierda es un centro de distribución donde simplemente una compañía reciben pedidos en línea y los despachos, los centros de distribución y claramente es un mundo automatizado en tecnología, pero la derecha viene una propuesta y es el mundo de la autonomía en la cual puedo hacer lo mismo, pero a través de unidades de software llamados agentes que van a tomar decisiones que van a operar de manera autónoma. 
+
+Muchos de ellos aprenden de modela de manera probabilística. 
+
+Llamamos eso y finalmente eh y con robos autónomos, entonces eso cambia automáticamente la forma como percibimos el mundo. 
+
+La pregunta es qué tan lejos o que tan cercanos estamos de la parte de la herencia? 
+
+Vamos a entender un poco el estado del arte donde estamos hoy en día y cuáles son las eh. 
+
+Lo único cierto es que para allá vamos y tenemos que intentar aplicaciones de software para para que hagan esto. 
+
+La pregunta es qué tal lejos que están eh cerca? 
+
+Y que tanto autonomía que están asertivos porque aquí vamos a hablar mucho del concepto de hacerte asertividad y confianza. 
+
+Lo único que le va a dar tranquilidad a una empresa es que la gente haga lo que tengas que hacer y que lo haga. 
+
+Cualquier otra cosa, es decir, que no presento un nivel de alucinación que simplemente que el objetivo que queremos buscar entonces estamos en un mundo espectacular. 
+
+Estamos eh Luis digo que es un momento increíble y la idea es que nosotros que hemos tenido la oportunidad de vivir diferentes generaciones. 
+
+Aquí vamos a encontrar cómo vamos a intentar ese nuevo set de aplicaciones porque lo que uno no puede hacer. 
+
+Es pelear contra el futuro y no pidan contra el futuro. 
+
+Significa abraza la inteligencia artificial. 
+
+La inteligencia artificial. 
+
+Federativa abrace el mundo. 
+
+Eh en la parte de la izquierda es simplemente un ecosistema de tecnología implementado sobre modelos determinísticos. 
+
+Qué significa modelo determinístico todos conocemos el proceso y el paso a paso para llegar a al objetivo final y es controlado y ejecutado por humanos en el mundo de la derecha. 
+
+En son modelos probabilísticos para llegar al objetivo. 
+
+La forma de llegar al objetivo es un cálculo una probabilidad al final del día un elemen es una red neuronal por debajo de la parte de abajo, lo único que entregas una probabilidad. 
+
+Entonces la idea es que esa ejecución probabilística eh trabaje con mínima intervención humana. 
+
+Vamos a un contexto miren hoy en día. 
+
+Nosotros para irnos. 
+
+Para mañana estamos trabajando con agentes ustedes hoy en día. 
+
+Cuando hace una videoconferencia usted prende la gente que le tome nota. 
+
+Estuve trabajando la reunión y en la reunión eh simplemente varias personas delegaron a unos agentes, eh que ellos iban a llegar cada gente o sus distintas twin llegó. 
+
+Programa. 
+
+7:46 a.m.
+Porque! 
+
+7:46 a.m.
+
+
+Implicaba abrir una operación en un lugar determinado, eh desde una perspectiva legal de impuestos de servicio al cliente de ventas y de marketing. 
+
+Entonces al final del día esto va a ser un día. 
+
+Estos son eh, es un normal, no es algo totalmente nuevo. 
+
+Usted lo hace hoy en día, cuando en una reunión una gente toma por nota por ustedes y hace el famoso en cualquier otra herramienta. 
+
+Entonces eh humanos apoyados sobre agentes para maximizar profundizar productividad utilizando lenguaje natural. 
+
+Entendiendo el lenguaje natural ha hablado o lenguaje natural del texto. 
+
+Es una realidad. 
+
+Entonces aquí no les estoy compartiendo nada nuevo, sino eh lo que tenemos es un modelo del colaboración entre tres diferentes mundos. 
+
+Ahora la pregunta que tú le de fondo. 
+
+Es bueno, estamos los humanos preparados para con cierta tareas complejas a agentes autónomos. 
+
+Hasta qué punto yo les voy a agregar cosas, están los agentes implementados en el nivel de madurez requerido para que tengan la pueden entregar respuestas de manera asertiva puedan llegar respuestas en el nivel de confianza esperado ese quizás en la pregunta que nos tenemos que hacer yo hoy en día llamo a una aseguradora o ya y leímos un aseguradora. 
+
+Oye acabo de colisionar mi carro con otro carro. 
+
+Por favor mándame una asistencia eh y necesito que me mandes un abogado. 
+
+Por cierto y probablemente en una 30 minutos va a recibir una asistencia. 
+
+La pregunta es será que en el futuro yo voy a levantar mi teléfono y el lenguaje natural digo a una gente? 
+
+Oye les ayudame a estrellar? 
+
+Gracias y a los 15 minutos recibo todo, pero la gente fue capaz de deducir. 
+
+El contexto de la persona que está llamando dónde estaba la persona? 
+
+Y cómo puede determinar todo ese contexto puede tomar la decisión correcta y mandarme un abogado o una grúa y mandarme todo cuando lo único que hice. 
+
+Como puedes decir, oye me acabo de estrellar. 
+
+Ayúdame si se dan cuenta los humanos podemos ser muy genéricos en preguntar. 
+
+Nosotros tenemos no necesariamente muy específicos los hacemos genéricos. 
+
+La pregunta es qué habilidad tiene el otro lado? 
+
+Una gente humano, pero me hacen preguntas una gente de software. 
+
+Puede ser preguntas, pero yo no quisiera que me pregunte tanto. 
+
+La pregunta es esa autonomía hasta qué punto va a llegar? 
+
+Entonces es parte de los desafíos de arquitectar aplicaciones agénticas que es un poco eh el objetivo del ante esta presentación. 
+
+Entonces dicho todo esto eh nos enfrentamos a ese contexto arranquemos entonces de cómo llegamos a toda esta locura? 
+
+Miren eh eh en mi curso de la Universidad de los Andes. 
+
+Algunas estudiante mismo profeta no hablemos de agentes. 
+
+Creo que usted me cuenta la historia de cómo llegamos aquí. 
+
+Entonces tú quise traer ese slime para todos? 
+
+Porque vale la pena que todos los niveles. 
+
+7:50 a.m.
+Porque porque esto que les voy a contar pasado los últimos años. 
+
+No entonces miremos. 
+
+Aquí eh cómo trabajamos todo. 
+
+Miremos acá en 1950. 
+
+La la inteligencia artificial. 
+
+Era un área de conocimiento y es área de conocimientos. 
+
+Endur mundos el lenguaje procesamiento del lenguaje natural y lo que llamamos como hago? 
+
+Utilizo digamos métodos estadísticos para sacar patrones sobre los datos. 
+
+Ejemplo una regresión lineal. 
+
+Si yo tengo un conjunto de datos y trazo una línea que están lejos del eje de la línea están los datos para saber qué datos están siguiendo una tendencia. 
+
+Eso un poco lo logramos con algoritmo supervisados o cómo hacía que losterización que datos se parecen? 
+
+Pues bien, empezamos durante yo diría que entre 1950 y del año 2007 más o menos estábamos jugando como en este mundo, pero esto fue la base, pero piensa en algo. 
+
+Eh fue la base para que durante 40 años no hubo mucho avance porque no había mucha data. 
+
+No había mucho procesamiento, pero sí creo que se trabajaron en temas muy importantes. 
+
+En la parte de algorítmica en entender que lenguaje natural es sintaxis, es semántica, son relaciones y en el otro lado se avanzó el métodos estadísticos para sacar tendencias sobre los datos. 
+
+Ahí se jugó con los famosos algoritmos supervisados en los supervisados renforce sensación ensamblaje y llegamos a algo que llamado en red neuronales eran simular las neuronas donde estaban neuronas sea una tarea en particular y funcionó, pero esto era muy académico. 
+
+De acuerdo que cuando yo estoy Ingeniería de Sistemas, había una lectiva de inteligencia artificial y nadie la veía porque era muy conceptual muy académico, pero en el año 2007-2008 aparente empieza a aparecer un tema de lo que se llama el mundo de la red neuronales con diplarme que fue la capacidad un profesor por allá en una universidad en Canadá. 
+
+Después del mundo de las redes neuronales recursivas que era la capacidad de como realmente no tener varias leyenders o varias capas para poder procesar un resultado y eso dio lugar a lo largo de reconocimiento de imágenes que eran utilizando una cosa que se llamaban la red neuronales convolucionales las famosas convolucional neural network o CNN sí y empezaron a aparecer diferentes tipos de red neuronales como las redes adversarias que era para generar contenido. 
+
+Si las redes neuronales eh convolucionadas eran para identificar o clasificar imágenes. 
+
+Las adversarias eran para construir imágenes, construir, texto, construir cualquier cosa y luego el mundo de las redes neuronales recurrentes, eh y eso. 
+
+Sumamos los avances de semántica y sin taxis. 
+
+Dio lugar a algo. 
+
+Que aquí les voy a contar aquí fue donde empezó la locura. 
+
+Ana 2017 se juntan las redes neuronales recursivas con lo que se había aprendido en sintaxis, semántica y unas personas en Google. 
+
+Escribieron un paper que se llamaban atención is al off que es la forma de cómo se creaban los Transformers. 
+
+Los Transformers son las formas de de una forma de red neuronales para poder hacer eh en Corintios o o el procesar generaciones del texto. 
+
+Es decir, este algoritmo para hacerlo muy simple para todos. 
+
+Si ustedes se acuerdan cuando Google empezaba uno empezaba a buscar en Google y el predecía el siguiente toque tenercial quiero buscar dónde trabaja Steven son cañas espacio y él mira sugerir la palabra cepa en ese momento es en lo calculaban estos algoritmos, es decir, había un algoritmo que era capaz de predecir por el siguiente texto, o sea, generaba el siguiente texto a partir de contexto. 
+
+A esto se le llamó el transforme y ya todo es historia. 
+
+A partir de ahí una empresa sin ánimo de lucro, llamada e impuso nervioso al mercado a Google y a todo el mundo en el año 2022. 
+
+Porque en noviembre saca unas cosas que se llamaba. 
+
+Ellos empezaron a hacer un un modelo muy entrenado con todos los datos de Internet llamado y le pusieron una interfaz gráfica que era conversacional, porque hasta aquí estos modelos de red neuronales eran muy científicos. 
+
+No, no tenían maneras de solamente el operador ingenieros, pero el día se le ocurrió ponerle una interfaz de texto para que vean lenguaje natural hablaban con esa conexión y eso dio lugar al y ya ustedes conocen que todo el resto es historia porque a partir de ahí empiezan los diferentes modelos como andrópico de Google Géminis y my verd todo lo que ustedes conocen hoy en día y ella lugar a la inteligencia artificial generativa y en el año 2024 que la inteligencia artificial generativa era muy buena para responderte. 
+
+Esto yo le hacía preguntas en lenguaje natural respondía pero no ejecutaba acciones y es cuando aparece el mundo de los agentes que es la capacidad de colocarle acción a las respuestas de los elementos. 
+
+El primero al final del día. 
+
+Todo eso. 
+
+Está soportado sobre machine learning tradicional porque las las vendio renales son más chilenas que son algoritmos supervisados al final del día. 
+
+Todo esto es probabilidad que es un poco lo que les quería decir. 
+
+Este mundo de aquí es probabilidad al ser probabilidad, pues simplemente es yo digo donde trabaja Stevenson y la probabilidad de medida, pues es un ochenta noventa y cinco por ciento, pero esa respuesta es una probabilidad. 
+
+Todo lo que ustedes reciben de respuestas en los elementos son probabilidades, no necesariamente es un dato real, los modelos mienten y mienten con consistencia. 
+
+Tomen nota de eso muchas veces. 
+
+Usted tiene que decirle al trono. 
+
+Utilice fuentes confiables sea concreto sea directo y no me dé vueltas para forzarte las respuestas a más estructurada. 
+
+Entonces si usted pregunta el responde corresponde con probabilidades? 
+
+Es decir, todo este mundo se soportan probabilidades. 
+
+Entonces resumen teníamos el mundo. 
+
+Ella predictivo el mundo generativo y el mundo argentino. 
+
+El mundo generativo yo podía generar texto o puedo generar imágenes las herramientas de ofimáticas las herramientas de código? 
+
+Entonces yo puedo generar esto, puedo generar imágenes videos música, eh con lana pues he tenido ofimática que le ayuda a las hojas de cálculo. 
+
+Tienen código pero ahora yo los humanos ya no nos ya no nos soportamos. 
+
+Solamente yo hago una pregunta y él me genere. 
+
+Ahora queremos que las cosas hagan y hacer. 
+
+Hay dos mundos el mundo de los agentes donde yo me siento frente a una herramienta de desarrollo de software y le digo eh por favor crear un algoritmo que haga esto y por favor quiero que se algoritmo tenga estos modelos de testing y finalmente quiero que haga ABCD y tengo una gente que me supervisa la generación de código o yo puedo tener un agente del empleo. 
+
+Le diga oye, me acabo de estrellar en el carro resuelve el problema y una gente se encarga de ir a buscar mi póliza como me mandó una asistencia. 
+
+Cómo es una cosa? 
+
+Un servicio. 
+
+Pues bien. 
+
+Ese es el mundo que tenemos hoy en día. 
+
+Solamente un tema y es tengan cuidado con la generación de paycoding porque los agentes te generan código, pero la pregunta es quién le hace mantenimiento al código después y estamos creando una adicción a tokens. 
+
+Hoy en día los niveles tienen una adicción a tokens porque los tokens eh los necesito para darle en crear una aplicación después para mantenerla después para modificarla. 
+
+Y la pregunta es hasta qué punto yo voy a tener disponibilidad entonces y la ingeniería yo lo hagan con un profesor de la Universidad de los Andes. 
+
+Un colega me decía eh los estudiantes, hoy quieren generar todo apunta de baile. 
+
+Eh por eso es que eh el día de la sustentaciones decimos que usted puede hacer la aplicación con el banco que quiera pero el día de la sustentación desconectamos Internet mantenimiento. 
+
+Por favor a la aplicación eh porque hay que aplicar lo que se ven ingeniería o sea los toques nos aceleran. 
+
+Los toques nos ayudan pero uno la inteligencia artificial. 
+
+Le delega las tareas nunca el criterio, el criterio de buen ingeniero estofásica estando con nosotros. 
+
+El criterio de que es una buena decisión de diseño sigue estando con nosotros. 
+
+La máquina me va a hacer la tarea, pero entonces ahí un tema importante para que consideren allí. 
+
+Vale el resumen del mundo ahora humanas y humanos imaginas trabajando en conjunto eh yo le diría ese primer contexto es como digamos. 
+
+Aquí la segunda parte es no vean la inteligencia artificial como una amenaza. 
+
+Es un complemento para lo que hacemos en el día a día. 
+
+Eh ya hablamos del mundo predictivo generativo y el mundo de ella y agéntica pero lo que uno no puede hacer es pelear por la inteligencia artificial. 
+
+Hay que usarla pero recuerde uno la inteligencia artificial le delega tareas, no los criterios. 
+
+Los criterios siguen siendo humanos. 
+
+Es un tema muy importante, incluso cuando lleguemos a la famosa y hace ocho días cuando eh lanzó Astra o liberó la versión. 
+
+6. 
+
+De eh todo el mundo hablaba que se había logrado el engine y no miren el eje ahí es subjetivo. 
+
+El día significa el momento en el cual la inteligencia artificial resuelve problemas iguales o por encima de lo que resulta humano que sigamos a ver de que uno puede lograr a cierto nivel, pero hay temas que nunca una máquina va a poder lograr a nivel humano, como por ejemplo el sentido común. 
+
+Les hago una pregunta a la empatía. 
+
+Ustedes usan sí usamos güeys ustedes alguna vez? 
+
+Han visto apenado avergonzado porque les calculo mal una ruta, pues lo hizo por una ruta que no era y después se sintió malo. 
+
+Avergonzado no eso nunca va a suceder. 
+
+Nunca va a suceder porque las máquinas no tienen empatía, entonces la gente quiere romantizar el monto de AGI, pero lo que una cosa es que hoy me calcula la mejor ruta ahí si lo puede hacer mejor que un humano, pero que un buen que un juez tenga empatía se sienta triste porque me hizo meter por una ruta. 
+
+Esa esa variable no va a existir. 
+
+Entonces es muy importante que siempre veamos este mundo con un complemento donde yo de lengua ejecución de tareas. 
+
+Más nunca criterios y hay puntos donde al final del día necesitamos y siempre vamos a necesitar competencia de un humano que esté allí, lo que al lado de en una reunión humanos agentes trabajando juntos y ya para cerrar este punto. 
+
+8:01 a.m.
+Y la probabilidad usted para ejecutar un proceso de negocio? 
+
+Eh no un proceso. 
+
+Vamos a llamarlo objetivo de negocio. 
+
+Cuál es el objetivo de negocio? 
+
+Jorge Arias acaba de estrellar su carro necesita una asistencia. 
+
+El objetivo es que me llegue una asistencia de una bruja, un abogado y me notaron angustiado. 
+
+En mi voz me manden una una ambulancia sí, entonces si yo hoy llamo a una aseguradora y le digo oiga me acabo de estrellar. 
+
+Estoy en las cinco quince. 
+
+Hay un herido eh, pues la otra persona que es un humano tiene un proceso en su cabeza que va a decir? 
+
+Bueno herido hay que mandar una ambulancia herido pilas es un tema legal y además un choque un tema mecánico. 
+
+Entonces ese criterio humano va a ejecutar las tareas para procesar? 
+
+Imagínense que ahora yo no. 
+
+Yo no hablo con uno más con un humano sino con una gente y yo simplemente digo con una voz angustiada. 
+
+Me acabo de estrellar ahí. 
+
+El agente tiene que tomar decisiones estaban nervioso. 
+
+Estaba asustado de acuerdo al teléfono está en tal lugar le voy a mandar una asistencia. 
+
+Ya todo esto, pero esto lo va a ejecutar con red neuronales, es decir, con probabilidades. 
+
+Entonces este de la derecha, el mundo determinístico es un mundo de la izquierda. 
+
+Cómo vamos a hacer esto? 
+
+Entonces eh con una arquitectura genética que vamos a empezar a navegar ahorita y finalmente recuerden algo lo hagan humanos o lo hagan máquinas. 
+
+Lo que las compañías están buscando es muy simple. 
+
+Valor de negocio no. 
+
+Pierdan de perspectiva. 
+
+Esto nosotros como arquitectos, nosotros no podemos perder de perspectiva que estamos aquí. 
+
+Es para crear valor de negocio y valor de negocios como una compañía genera nuevas formas de generar ingresos, reducir costos, cereales, eficiencia operacional. 
+
+Si eso lo hace con la gente, eso lo hace con humanos al final del día. 
+
+Lo importante es que se generen pero lo que no pueden pasar es que una compañía me diga a mí eh. 
+
+Estuve actuando mal porque los agentes alucinaron. 
+
+Entonces perdí plata. 
+
+Desde hoy vas a trabajar con los humanos, pero lo que no puede pasar es que al final del día lo más importante en una organización a nivel ejecutivo es que una arquitectura genética o una arquitectura del humanos tiene que crear valor de negocio, es decir, que todo lo que yo haga en tecnología me ayude a vender más y a gastar menos, es decir, que se puede explicar en un día en un próximo. 
+
+Ese es un tema muy importante dicho todo esto. 
+
+Entonces miremos dónde estamos hoy en día para conectar. 
+
+Lo último que les acabo de decir el Canadá puso a un bot atender servicio al cliente a una persona se le murió un familiar. 
+
+Empezó a hablar con el bot y el bot le dijo oiga eh. 
+
+Yo necesito que me compre el bolso y dijo listo. 
+
+Yo la pruebo, el reembolso y la prorré en bolso con esa persona fue a cambiarle el reembolso. 
+
+La empresa le dijo. 
+
+Oiga y y el estado del canales ya no. 
+
+Yo no le puedo aprobar eso porque no sé quién es. 
+
+Ah no perfecto. 
+
+Esta persona fue que mandó a él y la corte en Canadá le dijo. 
+
+Sorry, si usted pulso a un agente hacer una tarea, uno mano y lo hizo mal. 
+
+Es bueno, está actuando el nombre de la empresa responde por lo que el vole prometió al cliente, es decir, nosotros si tenemos agentes tenemos que asumir la responsabilidad de lo que hace la gente eh. 
+
+Entonces empieza a mirar de que los agentes al final del día eh tienen un nivel de responsabilidad porque están actuando por supuesto la compañía. 
+
+Eh entonces empezamos a mirar. 
+
+Aquí de que los agentes de alucina y tienen problemas en el estado de Nueva York, tuvieron un agente eh en la ciudad de Nueva York para atender temas al ciudadano y más o menos a la gente le decía a alguien que usted puede ser un delincuente puede romper la ley, no pasa nada, eh entonces la gente rompía la ley y les decía usted me lo dijo un empleado porque la gente no sabe que al otro lado es un ambiente y no humano alguien de su eh agencia de la Ciudad de México. 
+
+Que lo podía hacer eso? 
+
+Qué problema los que estamos teniendo hoy en día? 
+
+Entonces el problema es muy simple. 
+
+Por qué esto pasa? 
+
+Por lo que alguien está preguntando en el chat por una falta de gobierno. 
+
+Quién va a colocar este tema de gobierno al final del día? 
+
+Y es que si un agente toma una sesión, una decisión diferente cada vez que enfrenta una misma situación. 
+
+Entonces no tenemos un producto de software. 
+
+Lo que tenemos es un boleto de lotería imagínense usted que tranquilidad elevar a sus clientes si usted le va a decir a un cliente que algunas cosas funcionan bien. 
+
+Algunas cosas funcionan mal hoy en día en un humano. 
+
+Si, yo llamo a una empresa metiendo un humano. 
+
+Por lo general, siempre me voy a recibir un voy a hacer exitoso en las respuestas, pero si voy a hablar con un agente y algunas veces me funciona bien y otra vez me funciona mal, eso no tener confianza. 
+
+Entonces eso es lo que está pasando en muchas organizaciones que están como locos. 
+
+Lanzándose al vacío en el mundo agríco sin gobierno sin arquitectura, sin estructura y están poniendo los modelos de negocio en desafíos muy serios. 
+
+Entonces de eso es eh de del tema de la gobernabilidad de lo que tenemos que hacer. 
+
+Entonces sigamos acá entonces para todos es muy básico, pero me gustaría me gusta mucho conocer actualizar para poder entrar temas más complejos cada uno de ustedes cuando está frente al chat usted lo que hace es que le lanza. 
+
+Una pregunta, esa pregunta si ya no se pron lo recibe cualquiera y claudé Lama gema Kimi cualquier cosa y además todo se parecen eh y él me genera una respuesta, pero piensen que esa respuesta es cien por ciento probabilística. 
+
+Si yo en este momento os pregunto, cuál es el restaurante más la lista de los cinco restaurantes más importantes de Medellín enter me da una respuesta y en dos minutos le hago la misma pregunta y me da otra respuesta porque todo es probabilidad y adicionalmente el set de datos con el que se entrena el ldl cambia cada segundo tres. 
+
+Al final del día tenemos un desafío porque todo es probabilidad. 
+
+Ahora pensemos esto mismo en el mundo agríco un humano le pregunta a una gente. 
+
+Oye, quiero comprar mil unidades de este producto x hoy. 
+
+Yo podría llamar a una empresa y un asesor de una empresa de Goya. 
+
+Le quiero comprar esto y el asesor de despacho del pedido aquí es. 
+
+Quiero comprar mil unidades qué hace la gente? 
+
+Lo primero que hace la gente es enriquecer la pregunta del cliente. 
+
+Los humanos preguntamos y preguntamos muy mal. 
+
+No sé si sabían que los humanos nos gusta hablar mucho, pero muchas veces no preguntamos lo que es entonces o no preguntamos con el detalle que se necesita y la inteligencia artificial es bruta porque necesita mucho contexto. 
+
+Si usted no le da contexto por la inteligencia artificial, entonces algo que están inteligentes no es inteligente. 
+
+Usted tiene que yo simplemente hago una pregunta. 
+
+Pido contexto y el contexto. 
+
+Lo que hace es ampliarlo a esto lo que llaman muchas veces o llamamos el famoso semántico con base de datos vectoriales y con bases de datos de grafos. 
+
+Qué hace esto de ahora? 
+
+Sí, le digo el el porque hay que saberle preguntar el siguiente triple x con descuentos superiores al 20% quiere adquirir el producto. 
+
+Miren que una cosa es lo que él quería comprar. 
+
+Y otra cosa, es el detalle real con esto y con este plan irracional vamos a ejecutar sobre diferentes sistemas, la tarea y él va a responder. 
+
+Eso es lo que es la gente a muy alto nivel. 
+
+Sí, muchas cosas por debajo, no entonces aquí hacemos el famoso y no sé qué cosas. 
+
+Bueno, dicho esto, qué sucede que al final del día tres mensajes importantes usted tiene que una cosa es el pronombre? 
+
+Otra cosa es el contexto. 
+
+Otra cosa es ser pron extendido con el contexto? 
+
+Y otra cosa, es el plan de ejecución y luego la respuesta? 
+
+Señores, si usted tiene mal contexto, él va a preguntarle con poco contexto. 
+
+Únete un poco contexto. 
+
+Va a dar un plan muy pobre y un plan muy pobre no permite ejecutar bien. 
+
+Por lo tanto, la respuesta al cliente no va a ser buena dicho esto, si usted no tiene un buen contexto, no va a tener un con buena gente. 
+
+Segundo, si usted no tiene una forma de validar que que a mí quién me dice que esta respuesta es correcta. 
+
+Yo tengo que tener una forma de válidar que ese plan está correcto, entonces empiezan a aparecer muchas preguntas en la mitad y es oiga qué miedo. 
+
+Hoy en día yo llamo a mi aseguradora y un humano me atiende la asistencia. 
+
+Ahora usted me está diciendo que llamé y una gente. 
+
+Responda sí, pero miren todo lo que tiene que suceder. 
+
+Entonces vamos a entrar allá. 
+
+Entonces vamos a ver qué es lo que sucede. 
+
+Un agente es mucho más elaborado. 
+
+Es consumir un objetivo es más tiernas dependencias esa lesionar. 
+
+Las herramientas es hacer un buen rato y muchas cosas que suceden atrás. 
+
+Te voy a contar una historia para ponerles contexto y ya enseguida. 
+
+Me quedan 10-15 minutos y probablemente mucho tiempo una compañía. 
+
+Eh implementó hoy en día. 
+
+Una compañía con humanos, un cliente por una orden, el humano valía la orden, el humano asegura que todos tienen el inventario. 
+
+Apoyado en un ERP y el pedido y el pedido llega 100% de mil órdenes. 
+
+Ejecutan mil pedidos una compañía hizo lo mismo y lo propusimos hacer con agentes. 
+
+Entonces aquí manda el lenguaje natural a la orden. 
+
+El agente lo resuelve. 
+
+Arma un plan de ejecución y mil órdenes. 
+
+Procesaba bien 920 y 8%. 
+
+Y un 80 alucinaba. 
+
+No. 
+
+Pues resulta que el cliente me dijo. 
+
+Jorge. 
+
+Hoy. 
+
+Con humanos. 
+
+Ejecutó. 
+
+El cien por ciento contigo. 
+
+Y tus agentes. 
+
+Eso en vías anteriores. 
+
+Bueno, una probabilidad no es increíble, zorrima y freno. 
+
+Esto es un business. 
+
+Esto no es tu curso de la Universidad de los Andes. 
+
+Eh donde tú puedes ser estudiantes. 
+
+Sacalo aquí debe ser exactamente el 100% porque eso es ocho por ciento errores es el 12% del mar en ventas, o sea, no hay poder perder ninguna venta. 
+
+Todo el ambiente son importantes entonces querido amigo devuelvete con tu arquitectura genética. 
+
+Eso pasó hace como nueve meses diez meses donde el estado del arte del mundo agrícola era muy fuerte valoralo y ayúdanos a resolver el problema después. 
+
+Por ahora sigo con humanos. 
+
+8:13 a.m.
+Porque autonomía sin control. 
+
+Es un impacto en los números de las compañías. 
+
+Muchas gracias. 
+
+Entonces por eso es que hoy en día hay que colocarle desde el feminismo a la probabilidad y el determinismo es cuando nosotros hacíamos por qué fallamos en este modelo era? 
+
+No teníamos un buen contexto, el contexto latente, los elementos están probabilidades y el contexto da determinismo y los procesos de negocio tan determinismo conclusión si usted no tiene buenos procesos de negocio que son los que ejecutan las tareas atrás y no tienen buenos. 
+
+Eh modelos de contexto por mucho que usted. 
+
+Le pague en San claudedad. 
+
+Y hasta el que quiera eh. 
+
+Pues simplemente sus modelos no van a ejecutarse. 
+
+Bien, es por eso que entre el humano él le leería la gente. 
+
+Los agentes presentan muchos desafíos los los agentes alucinan por problemas de datos. 
+
+Más a los datos viejos falta de contexto. 
+
+Los agentes alucinan. 
+
+Porque tiene sesgos de ejecución o porque simplemente te duraba. 
+
+Un estamos mandando los datos en texto a los modelos. 
+
+Los agentes no tienen contexto de Marcos. 
+
+Regulatorio Debora contar una historia. 
+
+Eh conoció una compañía de salud. 
+
+Hace poco que implementó un agente para dar diagnósticos y las personas al contexto y la gente. 
+
+Procesa y las historias clínicas. 
+
+Le dice el diagnóstico y simplemente a alguien por error. 
+
+Le dijo que más o menos le quedaban cinco días de vida por un tema regulatorio un diagnóstico nunca se deben tensión que el diagnóstico es negativo. 
+
+Ahí hay que escalar humanos en la gente. 
+
+No puede como parte del razonamiento de la gente para venir aquí explicarlo como parte de este razonamiento, si el el diagnóstico era negativo, a que algo tuvo que haber tenido una cosa que se llaman o una barrera donde lo que tenga que ver con aprobaciones de descuento lo que tenga que ver con diagnósticos médicos lo que tenga que ver con Marcos regulatorio escalelo ya a un mantenimiento al cuajo humano. 
+
+La gente tiene que saber en qué momento lleva el control al humano y nos sigue ejecutando cosas, pero eh entonces en este mundo no eh. 
+
+La automatización tiene sus desafíos. 
+
+Entonces es muy importante que cuando uno diseña gente uno todas este tema de manejo este manejo de alucinaciones. 
+
+Todo esto es un problema reales y esto hay que resolverlo en tres maneras con determinismo determinismo es barreras determinismo es con un buen contexto y determinismo es con buenas políticas y procesos señores. 
+
+El mundo no es cien por ciento probabilístico. 
+
+El mundo es semi interternistico, es decir, no lo vamos a seguir haciendo como lo hacíamos hoy en día paso a paso, pero tampoco lo vamos a hacer con el mundo de random aleatorio sin control humano. 
+
+En ningún lado. 
+
+Esto necesita control y determinismo y de eso se trata una buena arquitectura genética entonces al final del día. 
+
+Nosotros. 
+
+Lo que necesitamos es que para ejecutar un buen modelo de agentes tenemos que gobernar aquellas cosas que al final del día me van a ayudar a que realmente yo no esté generando una deuda cognitiva y es que desde que agentes pagó más plata a las compañías baje el margen de la operación, los reclamos incrementaron y ya lo vendo más. 
+
+En este caso van a volver a humanos. 
+
+Entonces es muy importante trabajar estas soluciones. 
+
+Es por eso material arquitectónica. 
+
+Lo que tenemos acá es aquí. 
+
+Están los humanos algo que les voy a contar de una vez señores la tendencia número uno en el mundo. 
+
+Es que los humanos nos gusta hablar hablar. 
+
+El lenguaje natural ya no nos gusta navegar aplicaciones, por ejemplo tenemos la interfaz para entrar en CNN, pero también lo que hemos encontrado es que los clientes no quieren navegar menos y navegar aplicaciones lo que quiere sentarse denunciar o y una interfaz conversacional este pedido o desde un Microsoft son de una superficie. 
+
+Como eh eh quiero ejecutar conversaciones, vamos al punto donde yo todos los quiero hacer así. 
+
+Hola a gente aseguradora hola gente de mi clínica, necesito que me ofendes una cita para mañana por el ortopedista porque me duele mucho la mano. 
+
+Gracias de la tarde. 
+
+Gracias, es lo que yo quisiera y que al otro lado alguien te va a deducir mi lenguaje natural de mi voz lo va a tomar una gente y esa gente va a empezar a hacer orquestaciones. 
+
+Es ese yo lo voy a mandar un mensaje de voz que la gente lo procesa y la empezar aquí a trabajar a diferentes procesos pero para poder saber en qué orden llama. 
+
+Lo primero que hace. 
+
+De la gente. 
+
+Es. 
+
+Paso. 
+
+Número. 
+
+Uno. 
+
+Contesto paso número dos. 
+
+Voy a razonar con el modelo y paso número tres actos tuning para invocar los procesos de negocio. 
+
+Y ahí. 
+
+Tengo una arquitectura. 
+
+Genética de la experiencia de trabajar este mundo agrícolas más importantes del mundo. 
+
+Agente son la capa de los procesos de negocio. 
+
+Que ejecutan la tarea final y la capa de contexto. 
+
+Esto es lo que le da el terminismo a una arquitectura. 
+
+Esto es probabilidad y recuerden no confundan el plan de ejecución de la gente con el proceso de negocio. 
+
+Los procesos de negocio siguen siendo procesos de negocio, lo que hace la gente es el orden en que ejecuta el World flow para llevar una tarea entonces, pero acá planteamos en la estructura del coherente. 
+
+Si tiene un buen contexto y recuerden en algún lugar, usted va a necesitar un control play para que le gobierne todo el acceso a estos modelos. 
+
+No es el objetivo de esta presentación. 
+
+Hay agentes que para tareas hello world queman toquense y la pregunta es porque no tiene sus modelos de control plena categorizado donde para ciertas tareas voy a mover los Open Source y para otros les voy a mover los pagos. 
+
+Así empezamos a regular el modelo del costo de la inteligencia artificial. 
+
+Pues bien, ese es un poco el mundo de hoy y ahí vamos ya para cerrar. 
+
+Entonces, qué es lo que tenemos hoy en día? 
+
+El mundo determinismo se basa desde el mundo de los ChatBox al mundo de los elementos. 
+
+En este lado tenemos totalmente determinismo y aquí tenemos total probabilidad. 
+
+El modelo objetivo que vamos a buscar es el punto medio. 
+
+El controlador con watles que son en el dron. 
+
+Yo coloco contextos como que es un barriles cuando yo le pregunto. 
+
+Quiero que me digas cómo liquidar mi declaración de rentas personas naturales, Colombia. 
+
+Por favor, sopórtate en un marco tributario real utiliza fuentes verificables utiliza fuentes confiables y ser concreto. 
+
+Eso último que acabo de decirle. 
+
+Perdón. 
+
+Esto es lo que hay una barrera. 
+
+Colocar saber en qué momento tengo que escalar a un humano que la gente no operar solo y tres tenerlos raps o las modelos confiables entonces señores lo primero que hay que hacer es colocarse que es que controlen seis dos construyen el manejo de planes incorrectos el manejo regulatorios para que cuando yo querían ejecutar el mundo, determinista o este mundo probabilístico realmente yo voy a sesgar el orden en que voy a ejecutar las cosas. 
+
+Coloco unas barreras sobre las cuales va la ejecución, es decir, en esta arquitectura. 
+
+Si se van a dar cuenta antes de entrar al modelo, yo coloco a redes para asegurar que los datos vayan enmascarados para que cuando me responda el modelo, yo verifique si está correcto wireless para que cuando yo pregunte no me hagan un prontito inicial, es decir, cualquier entrada o salida de un modelo tiene que ir con una capa de sitio. 
+
+Unity eso le empieza a dar mucha robustez al mundo y a nivel de contexto. 
+
+Eh el modelo de contexto es muy importante a los niveles. 
+
+Recuerden compró yo pregunto y me responde pero en el momento del prom con rack es yo? 
+
+Pregunto y alguien me complementa ese complemento sale de dos bases de datos, bases de datos semánticas que es el mundo no estructurado. 
+
+Lo coloca en un ciclo, una base de datos vectorial o el mundo de relaciones de conceptos y monto un grafo en memoria lo que llamamos el mundo de Odontología. 
+
+Usted la habrán escuchado como el reactivbrio, el hybridge, donde realmente yo tengo contexto y este contexto entre más preciso, más exitoso va a ser el agente menos la alucinación, es decir, lo que nos ha enseñado. 
+
+Esto es que ser muy determinísticos. 
+
+Entonces los vectores. 
+
+Me dicen. 
+
+A mí. 
+
+La semántica. 
+
+Me dice a mí. 
+
+Como los conceptos se relacionan y es saber cuando escalo a un humano. 
+
+Si una gente está procesando y en el plan de ejecución tienen que hacer tipo de autorizaciones bancarias o autorización de reembolsos. 
+
+Esto libera servir mucho en Canadá, pues simplemente yo instalo a un humano o si es un tema que tiene que ver con marco regulatorio o el tema de empatía clientes frustrados un cliente que está ya frustrado y se va a ir. 
+
+Está el lóbulo humano diagnósticos médicos están en la mano o si tiene agentes de software ustedes. 
+
+Por favor verifiquen que si usted le dice quiero hacer esta aplicación X y Z y por allá como plan de ejecución dio la orden drop table. 
+
+Si usted ve una orden dentro inmediatamente escale a un humano porque hemos visto agentes que están destruyendo sistemas, entonces no es que la inteligencia artificial se puso rebelde. 
+
+Es que el que promovemos la gente fue en el responsable que no le puso los bares, entonces no se dejen llevar por el romanticismo que las máquinas se pusieron locas borraron la base de datos vienen aquí acabarlos no estos programación probabilística y determinista que en algún lugar no. 
+
+Entonces ese es un poco la visión del mundo agéngético como humano que hace una máquina, pero solamente quiero llevarles este tipo de motivación. 
+
+Hay un libro que se llama pensamiento rápido? 
+
+Pensamiento lento pensamiento rápido pensamiento lento habla que los seres humanos tenemos dos formas de pensar el sistema 2 y el sistema 1 el sistema 2. 
+
+Yo le digo Stevenson cuánto es un millón quinientos cuarenta y cuatro mil doscientos veinticinco mil testigos empieza a procesar eso se llama el pensamiento concreto. 
+
+El pensamiento abstracto es cuando es un tema más empático en vez que hay un niño pobre en la calle pues y que la está pasando muy mal. 
+
+El va a parar su corazón y variedad lo invitó algo. 
+
+8:25 a.m.
+Este es un tema más del sistema. 
+
+1. 
+
+El sistema eh abstracto el sistema que tiene que ver con la empatía, la inteligencia emocional, el pensamiento crítico, el sistema 2. 
+
+Es expertis en un dominio expertise. 
+
+Un cálculos expertise en procesamientos. 
+
+La máquina va a ser muy bien el sistema. 
+
+2. 
+
+La máquina no hace el sistema 1. 
+
+Dicho esto yo no creo en el AGI como lo vende en. 
+
+8:25 a.m.
+Lloré como un niño con un cobarde. 
+
+8:26 a.m.
+De nuevo pensando continu. 
+
+8:27 a.m.
+De cómo usar inteligencia artificial o convencerlos de usarla? 
+
+Como decía Jorge, ahora eh todos lanzamos usando ya sin darnos cuenta. 
+
+Algunos otros conscientes de ella hasta en una reunión, un tomador de notas y demás todo el mundo. 
+
+De alguna forma estamos interactuando con inteligencia artificial. 
+
+Lo que quiero conversar hoy es un poco o algo un poco más incómodo difícil y es cómo aprovechamos. 
+
+Solo que la inteligencia artificial nos permite hacer si entregar sin darnos cuenta las capacidades que necesitamos para revisar lo que la inteligencia artificial nos está dando porque la que la llaga las cosas por nosotros. 
+
+Eh no es un problema cierto? 
+
+De hecho, es una herramienta para aumentar nuestras capacidades. 
+
+El reto aparece cuando ya nosotros perdemos la capacidad de que podamos revisar. 
+
+Todas esas informaciones artificiales están produciendo. 
+
+Entonces nosotros tenemos que tener o conservar la capacidad de entender verificar, eh corregir y hacernos cargo del resultado. 
+
+Eso es lo más importante ahorita. 
+
+Jorge también mencionado eh este en una gente eh se construyó para hacer algo. 
+
+Hizo lo que no era la responsabilidad. 
+
+No desde la gente. 
+
+Sigue siendo de nosotros del humano, por eso la chata se llama trabajar con ideas sin dejar de pensar y quiero que salgamos con una forma muy sencilla de decir que podemos dejar de la ira y que tenemos que revisar y qué capacidad de nosotros debemos seguir como practicar. 
+
+Y llevo más de 15 años. 
+
+Trabajando en en torno a la tecnología. 
+
+En los últimos años he estado trabajando mucho con temas de inteligencia artificial desde la inteligencia artificial dentro del proceso de Ceiba no necesariamente en el ciclo de desarrollo eh me gusta mucho también pues eh el tema de arquitectura. 
+
+Cierto de como impactan las decisiones a nivel técnico? 
+
+Eh en una empresa un negocio eh pero hoy no voy a hablarles desde el rol de la arquitectura o desde código quiero tratar de ser un poco agnóstico y hablar de una situación que nos toca a todos líderes comerciales, producto diseño, eh desarrollo, etcétera cualquiera que esté usando inferencias artificial. 
+
+Eh que tengan que usarla para pensar y crearte sí, o sea para cualquier persona que. 
+
+Y en ese contexto. 
+
+Quiero. 
+
+Que. 
+
+Revisemos algo. 
+
+Y imaginemos que el día de mañana a las nueve desaparece durante siete días todas las herramientas de inteligencia artificial que conocemos o usamos. 
+
+Al día de hoy Internet no desaparece nuestro sistema, solo desaparece todos los copilotos asistentes en general los llm que nosotros conocemos y usamos al día de hoy. 
+
+Qué parte de su trabajo consideran ustedes que seguirían haciendo, pero con menos confianza de pronto los que quieran pueden interactuar. 
+
+Ahí cosas consideran ustedes que pueden seguir haciendo, pero con menos confianza. 
+
+Por ejemplo, entonces crear escribir analizar programar investigar diseñar puedes ir ahí como lo que lo que consideren es como piensa en ustedes en un momento hey. 
+
+Si mañana me quedó sería siete días. 
+
+Qué pasa conmigo con mi día a día? 
+
+Muchas veces al principio, pensamos que la inteligencia artificial era solamente para acelerar el desarrollo del software. 
+
+En nosotros los metieron, un terror horrible cuando salió la inteligencia artificial porque nos dijeron. 
+
+Ustedes se van a quedar sin trabajo cierto y realmente no está impactando. 
+
+No solamente a los desarrolladores. 
+
+Está impactando cualquier error que se pueda potenciar con inteligencia artificial. 
+
+Yo depender de una herramienta no es automáticamente mala cierto. 
+
+Todos dependemos del correo de Internet de buscadores y esa dependencia nos amplía sin quitarnos. 
+
+La capacidad de entender y tomar el control de cuando haga falta tomarlo. 
+
+Entonces, esa tensión nos lleva una idea principal que va a digamos a a llevar toda esa charla y es nosotros podemos trabajar eso? 
+
+Somos más capaces de trabajar, pero a la vez podemos llegar a ser más dependientes, cierto, entonces ser más capaces y entender pueden pasar al mismo tiempo. 
+
+Porque razón más capacidad significa que yo puedo hacer con inteligencia artificial cosas que antes no podía hacer explorar comprender construir cosas que antes me era imposible. 
+
+Eh en mi caso pues una una conciencia acá. 
+
+Yo no he sido muy bueno para todo el tema de estilos y demás acá. 
+
+Pues gracias a Dios. 
+
+Tenemos personas. 
+
+Muy caras. 
+
+En ese tema eh pero digamos con inteligencia artificiales. 
+
+Puedo llegar a hacer cosas un poquito más bonitas? 
+
+Eh sin tanta complicación. 
+
+Cierto, pero también puedo producir muy rápido y poco a poco dejar de practicar algo que todavía necesito explicar. 
+
+Por ejemplo, una respuesta así es correcta o no detectar un error corregirlo o sostener una decisión cuando la herramienta la cambia cierto? 
+
+La meta no es escoger, por ejemplo, entre si usar inteligencia artificial o no usarla, eso sería una falta de discusión, cierto? 
+
+La meta es aumentar lo que podemos hacer, sin perder sin perder la capacidad de mantener el control. 
+
+Eso es lo importante. 
+
+Tenemos que tener la capacidad de mantener el control y para eso eh vamos a a volver varias veces a a tres preguntas muy sencillas cierto? 
+
+O sea, qué del ego a ella que verifico y qué necesito conservar cierto, pero antes de eso eh pensemos en algo. 
+
+La idea realmente sí nos está dando una ventaja. 
+
+Digamos aumentando nuestras capacidades, eso no lo no. 
+
+Lo digo yo cierto es un estudios, pues que que estuve mirando mientras preparada la charla y es que ha investigadores venga realmente la inteligencia artificial. 
+
+Si está potenciando, eh o mejorando el desempeño de las personas, entonces acá, por ejemplo, en general hicieron un estudio de más de cinco mil agentes de soporte usando herramientas de inteligencia artificial en su trabajo real. 
+
+Tiempo promedio resolvieron alrededor de un 15% más de casos por hora, pero pilas la clave acá no es el 15% cierto, entre ese estudio resaltó algo muy importante y es que el mayor beneficio que encontraron allí es que las personas con menos experiencia al usar inteligencia artificial lograron hacer más rápido. 
+
+Eh digamos como la solución a esos problemas y lo hicieron en un tiempo. 
+
+Digamos que anteriormente artificial requería muchos meses o años de experiencia para poder llegar a solucionar ese nivel de incidente. 
+
+La inteligencia artificial lo que hizo fue tratar de nivelar las personas con menos experiencia con las que ya tenían mucha más experiencia. 
+
+Ahora eso no significa que todos los trabajos mejoren quince por ciento. 
+
+Eso es una empresa, una ocupación y un dicho específico. 
+
+Nosotros acá se va, por ejemplo tenemos también unas mediciones donde nosotros tenemos. 
+
+Qué porcentaje de mejora cierto de digamos tenido en los pues diferentes proyectos que atendemos hemos tenido porcentajes de 30 a 40 inclusive hasta el 80% en optimización del tiempo cierto? 
+
+Entonces depende mucho y el ámbito. 
+
+Pues en el que estemos trabajando no funciona igual de bien en todas las tareas. 
+
+Entonces yo no sé si usted les pasa de que la inteligencia artificial nos está respondiendo súper bien algún tema y un momento a otro dice escucha esta vainas se descachó cierto y eso está bien porque la vida tiene una frontera y esa frontera no Elisa. 
+
+Entonces imagínense la inteligencia artificial como un mapa hay zonas donde responde muy bien y otras donde empieza a fallar. 
+
+Y el problema es que ese mapa no viene dibujado en la pantalla. 
+
+Yo le pregunto solamente a esto y por este lado no le pregunto porque pues eh me va a fallar cierto? 
+
+No hay una forma de de terminar eso fácilmente, entonces acá también hicieron un estudio cierto donde pilas acá con lo que vas a decir y utilizaron dieciocho tareas que ya habían estudiado que estaban dentro de las capacidades de ejercicio que ese modelo puede resolver muy bien. 
+
+Entonces, quienes utilizaron inteligencia artificial para esas tareas fueron alrededor de más o menos 25% más rápido y tuvieron mejores resultados, pero qué pasa esos investigadores? 
+
+Lo que hicieron fue añadir una tarea que era mucho más complejas diseñado para crear por fuera de la zona del puente desempeño de ese modelo Yayo ocurrió lo contrario, esas personas usaron la inteligencia artificial con una productividad mucho menor a la que obtuvieron los demás y no quiero que que memoricen, pues como el 25 y el 19%, el estudio uso una limitación y la tecnología cambia muy rápido. 
+
+Ahora tenemos unos modelos súper buenos, pues con razonamiento más posiblemente en ese tarea de súper difícil era. 
+
+Quisiera cálculos la inteligencia artificial en ese momento no era muy buena para acercar cálculos. 
+
+Nosotros lo vivimos acá desde nuestra experiencia. 
+
+Vivimos eso cuando le poníamos a analizar una cantidad así que sacar a una cifras y demás eh no era exacta y es normal. 
+
+Pues no era tan buena. 
+
+Para hacer esa tarea. 
+
+Tan importante. 
+
+Eso es que dos áreas que para nosotros se ven parecidas pueden estar en zonas muy distintas para la inteligencia artificial y la herramienta normalmente no nos avisa ahí confiable. 
+
+Entonces más bien yo soy capaz o puedo darme cuenta cuando ya no deberían completamente. 
+
+En las respuestas que me están dando la inteligencia artificial porque la capacidad leía no es uniforme después de ser extraordinariamente buena para unas tareas y pues ya vamos y llevarnos a casos donde no sea tan buena y hacernos. 
+
+Pero después como credibilidad es por ejemplo imagínense eh el problema de la frontera donde puedo pedirle que genere? 
+
+No sé veinte alternativas y aprovechar muchísimo su capacidad, pero le pido ahí una decisión estratégica con información incompleta. 
+
+Puede entregarme algo perfectamente escrito y equivocado porque le entregue algo mal, cierto de lo que decía ahorita Jorge es muy importante. 
+
+El contexto que nosotros también tengamos le estamos dando hasta la derecha artificial, ya que ellas provenistica. 
+
+No quiero como maximizar. 
+
+Cuando cuanto el ego quieres como maximizar como la delegación útil con verificación adecuada, es importante verificar muy bien. 
+
+Todo lo que la inteligencia artificial nos está entregando. 
+
+8:38 a.m.
+Cuando generar una respuesta hoy día con inteligencia artificial cuesta menos revisarla, cierto se vuelve cada vez de mucho más valor. 
+
+Entonces aquí entra un punto interesante cuando generar eh se vuelve pues baratos cierto y revisar se vuelve mucho más valiosa. 
+
+Entonces acá eh microsofts analizó también más de 900 experiencias en el uso y antes las personas que confían mucho más en la inteligencia artificial reportan menos esfuerzo de pensamiento y por el contrario, las que confiaban más en su conocimiento, eh reportado mucho más. 
+
+Es una medición. 
+
+Digamos un poco subjetiva que hicieron allí, pero es útil para ver cómo cambia el trabajo, cierto? 
+
+Eh si la ira un primer resultado, mi esfuerzo se vuelve más hacia revisar o pensar por ejemplo en tres cosas. 
+
+Venga eso que me está entregando la inteligencia artificial lo puede verificar? 
+
+Es decir, esto es cierto lo que me está diciendo. 
+
+Básicamente quiero centrarlo en esas tres verificar integrar y supervisar cierto eh y de hecho de forma simple sin producir una respuesta correctamente, hay otra otro análisis que se hizo y es que muchos desarrolladores dicen o decían sentir que estaban acelerados? 
+
+Cierto con inteligencia artificial, pero la medición de un ciclo completo. 
+
+Mostraban cosas diferentes. 
+
+Porque razón porque tú puedes producir más rápido y entregar mucho más rápido, pero cuando ya llega eso a producción, entonces de ahí se genera uno dos o tres. 
+
+Entonces eso es un retroceso. 
+
+Tengo que hacer el cuadro? 
+
+No entiendo qué fue lo que hice. 
+
+Me toca volver a investigar. 
+
+Ese hizo lo arreglo y entonces todo ese flujo completo, pues a lo último se transforma en que me demoré mucho más. 
+
+Otra pregunta si el resultado así el resultado salga bien. 
+
+Yo sigo entendiendo realmente lo que acabo de producir con inteligencia artificial. 
+
+Otro punto en otro estudio que se hizo eh cogieron más o menos 70 personas o setenta de participantes, haciendo tareas de programación con asistente de inteligencia artificial y sin asistentes. 
+
+Las personas que utilizaban inteligencia artificial efectivamente sintieron ojo realmente evidenciaron, una mucha mejor. 
+
+Un desempeño entre rol del 12.5 de perdón de eventos, pero es que son hicieron preguntas técnicas sobre el código. 
+
+Cierto que acaba de implementar por ejemplo de decisiones de arquitectura de patrones, que utilizaron y demás encontraron que el desempeño fue alrededor de 12.5 menor diferente a las personas que no utilizaron inteligencia artificial que si supieron justificar las razones de por qué esa implementación nos vuelve peores programadores. 
+
+Eh la idea útil es más sencilla, terminar algo y entenderlo. 
+
+No son la misma cosa, es y eso no aplica únicamente el código. 
+
+Puedo tener una propuesta comercial? 
+
+Eh muy bien escrita, muy bien elaborar y nos dé saber defender los números de esa propuesta o puede tener una historia de usuario muy completa con criterio de aceptación y demás. 
+
+Y no entender absolutamente el negocio del cliente en un análisis impecable y no saber de dónde salió la conclusión. 
+
+Esa esa investigación cierto? 
+
+Puedo realmente hacerme cargo de lo que leía me ayudó a producir entonces antes de pensar, eh en el equipo hagamos una pausa rápida para mirarnos. 
+
+Eh nosotros mismos, entonces no quiero firmarquiza. 
+
+Un saludo, inteligencia artificial está erosionando nuestras habilidades, cierto, la evidencia todavía no nos permite decirlo con certeza, pero si hay un riesgo yo no sé acá. 
+
+Hagamos cada uno introspectiva y nosotros podemos observar cierto? 
+
+Eh con tres preguntas muy concretas. 
+
+La primera puedo explicar qué esto funciona? 
+
+Segunda fue detectar que algo está mal y tercera si encuentro un error puedo corregirlos sin tener que empezar de cero pidiéndole otra vez a la ira que me explique que me haga entender todo de una. 
+
+Eso no es un término diagnóstico. 
+
+Es una forma de observar un hábito. 
+
+Muchas veces estamos confiando ciegamente. 
+
+Lo que la inteligencia artificial nos está entregando y eso es muy importante. 
+
+Hay una diferencia importante que algunos investigadores recientes empiezan a mostrar no es lo mismo. 
+
+Usar la guía como apoyo para pensar que usarla para que piense por nosotros. 
+
+Entonces el resultado inmediato puede verse parecido, pero la capacidad de de que conservamos después puede ser distinta. 
+
+Entonces imagínense esto cierto? 
+
+Yo no necesito competir con la gran velocidad. 
+
+Laia me va a ganar cierto? 
+
+Necesito es conservar suficiente la comprensión para reconocer cuando la respuesta deja de tener sentido entonces salgamos del ámbito de programación imaginé que estamos en los restaurantes y la cuenta nos da que son trescientos mil pesos. 
+
+Es una matemáticas. 
+
+Son tres personas. 
+
+Entre yo saco la calculadora para dividir la cuenta. 
+
+A ver cuánto nos toca cada uno y la calculadora. 
+
+Me dice que son diez millones por personas. 
+
+Entonces yo entro. 
+
+Yo sé que algo malo cierto. 
+
+Que tengas mil pesos. 
+
+Yo creo que equitativamente 100 mil pesos para cada una. 
+
+Cierto es? 
+
+No es porque sea yo mejor que la calculadora, sino porque conservo el modelo mental de entender. 
+
+Cómo deberían de ser las cosas cierto? 
+
+Ya no lo por ejemplo, un mundo de sistemas. 
+
+Eh código mucho más rápido que yo. 
+
+Eso es indiscutible, pero si me proponen almacenar contraseñas en texto plano. 
+
+Yo necesito suficiente conocimiento de seguridad para saber que eso no está bien. 
+
+Cierto que ahí hay un riesgo. 
+
+Yo de inmediatamente va a detectar lo que está haciendo. 
+
+La de acá va a funcionar pero eso no está haciendo las cosas de la forma correcta. 
+
+Yo debo tener ese pensamiento crítico conocimiento para saber decir. 
+
+Esto está mal. 
+
+No se debe hacer de esta forma. 
+
+Entonces cuando este problema deja de ser ya individual de persona y empieza a afectar al equipo aparece otra forma de dependencia en palabras simples. 
+
+Es estar amarrados a una forma de trabajar o una herramienta que cambiarla. 
+
+Empieza a costar demasiado. 
+
+Es la parte tecnológica, lo más conocido pronto. 
+
+Agentes memoria integraciones datos todo eso es difícil de mover otra plataforma, pero para esta charla propongo una mirada más amplia eh en otras capas prácticas, por ejemplo, la cognitivo personal. 
+
+Yo no sé por dónde empezar o cómo corregir sin preguntarle primero a la ida una dependencia de conocimiento decisiones aprendizajes eh todo queda atrapado entre conversaciones específicas cambia el precio de esa herramienta, la tenemos que cambiar y necesitamos movernos a otra. 
+
+Ya se pierde toda esa capacidad que tenía el equipo y finalmente la tecnológica que si está ampliamente documentada que cambiar de proveedor o reconcidir el flujo cuesta tiempo dinero, pero que la dependencia sea mala cierto toda tecnología. 
+
+La pregunta útil acá es si mañana es la herramienta deja de servirme cuánto me cuesta mi recuperar el control? 
+
+Eso es como la pregunta. 
+
+Cada vez podemos de hacernos acá y esa pregunta nos obliga a revisar también lo que llamamos. 
+
+Productividad, muchas veces pensamos que por hacer las cosas más rápido voy a entregar más. 
+
+Estamos siendo más productivos y eso es un error cierto? 
+
+Porque es un error, cierto? 
+
+Eh importa terminar más rápido. 
+
+Claro que sí, ese es el objetivo que tenemos también con la inteligencia artificial. 
+
+Podemos debemos entregar mucho más rápido, pero este vienen otras preguntas. 
+
+Eso que entregamos funciona bien el usuario? 
+
+El negocio están realmente mejor después de lo que yo le entregue. 
+
+Quedamos más capaces o más dependientes. 
+
+Después de hacerlo hay un caso muy muy reciente, cierto que ayuda a verlo y es que en este año en el en el 2026 eh routers publicó una investigación sobre el proyecto bot que ese es el proyecto de metas sobre trabajar, pues como. 
+
+El principal digamos y entre esos datos que que sacó esa compañía de los cambios de código crecieron más o menos 220 por ciento, mientras que los cambios que terminaron llegando como mejor a salud sociales. 
+
+Crecieron el 36%. 
+
+Pero solamente el 36. 
+
+Llegó a los usuarios finales y el reporte. 
+
+Hablo es algo mucho más importante. 
+
+Hablo de aumento de incidentes y tiempo dedicación en apagar incendios, por eso que se había entregado. 
+
+Eso no es un experimento. 
+
+Eh controlado cierto y no demuestra, pues que la vida haya causado sus problemas. 
+
+Eso puede haber sido dentro de todas esas estrategias de organización. 
+
+Hay que plantearon, pues que algo pasó, pero sí nos muestra un punto importante. 
+
+Es que más actividad no nos garantiza mucho más valor cierto y para no contar solo el lado negativo, pues también este mismo año hay una empresa que se llama que hablaba de algo distinto y ellos decían venga eh yo han utilizado produciendo más eh lo que me produce en 20.000 personas, cierto? 
+
+Entonces personas cierto, sino que voy a reincidir personas y me resulta resultados de negocio. 
+
+No solamente volumen cierto lo entrego, sino el negocio que estoy mejorando como para mostrar como eh la vida también puede servir para potenciar mucho más las capacidades. 
+
+Ahora necesitamos una forma de decir cómo trabajar con y así caer en ninguno de esos extremos. 
+
+Cierto, ya está entrando importante y en el marco que que yo quiero que recuerden cierto? 
+
+Entonces si ustedes por ejemplo en una semana algo delegar verificar y conservado delegar que puedo hacer la guía o acelerar la guía? 
+
+Cierto la inteligencia artificial sin que yo tenga que gastar eh tiempo en cada detalle. 
+
+Entonces por ejemplo, creación de borradores prototipos alternativas exploración tarea repetitivas verificada qué necesito? 
+
+Eh evidencia y criterio antes de convertir una decisión en algo real. 
+
+Entonces esa actitud prueba seguridad impacto mantenibilidad y qué conservar qué capacidad. 
+
+Sigo necesitando, aunque la guía me ayude, entonces entender el negocio y explicar una decisión de exceptar un error, un error corregirlo y asumir la responsabilidad y pilas conservar no significan ser todo manualmente. 
+
+No es romantizar acá el venga traemos y aún así seguir teniendo suficiente criterio para con cuestionar el resultado y recuperar el control cuando sea necesario, entonces acá. 
+
+8:50 a.m.
+Que me llamó mucho y es como delegar, nos da velocidad verificar los protege, eh y conservar evita que la velocidad nos deje sin criterio cierto? 
+
+Entonces veamos cómo se ve eso, en un caso que podría ocurrir en cualquier empresa un caso, por ejemplo, como la de nosotros que hace mucho desarrollo de software entregar una demo para dos horas. 
+
+Eh a un posible cliente comercial, producto y desarrollo. 
+
+Entonces comercial utiliza la inteligencia artificial para investigar la industria, ordenar información y preparar un primer borrador para mostrarse producto. 
+
+Lo usa para proteger para proponer casos de uso historias de usuario y situaciones que se salen de lo normal y desarrollo para mostrar un prototipo y acelerar la implementación. 
+
+Cierto dos horas después podemos tener una demo que antes hubiese tomado días o o semanas. 
+
+Cierto que es exactamente lo que queremos aprovechar de la inteligencia artificial, pero viene una segunda parte de la historia. 
+
+Una cifra de la propuesta comercial puede que no tenga una fuente sólida cierto? 
+
+Eh entonces ahí qué pasa cierto? 
+
+Una necesidad del producto? 
+
+La inteligencia artificial. 
+
+Ustedes saben que la inteligencia artificial puede inferir. 
+
+Muchos muchas cosas alucinal y pues por ahí si hay un contexto Maldonado puede coger inferir y dar cosas que nosotros realmente nada. 
+
+Que y eh en el prototipo se empezaron a mover datos dentro del prototipo y demás, pero no se había validado temas de seguridad, privacidad ni arquitectura y demás gente. 
+
+La conclusiones debemos votar ese ese ese prototipo. 
+
+Esa hemo que hicimos no acá es como saber separar las cosas que generación es diferente de decisión, entonces comercial puede negar. 
+
+La investigación está bien, pero lo que tiene que hacer es verificar las cifras y las promesas que se están haciendo. 
+
+Entre estas propuestas producto puede negar alternativas pero verificar con negocios que es lo ideal cierto? 
+
+Si eso es real y eso es la necesidad que tiene ese cliente y desarrollo. 
+
+Puede generar el prototipo con inteligencia artificial pero tiene que asegurarse de verificar las pruebas, la seguridad y muy importante. 
+
+La arquitectura y tener conocimiento y contexto. 
+
+Eso que se están pegando la diferencia artificial cambia la forma de producir, pero la responsabilidad sigue siendo de nosotros. 
+
+Cierto, entonces acá aparece algo y es una obtención muy válida. 
+
+Si tengo que revisar absolutamente todo al mismo nivel de detalle, entonces dónde queda la garantía del tiempo? 
+
+Cierto? 
+
+Ser mucho más rápido con inteligencia artificial que si ya tengo que invertir mucho más tiempo en revisión. 
+
+Entonces eso no es una regla digamos escrita en alguna parte cierto? 
+
+Es como algo basado en experiencia que nosotros hemos visto. 
+
+Y hay como tres niveles o categorías. 
+
+Eh te ries. 
+
+Por cierto, bajo medio alto está todo se centra más que todo en eso. 
+
+Entonces yo lo uso es como una regla práctica, no como una clasificación oficial, es decir, las tareas, debajo riesgo, es reversible. 
+
+Es para el interno y el error es tan fácil, pues por ejemplo una lluvia de ideas borrador un prototipo eh. 
+
+Yo puedo avanzar una revisión rápida en revisar. 
+
+Solo una parte. 
+
+Cierto influir en decisiones datos reales muchas veces busco pues otros ojos que me ayuden a dar una revisión y si hablamos de usuarios dinero cierto, seguridad, reputación, datos privados y hay ya. 
+
+Entonces tengo que ser mucho más cuidadoso. 
+
+Entonces si tengo que involucrar una persona experta para que me ayude a validante, que lo que sea entregar está bien de lo que se está generando está bien hecho. 
+
+Eh reviso que lo que se dio y las pruebas de forma independiente para garantizarte que esté bien. 
+
+Entonces cuatro preguntas ayudan mucho es reversible, afecta a terceros. 
+
+Usa datos sensibles. 
+
+Es difícil darme cuenta del error dependiendo esas tipo de respuesta. 
+
+Yo puedo clasificar en uno de esos niveles y ya determinar qué tipo de revisión eh? 
+
+Doy cierto que es ayer como muy importante y es que eh todos los investigadores y demás dicen que en la era de la inteligencia artificial. 
+
+Cuanto mayor es el riesgo mayor debe ser la supervisión. 
+
+Entonces acá es como saber delegar eso para que no perdamos esa velocidad que estamos ganando con inteligencia artificial. 
+
+Con esa regla. 
+
+Podemos bajar todos esos hábitos muy concretos para el día a día. 
+
+Cierto herramientas que podamos tener nosotros en el día a día. 
+
+Cuáles son esas herramientas? 
+
+Entonces la primera parte es como la evidencia, entonces una afirmación puede cambiar una decisión, no me quedo con que ve eso. 
+
+Suena bien entonces de dónde sacarse esta información? 
+
+La abro miro la fecha pues de que sea reciente. 
+
+Eh miro el contexto, los supuestos e incluso puedo hacer algo que a mí me ha funcionado y es darle un argumento en contra de tu propia recomendación. 
+
+Entonces ahí ella como que empieza a cruzarse los cables y y entonces empieza a a a a a a juzgar su propia o su primera idea inicial y a mirar y al llegar un consenso cierto y eso me sirve. 
+
+Me sirve mucho para pues ayudarme a esa parte de ese entendimiento. 
+
+De esa evidencia situaciones reales si es código con pruebas comportamientos y es una propuesta entonces contraste contra puentes contra el mismo información del cliente eh y otra cosa que me funciona a mí mucho y pues para los que tengan la posibilidad de hacer los contrastar respuestas con diferentes LMS o o herramientas de inteligencia artificial, entonces aún ahí ella me dice esto, yo le paso a esta otra búscame esto pasado en este objetivo ella me va a dar ahí unos cinco se la pasó a esto y al final cuando hay un consenso y yo ya puedo entrar a revisar y eso que se va a ayudar a ganar un tiempo y al tener mucho más control y evidencias sobre lo que ya estoy haciendo cierto y tercero el aprendizaje. 
+
+Entonces si es una habilidad que todavía para mi trabajo es importante. 
+
+Yo puedo usar la inteligencia artificial para practicarla, no solo para saltarmela. 
+
+Entonces a veces en vez de decirle venga resuelvame esto. 
+
+Yo puedo decirle hazme las preguntas para que yo llegue a la solución, cierto? 
+
+Todavía dime dónde debería revisar primero, eso es como para fortalecer un poco. 
+
+Eh los criterios. 
+
+Por ejemplo, en mi caso he trabajado un trabajo mucho en temas de arquitectura. 
+
+Eh no podemos dejarnos oxidarse. 
+
+Entonces puede haber que algún diseño arquitectura aplica un patrón. 
+
+Yo puede que no lo conozcas cierto, entonces, puede decir, ve cuál es la fuente donde sacaste ese patrón? 
+
+Explícame qué consiste que soluciona? 
+
+Entiendo eso cierto y eso me sirve para alimentar mi cerebro para poder juzgar las respuestas que la inteligencia artificial me está entregando más adelante y ser mucho más crítico y no perder el control con lo que la idea me está entregando desde acá. 
+
+Hay un caso muy cercano que en mayo más o menos cierto. 
+
+Él dijo algo como que nosotros acá. 
+
+Si usamos mucho interés artificial y realmente donde la percepción humana. 
+
+Todavía tenga la capacidad de evaluar la calidad de esa respuesta, pero él decía algo y es como que no le deleguemos escribir un email o correo electrónico por completo la inteligencia artificial. 
+
+De hecho acá no me quedo con que eh no escribamos todos los correos y ni abierto. 
+
+Me quedo con la idea de fondo y es si debo de practicar una habilidad que todavía necesito para juzgarse algo está bien o mal? 
+
+Puedo terminar perdiendo precisamente el criterio que yo necesito para evaluar la inteligencia artificial? 
+
+Completen ustedes mentalmente tres zonas que voy a verificar y que debo conservar para seguir digamos teniendo esa capacidad? 
+
+Recuerden que el cerebro es un es un músculo cierto? 
+
+Si nosotros dejamos de entrenarlo y más adelante no nos va a servir y eso no es lo que queremos cierto. 
+
+Entonces vuelvo a la pregunta inicial que que había hecho si mañana desaparece una semana, es decir, no importa. 
+
+Yo puedo hacerlo todo solo y pues eso eso no es progreso, cierto? 
+
+No estaríamos aprovechando una herramienta. 
+
+Y unas capacidades. 
+
+Que la inteligencia artificial. 
+
+Nos está dando. 
+
+Quiero decir y algo distinto. 
+
+La guía está ampliando muchísimo. 
+
+Lo que soy capaz de hacer me está haciendo llegar a cosas que yo antes no hubiese sido capaz de llegar tan fácil. 
+
+Todos somos capaces de llegar cierto, pero sigo conservando suficiente criterio para entender verificar decir y recuperar. 
+
+El control es muy importante y eso está muy alineado. 
+
+En como está cambiando el trabajo. 
+
+Hay informes que nos dicen que a medida que crece la opción de inteligencia artificial que ya más compañías están adoptando mucho con la Intendencia artificial gana más importancia a salir habilidades cognitivas de alto nivel de las avenidas humanas y la capacidad de actuar con criterio propio. 
+
+Sí, que la conclusión no es aprender a competir contra la vida, porque lo más seguro es que nos va a ganar en velocidad. 
+
+Es aprender a colaborar con ellas, sin entregarle aquello que necesitamos para dirigir. 
+
+La juzgarla y revisarla es usarla exige pensar mucho mejor, no pensar menos y más capaces no significa eh. 
+
+Nos eh ser no más dependientes, cierto? 
+
+Es decir, tenemos más capaces no más dependientes de la herramienta. 
+
+Eso es lo que les traía para hoy eh yo espero que acá podamos tener esa reflexión y nos llevemos pues como esas esos tres verbos que les menciona. 
+
+Ahorita que me parece importante que los tengamos en el en el día a día y quedó abierto. 
+
+De pronto si tienen alguna duda, inquietud por ahí en el chat para ayudarles a resolver. 
+
+Muchas gracias por por la charla. 
+
+Sí algunas preguntas, pero antes quisiera hacer una recomendación perdonar recomendaciones aquellas personas que quieran mejorar la calidad de la presentación, pues lo puedan hacer directamente desde desde el computador desde YouTube a través de la opción de calidad dejándolo en HD. 
+
+Hay alguna alguna algún inconveniente con la calidad del video? 
+
+Listo eh de las preguntas que tenemos, la primera no la haces uno yo y es antes. 
+
+Muchas personas aportando su especialidad en un proyecto. 
+
+Ahora una persona tiene agentes especializados reemplazando estas personas? 
+
+9:01 a.m.
+Entonces eso no sacrifica la calidad y seguridad si confiamos ciegamente lo que se entrega cierto y vaya pues los irresponsable, pero los que crearon en sus agentes cierto? 
+
+En este caso pasa igual? 
+
+Él cierto? 
+
+Hay que mirar es eh si esos agentes tienen esa capacidad de responder en el contexto para lo que fueron creados es hay muchas herramientas que tenemos ahora a disposición con el tema de inteligencia artificial. 
+
+Eh una vez por ejemplo tener arnés cierto, en el cual nosotros le damos a la inteligencia artificial como arneses o digamos límites, en los cuales la inteligencia artificial puede validar de que lo que esté haciendo esté bien cierto? 
+
+Entonces, si ya no tenemos muchas personas que van a buscar, sino que tenemos agentes. 
+
+Lo que tenemos que asegurar es que esos agentes estén totalmente especializados y respondan basado en solamente lo que tienen que hacer y no solamente eh herramientas de validación a través de arneses donde diga esto. 
+
+Yo fue lo que yo encontré validame lo que esté bien, pero valía tan generalmente una prueba para que asegurarme que está bien y al final cuando llamé la respuesta a esa única persona que queda allí. 
+
+Igual esa persona se tiene que hacer responsable de que todo lo que se está entregando sean correctos y demás siempre va a ver si un humano cierto. 
+
+Eh en todo lo que se de lo que se está entregando al día de hoy cierto? 
+
+Aunque ahorita ya entonces ahí es de tener cuidado, cierto que esos agentes o asistentes que se tengan allí les tengan como la suficiente arneses por decirlo así para que hagan lo que deben de hacer. 
+
+Tenemos otra pregunta, eh también de unos meses dice no sería una sobrecarga de trabajo a la larga poder producir proyectos más grandes y complejos con menos personas conociendo lo que hacen. 
+
+Para la persona conociendo lo que hacen sí tiene que que lo que lo que entiendo es eh como produciendo más proyectos con menos personas, conociendo lo que hace. 
+
+O sea como el tema de la productividad es lo que comprende la pregunta listo eh depende cierto? 
+
+Porque es que hay que separar dos mundos cierto? 
+
+Un mundo es yo produzco y no sé que estoy produciendo que eso es un grave error. 
+
+Cierto y puedo entregar más producto pero no sé nada del negocio. 
+
+Entonces si algo pasa y yo no soy capaz de hacerme responsable de ello, pues eso es un error fatal. 
+
+Cierto diferente a yo produzco más entiendo lo que estoy haciendo a nivel de negocio, arquitectura, etcétera y puedo soportar pues como las decisiones que se están haciendo aquí en este caso la productividad no se va a ver afectada cierto porque precisamente problemas. 
+
+Si somos irresponsables. 
+
+De hacer. 
+
+Como cosas. 
+
+Eh para para qué. 
+
+Para eh. 
+
+Para que. 
+
+Simplemente confiemos. 
+
+Ciegamente. 
+
+En la vía. 
+
+Que es. 
+
+Ahí. 
+
+Es. 
+
+Donde está el problema. 
+
+Pues como y por último, la última pregunta, eh también eres uno. 
+
+Cómo se puede formar este criterio? 
+
+Sí, entiendo que cuando habla el criterio es el criterio que nos decías justamente para evaluar la inteligencia emocional. 
+
+Como como fortalecer el criterio cierto? 
+
+Eh cierto entonces mira hay algo que es tú? 
+
+Puedes hacer el ejercicio? 
+
+Cierto, todo lo que la inteligencia artificial te está entregando. 
+
+Tú sabes a qué está haciendo referencia, cierto? 
+
+Es decir, entiendo que lo que me está dando tiene que ver con el negocio. 
+
+La decisión de arquitectura que tomó es correcta. 
+
+Si yo a todo eso puede responder. 
+
+Sí, estoy bien cierto pero pilas que si empieza a aceptar cosas cierto? 
+
+Eh donde yo no estoy entendiendo lo que me está dando donde algunas decisiones no, no tengo ni idea de porque las está tomando y demás. 
+
+Yo ahí ya estoy empezando a perder criterio, entonces tengo dos opciones cierto o me voy a investigar o utilizo la misma inteligencia artificial para que me ayude a fortalecer ese criterio cierto? 
+
+Donde yo ya más adelante pueda como decir venga. 
+
+Lo que me estás entregando está bien y están sustentado porque existe? 
+
+No sé un patrón una práctica, un informe, un estudio que me asegura de que eso que se está haciendo, está bien cierto? 
+
+Entonces el criterio se empieza a perder cuando yo veo que empiezo a aceptar aceptarlo de la ida sin entender ni siquiera lo que ella me está entregando. 
+
+Entonces para fortalecerlo es leer muy bien lo que la llame está entregando mirar si lo entiendo, no lo entiendo y si no empezar, pues como a tener una perspectiva diferente y demás. 
+
+Muchas muchas sí total. 
+
+De hecho aquí quiero salirme un poquito el libreto. 
+
+Eh mencionando algo que muy a de tecnología analogía que me echa a mí me gustó mucho y es que antes eh éramos especialistas que. 
+
+La analogía con los trajes de Ironman aprender a usar cada uno, pero con responsabilidad que es justamente lo que lo que nos están exponiendo. 
+
+Entonces queríamos como hacer ese ese comentario ehm acá tenemos otra pregunta, tiene tres estrellas? 
+
+Él dice o pregunta cómo convencer que debemos bajar la velocidad a fin de garantizar calidad. 
+
+Es el problema? 
+
+Es que por ejemplo en una empresa de desarrollo eh los mismos clientes, cierto están pidiendo más velocidad, cierto, pero no podemos ser irresponsables de entregar más velocidad sin ese conocimiento. 
+
+Ve perdón sin tener, pues como más certeza porque yo no yo no intentaría convencer a cierto que hemos firmar lento. 
+
+Intentaría como demostrarle que necesitamos y rápido de una forma sostenible, cierto? 
+
+Quizás no tan rápido como él quiere cierto, pero es como hacerle ver como que venga. 
+
+Es que yo te puedo hacer mucho más rápido y lo lo más seguro es que lo puedo hacer, pero se estaría entregando cosas de formar irresponsable porque es que yo necesito verificar que lo que le hayan está entregando, es correcto y no va a afectar el negocio el impacto porque eso es lo que al final te va a ocasionar. 
+
+Es un daño reputacional en el cual lo que tú hiciste fue entregar un producto no validado por alguien cierto no verificado. 
+
+Eh que te va a traer problemas más adelante con este cliente. 
+
+Eh si dependemos únicamente la inteligencia artificial es como hacerle ver como los los contras cierto entonces como hacerle? 
+
+F. 
+
+Yo con un equipo te puede entregar si antes de entregada diez cambios al mes y ahora ponía te entrego 25, pero si esos 25 te generan el dolencias más va a ser más tiempo de soporte, validados o veinte y eso al final en términos de productivas y va a ser productivo porque ya no te va a generar incidentes y retroceso por el trabajo más adelante cuando tengan que ajustar diría que es como llevar esa conversación. 
+
+Pero depende mucho realmente del si si level y de las personas. 
+
+Pues que que tomen decisiones ahí en la organización. 
+
+Totalmente bueno, alguien nos pregunta que nos dice en el último vídeo de Freddy Vega que ahorita menciona que las últimas pruebas que miden la calidad de la educación en América Latina disminuyó hasta un personaje Andrea perdón, eh ella dice que le gustaría conocer tu opinión, que cuál es tu punto de vista? 
+
+O qué opinas al respecto? 
+
+Pues yo creo que acá el problema y puedas ser transparente en el tema cierto? 
+
+Muchas personas consideran que de pronto ahorita con el tema de inteligencia artificial no es necesario estudiar cierto, pues como que dedicarle más tiempo al tema de educación y acá nos hemos encontrado con muchos casos. 
+
+Por ejemplo, en el rol que desempeñamos dentro del equipo, también tenemos un una parte entre el proceso de selección como para mirar cómo está el mercado cierto y que estamos viendo que cuando las personas hacen temas de pruebas prácticas esas plazas, excelentes e impecables cierto y eso está súper bien, pero cuando nosotros entramos a preguntarles las preguntas no son ni siquiera defineme que es esto textualmente? 
+
+Cierto? 
+
+Es como que ve porque hiciste eso que te lleva a tomar esta decisión? 
+
+Etcétera, etcétera, cierto, eh la persona queda en blanco cierto? 
+
+Y eso es que está reflejando que el tema del estudio sigue siendo importante por qué? 
+
+Porque yo necesito tener argumentos para poder saber justificar lo que estoy haciendo o sustentar, porque una decisión es mejor que otra. 
+
+Qué es lo que pasa cierto? 
+
+Y es que de pronto el modelo de estudio ya va a cambiarte a leer un libro o de un bloque completo y etcétera, sino que puedo ya apoyarme en inteligencia artificial para acelerar un poquito esa ganancia o ese estudio cierto? 
+
+Entonces yo no tengo que sentarme una o dos semanas a leer un libro completo para entenderlo, sino que puedo usar la misma inteligencia artificial para resaltar los puntos claves de ese libro que son importantes. 
+
+Ese conocimiento es para mí, sigue siendo importante y ese sería como mi punto de vista que eso es un tema que no debería de de seguirse. 
+
+Perdiendo paréntesis. 
+
+Importante eh, entiendo que alguien en la conversación que es estudiante de la Uco, entonces invitamos a esta persona que que nos escriban para tomarnos un café. 
+
+Puedes escribirnos a comunicaciones. 
+
+Bueno, usted hay otra pregunta, de soy Nico, soy Nicolás FB, dice cómo cree que el uso de la vía va a impactar en los costos de desarrollo de la medida. 
+
+Manteniendo el criterio del tiempo definitivamente van a cambiar y muchas empresas ya lo están haciendo, de hecho nosotros acá en seis también estamos haciendo unos estudios y análisis de cómo cambiar y el tema es que ya todo apuntar esa entregando. 
+
+Yo al cliente es antes. 
+
+Yo decía de de este proyecto. 
+
+Yo te voy a poner una persona para que te trabaje en este tiempo y él ya te va a sacar lo que pueda cierto. 
+
+Ya ahora lo que se va a hacer es mira, tienes esta necesidad. 
+
+Eh esto? 
+
+Te lo va a entregar en tanto tiempo? 
+
+Porque en un equipo que tiene la capacidad de desarrollar no sé puntos en tanto tiempo y te lo saco en ese tiempo. 
+
+Ya va a cambiar mucho de te pongo una persona dos o tres no simplemente te digo. 
+
+Te entrego x capacidad de el producto en un tiempo y ya acá internamente uno pone una dos o tres personas asistidas por ida. 
+
+Cierto que te van a lograr ese objetivo de entregar que puede ser en mucho menos siempre inclusive de lo que se podrían pactar cierto? 
+
+Entonces dejar el cliente eh lo más seguro es que todo ese tipo de propuestas van a cambiar ya a autónomo o entrega como tal al cliente. 
+
+9:14 a.m.
+Excelente excelente charla. 
+
+Eh bueno laías como reflexión la llave debe usarse para elevar nuestro criterio y 
+
+9:14 a.m.
+Y tiene? 
+
+9:23 a.m.
+Qué pasaría si evaluamos la trayectoria de un desarrollador con ese mismo rigor ese mismo contexto? 
+
+Y ese mismo aprecio que él tiene por su arquitectura profesional, siendo así, cuando llevamos esta misma lógica de arquitectura a las personas. 
+
+La experiencia del candidato se transforma en un compromiso de transparencia y equidad durante el proceso de selección. 
+
+Del otro lado, tenemos a todo nuestro equipo de talento con años de preparación preguntándonos cada día. 
+
+Cómo podemos hacer mejor nuestro trabajo? 
+
+Tenemos un principio súper claro y es que la tecnología existe para potenciar el desarrollo de las personas y para generar relaciones de confianza a largo plazo. 
+
+Cuando nosotros decidimos integrar inteligencia artificial. 
+
+Digamos que la primer pregunta que nos hicimos no fue como que podemos hacer más rápido o como ahorramos. 
+
+Lo primero que nos preguntamos fue cómo diseñamos una solución que sea reflejo de esa excelencia técnica y que cuide nuestro criterio de nuestro equipo. 
+
+Entonces el día de hoy venimos a abrirles las puertas de dos analistas que hemos creado con apoyo de inteligencia artificial y sobre todo teniendo súper claro nuestro proceso. 
+
+Entonces continuamos por aquí con la agenda de una lista. 
+
+Entonces como les decía, vamos a abrirles las puertas de nuestros analistas son analistas que hemos creado, pues como con mucho esmero que llevan varios meses en producción, primero está en analizar de hoja de vida aumentado. 
+
+Es una analista que lleva más de nueve meses operando procesando volúmenes masivos de hojas de vida con alta rigurosidad, tal cual como si estuviésemos realizando una sola hoja de vida. 
+
+Luego de ello, les vamos a contar un poco del analista conductual aumentado que está rediseñando toda la forma en como organizamos la data de las entrevistas de talento para que podamos tener más tiempo para lo verdaderamente importante que es tener mejores conversaciones con candidatos y análisis de calidad. 
+
+Luego de eso, vamos a ver todo en vivo. 
+
+La demo de las de los analistas y de las automatizaciones. 
+
+Ustedes podrán ver como corren, como le tenemos en producción para luego a partir de ello conectar como creemos que todo esto se alinea con un pilar invisible muy importante y es la experiencia del candidato. 
+
+Entonces queremos eh digamos como ir hacia el back de cómo nosotros mapeamos una experiencia del candidato memorable y por último tenemos entregarles a las reglas de negocio que ustedes tienen. 
+
+También puedan hacer ensayos y en todo este tema. 
+
+Comencemos ahora entonces con una analogía ustedes saben que no mandan un código a producción, sino la revisión por pares sin validar esa arquitectura, la escalabilidad o la limpieza del mismo. 
+
+Pues nosotros desde el equipo de selección quisimos aplicar esa misma auditoría rigurosa a nuestro proceso de selección interna muy clara desde la ingeniería o esos tiempos procesando datos, es decir, el tiempo de cómputo, el tiempo de análisis que los toma evaluar cada candidato desde que ingresa a nuestro sistema de selección para poder ganar precisión tomando las decisiones para enfocarnos en lo más importante la persona. 
+
+Con el cuello de botella operativo sabemos que toda arquitectura nace para resolver un problema. 
+
+Entonces analicemos cuáles son esos síntomas principales del mismo? 
+
+Primero tenemos el contexto y traigo este punto porque ustedes saben que pasar de programar. 
+
+No sé en el lenguaje Python a revisar una infraestructura en Texas por casa demasiado del cerebro porque la memoria de trabajo tiene que recargarse eso es muy similar con nosotros. 
+
+Los explotadores. 
+
+Nos pasa muy igual porque analizar una hoja de vida de un arquitecto clave a un desarrollador. 
+
+En la misma hora nos genera una fatiga cognitiva. 
+
+Son las cuatro de la tarde. 
+
+La precisión a la mítica cae por gravedad y empiezas a ignorar las famosas como. 
+
+Y digamos que la consecuencia de negocios de esto es grave, por qué? 
+
+Si lo traducimos a términos en el mundo de Haití o mundo de tecnología, un proceso de lectura lento eleva drásticamente nuestro tiempo de contratación o el término más conocido y en este mercado de ti. 
+
+Demorarse significa una sola cosa perder el mejor talento todo en habilidades, blandas y habilidades técnicas ante nuestros competidores. 
+
+Aquí entonces entramos con nuestra solución. 
+
+El analista de hojas de vida. 
+
+Aumentar para este punto, yo quiero ser muy claro en algo y es que analizar en profundidad. 
+
+Cada perfil es el corazón de nuestro proceso de selección. 
+
+Es nuestra base de todo y justamente por eso en nuestro equipo decidimos evolucionar como lo hacemos entonces porque integrar inteligencia artificial en algo que ya sabemos hacer por experiencia. 
+
+Digamos que para este punto queremos garantizar la misma rigurosidad técnica en la hoja de vida. 
+
+Número uno a las siete y media de la mañana. 
+
+Que la hoja. 
+
+De. 
+
+Vida. 
+
+Número. 
+
+100. 
+
+Al final del día para la extracción pesada de datos multiplicamos demasiado nuestra eficiencia y así nos mantenemos en una calidad de análisis impecable y lo más importante para nosotros. 
+
+El equipo gana ese banda mental es lo más importante para un equipo de selección, la experiencia y la conexión humana con ese candidato. 
+
+Así entonces nace nuestro ecosistema el concepto arquitectónico clave aquí es la delegación operativa. 
+
+Le entregamos esa expresión y correlación técnica a nuestra asistente general para que el equipo humano o el equipo de selección pueda preservar esa energía y pueda tomar finalmente decisiones guiadas 100% por la empatía. 
+
+Si hablamos ahora entonces de la arquitectura del flujo de este analista debas de vida aumentado, vamos a encontrar un desacople en tres capas principales. 
+
+Lo más importante nosotros no le pagamos ningún ruido al modelo. 
+
+Hacemos una normalización inyectando la vacante o la famosa acción y de esta manera entregamos también la hoja de vida directamente a la ventana de contexto, que es nuestra memoria de trabajo a corto, plazo o más conocido por sus siglas en inglés. 
+
+La lengua de gran tamaño que es un tipo de lenguaje muy utilizado en inteligencia artificial que está entrenado resumir traducir generar texto, comprender o hacer diferentes contenidos con un formato muy similar a como lo haría un ser humano. 
+
+Si nos pasamos al paso número 2. 
+
+Tenemos todo el tema de procesamiento de análisis. 
+
+Aquí no entramos a un chat genérico a pedirle favores a la inteligencia artificial. 
+
+En este caso, no sino que ejecutamos un pronto totalmente parametrizado tiene un conjunto de instrucciones codificadas digamos que estas transforman al nuestro inteligencia artificial en ese analista aumentado especializado. 
+
+Y por último tenemos el paso número 3 que es la ficha estructurada? 
+
+Digamos que el modelo debe entregarnos. 
+
+Esto tiene diferentes reglas estrellitas. 
+
+Para eso están su estándar. 
+
+Primero tenemos la inferencias por naturaleza un modelo de lenguaje de inteligencia artificial. 
+
+Va a intentar adivinar o asumir cosas que por probabilidad nosotros no. 
+
+Entonces desde el equipo de selección nosotros desactivamos. 
+
+Esa deducción es si la hoja de vida no dice explícitamente que no conoces de el modelo asume por defecto que no lo sabes. 
+
+De esta manera logramos el método. 
+
+Alucinaciones por segundo punto tenemos un uno muy importante. 
+
+La puntuación asimétrica en este en este punto le enseñamos a la máquina a priorizar como el líder técnico, es decir que diferencia los algorítmicamente, lo que es un requisito excluyendo que si de pronto en la hoja de vida falta de candidato tumba el score o lo afecta de cierta manera por tercero muy importante y lo que más nos interesa a nosotros como agrupadores y como compañía. 
+
+Cuando hablamos de inteligencia artificial el entornos corporativos, la privacidad y la ética es lo principal dentro de nuestro ecosistema corporativo privado. 
+
+Garantizamos por contrato en nuestros datos no se utilizan de ninguna manera para entrenar los modelos públicos. 
+
+De esta manera aseguramos total confidencialidad del candidato y nos permite de cierta manera hacer evaluaciones totalmente ciegas, es decir, ignorando nombres géneros edad, ubicación del candidato etcétera la inteligencia artificial. 
+
+Hablemos entonces ahora de la cadena de razonamiento el algoritmo de nuestro analista debate vida aumenta ese es el corazón principal del sistema. 
+
+Los modelos de lenguaje fundacionales son en esencia predictores probabilísticos de texto. 
+
+Aquí hago referencia con y le pedimos un porcentaje de más de inmediato a la inteligencia artificial. 
+
+Este modelo va más allá. 
+
+Va a inventar el nombre porque no tiene una justificación una fundamentación. 
+
+Un flujo lógico interno antes de que está inteligencia artificial pueda escupirnos con un resultado. 
+
+Explícitamente a la inteligencia artificial que desglose esa vacante. 
+
+Le estamos entregando así. 
+
+Este porcentaje que obtenemos de compatibilidad deja de ser totalmente una estimación aleatoria. 
+
+Hay una cama negra y se convierte en una métrica. 
+
+Determinismo es auditable en su totalidad y transable durante todo el proceso en cada paso de lo más importante de lo que más nos llama la atención. 
+
+Los resultados con nuestros números de esta ingeniería, la cual nos permitió bajar la latencia de análisis de hoja de vida apenas diez segundos. 
+
+Optimizando de esta manera la operatividad. 
+
+De. 
+
+Filtrado. 
+
+Técnico. 
+
+En un. 
+
+Aproximado. 
+
+Del 90% y aquí es donde más feliz. 
+
+Me pongo porque si me preguntan la métrica, la idea central de todo esto de este proyecto fundamental quieres estar muy enfático en este punto y es que este sistema lo descarta en ningún candidato de forma autónoma. 
+
+Soy única misiones de estructurar. 
+
+La información masiva que le entregamos de hojas de vida y caótica para que el cuerpo humano o el resultado pueda decidir con claridad. 
+
+Para este punto cierro mi bloque técnico con nuestra premisa fundamental. 
+
+La máquina estructura los datos, pero nosotros el equipo humano siempre lideramos la conexión. 
+
+Partiendo de este punto. 
+
+Ya vimos cómo extraemos la data pura y dura y complicada. 
+
+Pero cómo llevamos toda esta información estructurada a una entrevista real llena de empatía de tacto de visión psicológica. 
+
+9:37 a.m.
+Gracias Juanjo. 
+
+Por esa intro, vamos a ver cómo nosotros rediseñamos la forma de analizar toda la data de las valoraciones de talento colocándole zoom a nuestro criterio como entrevistadores. 
+
+En ese sentido quisiera arrancar con una frase muy interesante y es que la guía procesa los datos, pero definitivamente nosotros las personas tomamos las decisiones. 
+
+Imagínense la cantidad de datos que pueden existir digamos en un proceso de selección con una persona que esté en una entrevista. 
+
+Si ejemplo, tomamos insumo uno la transcripción de una hora entrevista insumos dos las notas de talento humano de cada uno de los entrevistadores. 
+
+Las pruebas de talento ahí digamos más o menos por candidato. 
+
+Ahora multipliquemoslo por la cantidad de entrevistas. 
+
+Que podemos hacer? 
+
+A diario hay muchísima data. 
+
+Muchísimas data que quizás no está estructurada y que tenemos que aprender a estructurar para apoyarnos con la guía para diseñar una solución. 
+
+Por eso nosotros tenemos que repensamos bueno ese tema y adicionalmente también pensamos como que bueno está esa data. 
+
+También tenemos una matriz donde sabemos cuáles son esos comportamientos esas características y hay que cruzar esas variables. 
+
+Entonces, el verdadero dolor no era entrevistador para que haga con la misma calidad, la entrevista, uno y su análisis a la entrevista, cuatro o cinco del día. 
+
+Por ello, diseñamos una brújula de automatización donde antes de empezar a hacer solo un proceso para automatizar o a una línea de código o usar algún elem quisimos hacernos primero unas preguntas como para saber dónde sí iba la IA y donde no aplicaba la guía. 
+
+Ejemplo si la automatización de ustedes eh es un procesamiento de datos o una conexión emocional. 
+
+Que debo hacer los modelos? 
+
+Los llm son muy buenos procesando metadatos y tenemos datos puros duros tangibles. 
+
+También utilizar la guía, pero si nos vamos a una tarea más de conexión emocional está contraindicado. 
+
+Por ejemplo, no sé si tengo 100 hojas de vida y quiero buscar dentro. 
+
+Es así, hojas de vida. 
+
+Qué candidatos tienen Python? 
+
+Ah bueno, voy a usarla ya, pero si estoy en una fase final de un proceso de selección y estoy haciendo una negociación con un candidato y el candidato quiere saber ejemplo cuáles son los beneficios que permiten conciliar la parte personal con la parte laboral? 
+
+Eso es un tema de empatía. 
+
+Eso es un tema de también de persuasión y tenemos que evitar el uso de la guía en esos contextos. 
+
+Otra pregunta que nos hacíamos es si automatizó esto el candidato sentirá, agilidad o frialdad. 
+
+Existe un fenómeno que se llama aversión algorítmica donde los candidatos rechazan profundamente y tienen. 
+
+No sé su propio tiempo para definir a qué hora van a asistir a una entrevista técnica o una entrevista de talento. 
+
+Se van a sentir bien? 
+
+Porque hay agilidad pero si por el contrario pasando en una entrevista y sienten que esa entrevista. 
+
+Entonces ahí también hay que analizar si lo que quiero automatizar genera, agilidad o frialdad. 
+
+Otra cosa importante es el costo del error y la consecuencia de una alucinación. 
+
+Un sesgo tiene un costo ético financiero legal. 
+
+La automatización no está indicada. 
+
+Por ejemplo, si Netflix les recomiendo. 
+
+Sé de una mala película, pero si una algoritmo en su sesgo de entrenamiento descarten justamente algo candidato. 
+
+Aquí hay una alta criticidad y para ello siempre vamos a buscar el enfoque de luz, es decir, el humano está tomando la decisión supervisando. 
+
+Todo lo que está haciendo la también es importante tener en cuenta si la información que tenemos es literal o es no verbal. 
+
+La guía no tiene la capacidad de procesar en temas, por ejemplo, como emociones. 
+
+Como los silencios de una entrevista eh como de pronto una postural. 
+
+Entonces hay que mirar en qué punto lo usamos? 
+
+Y por último, si vamos a potenciar o a reemplazar el talento, entonces el talento es el capital intelectual de toda organización. 
+
+Tenemos que utilizarlo para apalancar ese talento que hay en todas las empresas. 
+
+Y responder estas cinco preguntas? 
+
+Nos llevó a definir que no necesitábamos más algoritmos haciendo trabajos humanos. 
+
+Necesitábamos humanos haciendo menos trabajo algorítmico y aquí nace el analista conductual aumentado. 
+
+Dale Juanjo listo, es una lista conductual aumentado para nosotros es un copiloto analítico. 
+
+Es una solución que diseñamos es la que les vamos a mostrar el día de hoy. 
+
+Y también les vamos a compartir en el kit para que puedan mapear para esos procesos como aplicaría este analista y básicamente lo que nos ayuda es hacer un acelerador de inteligencia, entonces no nos quedamos en la parálisis por análisis que tenemos por obtener a altas cantidades de información en diferentes entrevistas la ida organiza la información. 
+
+Tenemos una herramienta automatización que organiza con un código toda la parte lógica y matemáticas y nosotros como personas tomamos siempre la decisión para la comunidad técnica que está por aquí. 
+
+No es una gente, no toma decisiones. 
+
+Autónomamente es un analista que utilizamos a través de inteligencia artificial. 
+
+Entonces vamos a ver ahora cuáles son las capas de esa automatización? 
+
+Dentro de esas capas vemos que digamos que lo organizamos y lo desacoplamos en tres grandes líneas. 
+
+Entonces primero tenemos el lector. 
+
+En este caso trabajamos con la ciudad de Google es pero ustedes escogerían el ell de su preferencia donde el lector va a ser el trabajo duro de la data cualitativa. 
+
+Es decir, va a procesar las los diez mil a veinte mil. 
+
+En cantidad de palabras va a extraer la información de acuerdo a las reglas que nosotros le establezcamos y va a generar un contrato de salida que también vamos a ver un poco más adelante como como para que esa información que nos dé nos funcione para conectarlo con el motor lógico. 
+
+El motor lógico es una herramienta de automatización que utilizamos para que nos haga toda la parte de lógica para inyectar todas las reglas del negocio que ya tenemos en nuestra cultura. 
+
+Y por último, tenemos una interfaz que es un archivo 100% editable que él también lo diseñamos conforme a digamos nuestra personalización de cómo queremos tenerla visual de las valoraciones de talento. 
+
+Entonces vamos a revisar un poco cuál es la arquitectura del lmm? 
+
+Tenemos aquí digamos unos puntos claves y es que antes de construir un Brown no hay que pensar. 
+
+Como bueno, voy a darle la información de estructurada y esperar que me dé una respuesta que sea la que quiero, porque nosotros en nuestra mente tenemos claro las reglas de negocio, pero la entonces nosotros le recomendamos tener en cuenta estos puntos. 
+
+El anclaje semántico es darle un rol específico a un rol digamos es súper importante darles dar el ADN de la empresa o la cultura decir si ustedes tienen definidos su cultura a través de unos comportamientos a través de unas capacidades a través de unas habilidades, ahí lo tenemos que inyectar. 
+
+Cuáles son esas habilidades que queremos valorar? 
+
+Y adicionalmente también tener en cuenta el valor del vacío, es decir, si es en este from hay un caso donde un candidato no hay información porque no se exploró en la entrevista. 
+
+En este caso, entonces generalmente también es súper importante tener en cuenta todo el tema de higiene y neutralización de sesgos. 
+
+Es bueno decirles origen y adicionalmente lo que les contaba para que proteja los datos y darle una capa también de datos anónimos diciéndole. 
+
+Vamos a dar datos sensibles ocio demográficos, sino candidato uno a la vacante X y protegiendo toda esta información para finalmente tener un contrato de salida que en este caso vamos a utilizar un código Jason. 
+
+Vamos a pedir códigos estructurados. 
+
+Lo pueden ver, pero no quisiera detenerme mucho en esto porque quiero también explicarles la arquitectura al motor lógico, entonces ya les había dicho que ese motor lógico es esa herramienta automatización. 
+
+Si nosotros estamos en Google, pero tenemos que explorar cuál es el entorno en el que nos movemos ejemplos y ustedes saben cuáles son esas herramientas que tienen para que puedan empezar automatizar. 
+
+Luego de esto hay que dar un paso supremamente importante a pesar de que sale aquí sale como un paso. 
+
+Es realmente algo que es transversal y es el pensamiento de procesos antes de pensar en automatizada y con la madurez del proceso. 
+
+Ya podemos inyectar otra variable muy importante en este motor lógico que es ADN y cultura. 
+
+También vamos a traducir nuestros requerimientos. 
+
+Vamos a decir a listo en mi empresa. 
+
+Queremos que las valoraciones de talento humano en digamos una descripción cualitativa o discursiva. 
+
+De quiero medir esta capacidad, sino escala numérica que los lleve a puntuar y a tener como unas criterios para definir ciertos niveles de habilidades, cierto? 
+
+Esto es una base muy interesante para que la IA y las herramientas no. 
+
+Nosotros le inyectamos ya sea criterio humano con contexto. 
+
+Ya conociendo todos los datos de una entrevista. 
+
+Y pues generando las mejores. 
+
+Los mejores. 
+
+Análisis de los candidatos. 
+
+Luego de eso. 
+
+Ah. 
+
+Bueno quiero decirles algo por acá. 
+
+Yo no soy programadora, no tengo pues como esos conocimientos en desarrollo, pero podemos pedirle a los cllm que nos generen los códigos para que podamos contarles automatizaciones. 
+
+Entonces con toda esta arquitectura generamos esos códigos y ya luego de eso empezamos a generamos por acá en vivo una demo de cómo hacemos todo esto antes de pasar a la demo? 
+
+Digamos que una reflexión muy breve es hay que tener los procesos maduros. 
+
+Si de pronto las personas hacemos una entrevista y somos cinco y los cinco las hacemos diferentes. 
+
+No tenemos la alta estructurada. 
+
+Todos tomamos tecnológica para resumirles un 30% del tiempo en elaboración de informes, pero más que optimizarnos ahora. 
+
+Sí, quiero que veamos estos analistas en vivo para que ustedes puedan ver. 
+
+Ya ya vimos la parte de ayuda. 
+
+Ahora vamos a ver en acción como. 
+
+Entonces acá para este ejemplo yo traigones para profesionales. 
+
+Entonces vamos a esperar su respuesta para poder que la haga el análisis y el desbloqueo de scription y el entendimiento que les mencionaba con anterioridad identifique esos requisitos, claves obligatorios y los deseaba. 
+
+9:51 a.m.
+Y vamos a entregarle a nuestra gema? 
+
+El. 
+
+Como les mencionaba ella va a ser una evaluación directa frente a la descripción que hay en la hoja de vida, las experiencias, los tiempos, las habilidades que han tenido toda su información profesional y lo va a comparar con la shop. 
+
+Como les mencionaba que es muy importante todo el tema y digamos que la capacidad de nosotros como información como les mencionaba aquí lo tenemos en cuestión de segundos. 
+
+Pasamos de un pdf de estructurado a un contrato de datos. 
+
+Hay una realidad que es muy importante y es innegable que todos los bienes técnicos. 
+
+Aquí conocen las habilidades técnicas que consiguen fácilmente la entrevista técnica. 
+
+Creo que entonces con la persona detrás del teclado como medimos su adaptabilidad, soy liderazgo o cómo resuelve un conflicto en el equipo para este punto tan importante o el otro lado de la moneda que da mucho más complejo que le llegue el código le devuelvo el control a mi compañerita al agua. 
+
+Ella les va a mostrar en vivo y en directo. 
+
+Cómo construimos nuestro analista conductual? 
+
+Por acá generamos una instrucción donde le decimos que nos revise los análisis. 
+
+Estas notas le colocamos nuestra matriz y que nos extraiga o no responda únicamente es súper importante para que podamos digamos todos hablar. 
+
+Lo mismo entonces aquí mientras esto carga. 
+
+Les voy mostrando por acá. 
+
+Qué otra información deberían ustedes tener? 
+
+Les explicamos un poco, pues como cuáles son los insumos, pero aquí en tiempo real deben tener una matriz donde ustedes operacionalizan capacidades. 
+
+Estas son unas capacidades genéricas. 
+
+Vamos a hacer un ensayo con un rol técnico uno y tenemos una escala conductual que tiene estas frecuencias y pues digamos a qué comportamientos. 
+
+Qué frecuencia le corresponde? 
+
+Entonces ese es un ejercicio que ustedes hacen dentro de su también súper importante que tengas una matriz por modalidad es diferente las competencias que vamos a medir. 
+
+Si estamos en trabajo presencial, esta hoja de cálculo ya tiene la automatización integrada que se llama analista conductual aumentado. 
+
+Esto lo hicimos a través de esa automatización. 
+
+Y adicionalmente pues la vamos a poner a correr en vivo con para acá nuestro analista conductual aumentado listo, sería un código. 
+
+Está codificada con los símbolos necesarios y la lógica para que nuestra herramienta automatización. 
+
+Me voy a mi hoja de cálculos. 
+
+Genera una pestaña de entrada. 
+
+Para traer. 
+
+Toda. 
+
+Esa data y los procesos en analista conductual ha aumentado. 
+
+Procesando. 
+
+Y por acá ya nos generó ese borrador de análisis conductual. 
+
+Es un borrador sea así mismo como en su título. 
+
+Es un borrador donde nosotros inyectamos nuestro criterio. 
+
+La calidad de esta información entonces todo eso. 
+
+Ustedes lo van a poder hacer con sus niveles con su cultura con sus habilidades con su con sus competencias. 
+
+En un kit que nosotros les vamos a entregar por aquí para que lo puedan personalizar y automatizar y puedan ensayar, pues esta otra forma de hacer las cosas. 
+
+Queremos dejarles una reflexión y es que más allá de generar una automatización porque digamos la tecnología puede cambiar y puede cambiar la forma en como hagamos las cosas. 
+
+Es importante rediseñar nuestros roles. 
+
+Tener en cuenta que la gestión del cambio es súper importante que independientemente de la herramienta que tengamos una mentalidad de aprendizaje continuo de cambio. 
+
+Esto es un caso selección, pero nosotros queremos darle la mirada. 
+
+Cómo se están rediseñando los procesos con las nuevas tecnologías y las decisiones en nuestras organizaciones? 
+
+Y también un tema muy importante. 
+
+Es el tema de carne para toda la empresa en septiembre de este año, muy clara para todas las industrias y es que las empresas tenemos que tomar ese diseño dinámico del trabajo como una disciplinaria, donde tendremos el doble de posibilidades de sostener. 
+
+El éxito de las iniciativas con la inteligencia artificial que es muy importante y la razón nos toca a todos por qué la tecnología evoluciona también rápido e intentar trabajar con esquemas, rígidos o manuales. 
+
+Con números exactos no hacemos mejores evaluaciones. 
+
+Hoy estamos construyendo una mina seguro de datos para el futuro de nuestra compañía. 
+
+Tener los datos ordenados siempre nos va a permitir hacer la verdadera analítica. 
+
+Voy a decir que también les funcionan mejor detectar esos fallos antes de la contratación y crear esos planes de desarrollar a. 
+
+Bueno, Andrea Vázquez de la inteligencia artificial y también no podemos olvidar esa visibilidad operativa ningún equipo de Finanzas, talento y operaciones. 
+
+Es muy importante que tengamos esa habilidad esa visibilidad a tiempo real de que no es solo medir para controlar, sino que es medir para poder identificar dónde tenemos ese cuello de botella y la prisión a las personas que están del otro lado de nuestro proceso. 
+
+También es importante tener en cuenta la adaptabilidad del talento, es decir, si con alguna solución de ida estamos optimizando tiempo que estamos haciendo con ese tiempo que utilizamos no podemos estar haciendo más tareas. 
+
+Repetitivas que nos generen desgaste mental, sino tareas estratégicas. 
+
+Te ayudan a potenciar nuestro rol y nuestra labor 16. 
+
+18. 
+
+También muy importante desmetificar algo es la experiencia del candidato o de nuestro usuario. 
+
+Es un momento de que nosotros tenemos algo muy importante y una idea muy común y es que hemos pensado que dar una buena experiencia. 
+
+Es simplemente crear los sacos o una analista con un portal moderno simple. 
+
+Recordemos que la verdadera experiencia de una persona no se miden la velocidad de una máquina. 
+
+Le responde sino en el respeto que tenemos tan importante por el tiempo de esa persona la claridad. 
+
+Súper Juanjo y ya para ir cerrando. 
+
+Queremos dejarles que como principal reflexión que la verdadera experiencia y candidato es un pilar invisible que ocurre detrás del proceso de selección. 
+
+Es la tranquilidad de saber que tenemos una un proceso maduro. 
+
+Una organización madura. 
+
+Con procesos justos. 
+
+Con datos transparentes y para acelerar esta información, nosotros queremos pues dejarles este kit proyectamos acá en pantalla. 
+
+Queremos que ustedes se lleven. 
+
+Digamos que la idea que más allá de esta solución y en la que nos plantea también nuestro compañero Juanjo es que aquí hay que utilizar la inteligencia artificial y de la tecnología para conectar con las personas para acercarnos. 
+
+Súper Lao y Juanjo. 
+
+Muchas gracias a ustedes para abrirnos este espacio y vamos a invitarlos a todos los que tengan sus dudas o preguntas a que las puedan hacer a través del chat. 
+
+Por ahora vamos con la que tiene en Juan Fernando Torres. 
+
+Cómo se puede garantizar que el asistente lea correctamente los CBS de los candidatos, considerando los diversos formatos que utilizan y posibles trampas con el uso del texto en blanco. 
+
+Él nos pone un ejemplo que dice, por ejemplo selecciona mi sede para la vacante. 
+
+Para nosotros durante la construcción de los fragancia aumentado fue la clave exactamente igual cómo lo hace o cómo evitas esas trampas? 
+
+Pues tenemos dos pasos que les mencionaban los arquitectura. 
+
+Primero tenemos esta normalización de datos donde ya sea un sexto pegado. 
+
+El sistema siempre va a destruir todo este formato visual y extraer únicamente el texto plano para contar alguna palabra clave. 
+
+El sistema siempre las va a leer y va a ignorar pues digamos estos colores y estos temas de diseño para este punto. 
+
+Entre lo más importante, la injerencia en cero y el contexto aquí es donde nosotros bloqueamos totalmente el engaño con nuestro asistente. 
+
+Él no debe hacer una simple búsqueda de palabras. 
+
+Él tiene la programación donde si él encuentra una tecnología, el debe buscar la evidencia de esa experiencia. 
+
+Es decir, si yo se llama cómo lo fundamento con mi experiencia laboral o profesional? 
+
+Súper súper. 
+
+Aquí tenemos otro Facebook, dice como han traicionado los reclutadores en la operación. 
+
+Súper bueno, para nosotros ha sido un tema de aprendizaje continuo y más allá de la herramienta o la solución que diseñemos para mejorar la experiencia del candidato. 
+
+Esto nos ha enseñado a pulir nuestro pensamiento crítico a ver nuestra área como un área de negocio a entender todas las variables. 
+
+Es decir, somos expertos en lo que hacemos en nuestro flujo, pero también entendemos la necesidad. 
+
+También entendemos las necesidades de los candidatos. 
+
+También entendemos que es una herramienta y que puede cambiar. 
+
+Y también entonces hemos reaccionado adaptándonos. 
+
+Hemos reaccionado con curvas de aprendizajes momentos de gratificación, cuando sabemos que las cosas no salen bien momentos también de mucho aprendizaje. 
+
+Cuando tenemos que hacer ensayo, error, prueba error y lo mejor de todo es perseverar perseverar en lo que hacemos aprender continuamente y el equipo reaccionado con capacidad de aprendizaje y nos dice. 
+
+Quiero preguntarles desde las áreas de HR. 
+
+Cómo están? 
+
+Gestionando la inteligencia emocional y la gestión del cambio ante los retos que trae la ira en los equipos como uno de los retos principales en nuestra compañía. 
+
+Desde el equipo de Cultura y desarrollo para el talento, hemos acompañado tanto a los líderes como los equipos conformaciones especializadas para que las personas aprendamos a gestionar el cambio. 
+
+Sabemos que los cambios generan dudas, genera incertidumbre. 
+
+Generalmente son un poco de estrés, pero tenemos un equipo especializado tanto de cultura como de desarrollo. 
+
+Cambio acompañar las nuevas herramientas y tenemos conversaciones valientes. 
+
+Cuando sabemos que algo no está funcionando, lo podemos decir cuando sabemos? 
+
+Agradecemos en este tema de gestión del cambio. 
+
+Muchas gracias laú y Juan. 
+
+Una vez más inspirador ver como la tecnología. 
+
+Automatizando los datos no para alejarnos sino para humanizar de fondos. 
+
+Gracias por mostrarnos como rediseñamos esas elecciones y ahora a las 10:15 vamos a continuar con Marcela barrera, escucharla el producto y como la guía, la acelera la creación de nuestro producto de principio. 
+
+En fin, nos vemos en unos minutos. 
+
+10:05 a.m.
+Sí, sí. 
+
+Gracias. 
+
+10:06 a.m.
+Y la segunda fase es como lo definimos? 
+
+O sea ya como tenemos ese en la tercera fase ella como lo implementamos entonces ya las preguntas. 
+
+Por favor dejamos al final y las van poniendo en el chachito que mis compañeros ya luego me. 
+
+Entonces llegamos a la primer fase. 
+
+Esta fase de entender. 
+
+Esta fase. 
+
+Es donde nosotros hacemos el descubrimiento y y donde nosotros identificamos que es lo que realmente el cliente necesita y con base en eso. 
+
+Entonces nosotros armamos nuestra entonces esa parte nosotros la vivimos por pasos. 
+
+Aquí les voy a ir contando unos unos pasos y les voy diciendo los retos como los solucionamos y en donde estamos inteligencia artificial. 
+
+Listo, entonces voy a estar mirando de pantalla hacia acá porque acá tengo. 
+
+La es uno de esos pasos que nosotros hicimos. 
+
+En la primer fase de entender fue el descubrimiento investigación y acá nosotros nos encontramos con dos grandes retos. 
+
+Primero nosotros no conocíamos a fondo y en las necesidades del cliente y no teníamos un acceso fácil a esos usuarios externos. 
+
+Entonces nosotros como lo solucionamos los solucionamos de haciendo entrevistas a los usuarios normales a los que teníamos acceso, pero no es la suficiente investigación. 
+
+Necesitamos ahí fue donde nosotros nos apoyemos de la inteligencia artificial para hacer unas investigaciones que hicimos un smar. 
+
+Entonces lo primero que hicimos es que tuvimos entrevistas con los usuarios normales. 
+
+Hay nosotros eh hacemos lo que se hacen una entrevista que es buscar la detallada. 
+
+Eh tuvimos diferentes opiniones. 
+
+Necesitamos saber la experiencia de usuario y lo que él sentía entonces ahí con nuestros hijos. 
+
+Definimos unos tipos de entrevistas y y de cómo eran ellos. 
+
+Como trabajan con el producto para tener esa información? 
+
+Ya hicimos con el reto de que no teníamos acceso casi a usuarios y con nosotros nosotros que hicimos. 
+
+Nosotros necesitamos saber y entender otros patrones identificar más necesidades para que para poder optimizar el diseño del producto ustedes lo hicimos con algo que se llama usuarios sintéticos. 
+
+Estos son unos perfiles o representaciones generadas artificialmente con inteligencia artificial que simulan el comportamiento de todas las características y las respuestas son algo así como unos clones de los y todo es impulsado por inteligencia artificial. 
+
+Nosotros qué herramientas usamos en este caso? 
+
+Usamos una herramienta. 
+
+Entonces ahí nosotros quisimos. 
+
+Creamos los usuarios. 
+
+Demográ psicológicos. 
+
+Uno está más conductuales muy específicos para poder simular. 
+
+Las entrevistas que teníamos ya teníamos el producto. 
+
+Sabemos qué tipo de problema lo necesitaban? 
+
+Entonces que queramos y acá fue la primera vez donde nosotros utilizamos inteligencia eso que nos ayudó eso nos ayudó a tener una información de los usuarios reales y los usuarios sintéticos en lo que ya lo que hicimos fue triangulares e información para poder ver esos dolores y esas necesidades para nosotros poder diseñar el producto con base en el usuario, porque nosotros cuando diseñamos un producto o una necesidad el cliente está en el centro. 
+
+Entonces nosotros siempre miramos a la investigación. 
+
+Se da cuenta que es otra necesidad o que necesitan otra. 
+
+Lo otro que hicimos es el Smart, entonces quisimos conocer eh análisis de mercado y el estudio de tendencias. 
+
+Aquí nosotros teníamos un reto y era que no conocíamos la competencia. 
+
+El producto ya lo tenemos en Facebook y hay varias empresas que tienen el mismo producto. 
+
+Nosotros tenemos que empezar a investigar. 
+
+Te ofrece nuestra competencia? 
+
+Cuáles son las tarifas? 
+
+Si, si lo que ofreces por planes o lo que ofrece es diferente, entonces aquí dijimos la segunda vez donde nosotros utilizamos inteligencia integramos esa inteligencia artificial generativa como una habilitado operativo son las personas de marketing que construimos. 
+
+Un beso marquen competitivo del producto que nosotros requeridos. 
+
+Entonces definimos todas el ecosistema donde lo que hacíamos era monitorear a y también tuvimos en cuenta algunas fuentes de la industria. 
+
+Como entonces esta ejecución y este rastreo nosotros lo hacíamos en mala inicialmente pues lo hicimos. 
+
+Nos acabamos unos reportes pero ya durante la vida del producto lo hacíamos semanal integramos inteligencia artificial generativa y para automatizar esas tareas y eso en qué se tradujo en que todos esos volúmenes de información él no los sacaban. 
+
+Un reporte que es el que ustedes están viendo acá y toda esta carpintería de ir de buscar de investigar la artificial y ahí fue donde nuestro equipo de marketing tuvo ese ese rol aumentado donde concentramos. 
+
+Toda esa capacidad fue en hacer el cruce entre lo que nosotros ofrecíamos del producto versus lo que realmente le interesaba a las personas porque ya habíamos hecho la investigación, la competencia y lo que hacíamos era analizar porque nosotros no dejamos, pues que solo la inteligencia artificial nos voten y nos vote datos, sino que ahí nosotros lo que hacemos es un análisis. 
+
+Nosotros ahí somos como dice copiloto y ese auditor de lo que. 
+
+Se ejecutaba cada semana. 
+
+Llamamos el análisis y ajustado más de nuestros hay que tuvimos. 
+
+Nosotros tuvimos de una investigación tradicional que es lenta que se demora un poquito a tomar decisiones con criterio y más y en un tiempo de un tiempo más luego que hicimos cuando ya teníamos nuestra investigación de usuarios. 
+
+La necesidad del cliente sabía nuestra competencia y como lo ofrecían, entonces nosotros nos fuimos a definir la estrategia. 
+
+Al entonces acá teníamos lo mismo. 
+
+La falta de usuarios externos una información entonces quisimos nosotros. 
+
+Acá empezamos a hacer unos talleres de cooperación. 
+
+Con todo el equipo productos quiénes eran amasado. 
+
+El equipo del producto estaba marketing ventas eh producto que en ese momento era yo. 
+
+Como ayer teníamos eh desarrollo todo el tema y por la naturaleza del producto que es un producto que hace de gestión por procesos de negocio teníamos involucrado al equipo de Ceiba es automatización inteligente. 
+
+El proceso ellos eran los que están directamente de cara. 
+
+Al fin entonces éramos todo ese grupo de personas. 
+
+Entonces que definimos nosotros definimos unos talleres donde lo que hayamos tenido. 
+
+Las investigaciones que habíamos hecho previamente empezamos a definir listo. 
+
+Definamos nuestro mueble nuevo para definir nuestro mueble de negocio. 
+
+Nosotros necesitamos como saber quién eran nuestras nuestros clientes, como era esa ruta de lo que los clientes hacíamos entre los solucionamos. 
+
+Estas cosas que ustedes ven en pantalla en ese taller decoración que hicimos y hicimos un curso de personas. 
+
+Hicimos eh el curso mayor definición de la propuesta de valor. 
+
+El mapa del esa investigación construimos esto que son los personas que son esas representaciones de esos clientes. 
+
+Ideales a humanizar a los clientes y a que nosotros tomáramos esas decisiones. 
+
+Eh centradas en el usuario, o sea esas decisiones de diseño, experiencia donde nosotros necesitamos visualizar esa experiencia. 
+
+Tenían nuestros clientes desde que ellos tenían la necesidad. 
+
+Luego cuando empezaran a buscar una solución al necesidad se encontraban nos compraban y nosotros entregamos. 
+
+Pues nosotros necesitamos saber cuáles eran esos puntos de contacto y en donde teníamos que estar mejorando. 
+
+No solamente en el software que era el producto. 
+
+Sino entonces ahí también definimos a nosotros. 
+
+Estas tres cosas. 
+
+Nosotros lo hicimos entre todo lo que hicimos presencial en los talleres de cocreación y cuando necesitamos moler datos utilizamos mucho la inteligencia artificial donde hacíamos el cruce de información y eso donde lo utilizamos con nosotros. 
+
+Apoyamos muchísimo. 
+
+Y lo que. 
+
+Definió. 
+
+En la solución. 
+
+Anterior. 
+
+Investigación y eso sí tienen alguna duda o algo? 
+
+Me cuentan los muchachos? 
+
+Cómo vamos? 
+
+Mientras toma entonces ahora sí que definimos. 
+
+Nosotros definimos nuestro modelo de negocio porque no no lo teníamos. 
+
+Entonces no solo basta con que nosotros tengamos una buena idea o sacamos un producto que queremos, sino que los negocios tienen que ser viables o sea, no no somos una beneficiencia, sino que entonces utilizamos esta herramienta que es el business que es un lienzo donde nosotros hay definimos. 
+
+Cuál era nuestra estrategia y nuestro modelo de negocio? 
+
+O sea, cómo vamos a crear a entregar y a capturar todo el valor de pronto hacia nuestros clientes? 
+
+Entonces nosotros a nosotros a tener esa visión completa y esa dinámica de negocio y para poder nosotros saber en qué nos íbamos a enfocar porque no teníamos antes de hacer las investigaciones. 
+
+Empezamos a hacer el modelo de negocio. 
+
+Ya nosotros sabíamos que necesidades tenía el cliente, entonces ya sabíamos más o menos que hipótesis experimentos digamos hacer entonces cuando nosotros definimos esto aquí lo hicimos todo con los talleres tocó creación. 
+
+En esta parte sí no usamos la la inteligencia artificial aquí alucinamos nosotros mucho discutíamos nos quedamos ahí en conversaciones bizantinas, pero bueno, siempre lo sacamos adelante porque el aprendizaje de nosotros acá era la tríada. 
+
+Cuál es la tríada? 
+
+Nosotros tenemos la premisa de que la deseabilidad o sea que necesita el cliente y el fin de el tema de la factibilidad. 
+
+O sea técnicamente es posible y lo podemos mejorar? 
+
+Y el tema de la viabilidad es nosotros. 
+
+Tenemos recursos económicos para poder sacar el producto adelante. 
+
+Entonces nosotros llegamos. 
+
+Este fue nuestro modelo de negocio luego que nosotros lo tuvimos. 
+
+Yo fui al al equipo del grupo primario donde lo presenté y nos dieron vía libre para continuar. 
+
+Luego de que hicimos esto es que pagaba listo muy bonito. 
+
+Tenemos nuestro mueble de negocio, pero como lo vamos a monetizar entonces acá nos encontramos también con con algunos retos y era crear esos planes y esos precios para nuestro producto. 
+
+Entonces acá también me apoyen mucho la inteligencia artificial y me oye también de expertos en finanzas de cómo íbamos a sacar nosotros esos precios como damos a? 
+
+10:31 a.m.
+A mí me comenzaron a hablar de de cuáles eran los costos, los gastos, los ingresos que cuando llegan y normalmente pues uno no tiene muy claros. 
+
+Esos conceptos entonces nos apoyamos con en un compañero que es muy experta en temas de Finanzas y volvimos a utilizar la inteligencia. 
+
+Usted cómo utilizamos la inteligencia artificial? 
+
+Qué características tenía? 
+
+Pero necesitamos saber y adentrarnos en el tema de los precios y en las tarifas y de cómo lo ofrecían. 
+
+Si era por planes o o era por licenciamiento o como entonces cuando uno define los las tarifas y los precios uno lo puede hacer de diferentes. 
+
+Nosotros combinamos dos y es basándonos en lo que corona la competencia. 
+
+Y adicionándole el valor diferencial. 
+
+Que nosotros le agregamos. 
+
+Con porque nosotros teníamos un diferencial, entonces así fue como llegamos a a estos planes a estos valores. 
+
+A lo que hicimos fue investigar la competencia. 
+
+Sacamos un análisis el análisis. 
+
+Nosotros internamente lo miramos también. 
+
+Nosotros hicimos una un Excel con con las personas de Finanzas donde sacamos nuestros costos nuestros gastos. 
+
+Eh cuáles podrían ser eh esos ingresos que teníamos y hicimos un análisis del punto de equilibrio de si nosotros teníamos estos planes, en qué fecha o en qué año? 
+
+Y con qué cantidad de clientes? 
+
+Nosotros podemos llegar al punto de equilibrio, entonces ahí fue donde sacamos esto. 
+
+Este también no lo no. 
+
+Lo aprobó la planeación estratégica cuando presentamos el nueve negocios. 
+
+También presentamos todo el tema de la viabilidad y la monetización, porque es muy importante cuando vamos a diseñar un producto, pues yo cuando va a llegar con tu equilibrio porque nosotros no podemos quedar. 
+
+Invirtiendonos un montón de tiempo en un producto. 
+
+Sino vamos a saber cuando vamos a tener ese y ya luego que teníamos súper claro cuál era la necesidad de nuestro cliente. 
+
+Teníamos súper claro la competencia como el día eh que funcionalidades tenía teníamos ya claro nuestro modelo de negocio y con todas esas investigaciones, pues nosotros ya sabíamos cuál era la brecha que teníamos en nuestro? 
+
+Porque como les dije hace un momento en nuestro producto ya existía cuando yo llegué al producto funcionalidades. 
+
+Entonces eh habría que nosotros lo que hicimos fue mirar cómo cerrar esa brecha para poder nosotros. 
+
+Eh priorizar el Roma y el entonces eso lo hicimos en esta segunda fase que es la definición. 
+
+Cuando yo teníamos claro todas esas primer fase de qué que se ofrece y cuánto lo vamos a vender. 
+
+Entonces ahora sí venga planifiquemos nosotros como entonces. 
+
+Acá está la primera actividad que hicimos en esa fase de definición que es la estructura del Roma del producto. 
+
+O sea todas esas personas que yo les hablé ahorita desarrollo marketing ventas, eh automatización, inteligente de procesos y los productos. 
+
+Nosotros como nos vamos a empezar a comer todo esto porque eh pues tenemos que estar alineados. 
+
+Entonces aquí el el reto fue diseñar esas entonces acá nosotros lo que hicimos a largo plazo porque ya el producto está corriendo. 
+
+La competencia está viviendo un montón. 
+
+Entonces lo que hicimos para apoyarnos mucha inteligencia artificial. 
+
+Hay utilice y utilizamos fue llevar toda esa documentación que nosotros tuvimos de las fases anteriores de nosotros. 
+
+Teníamos respecto a la compañía cruzándolo con las necesidades del cliente, entonces lo que empecé a documentar en el en el from fue metí toda la información comienzan a ayudar a definir un roadmark donde les hemos apuntando a la prioridad de las necesidades con el cliente. 
+
+Le dije lo quiero dividido por curso en cada juego sacar algo específico entonces el triángulo hemos toda esa información. 
+
+También el eje que utilizará un modelo de priorización que se llama modelo priorización. 
+
+Eh sellaron mucho por las necesidades del cliente por lo que era prioritario de esos lo que nosotros no teníamos en el producto porque habíamos en entonces. 
+
+Ahí fue la forma. 
+
+Donde nos dio. 
+
+El entonces ya cuando tenemos su desarrollo entonces nos encontramos con otro listo. 
+
+Entonces ahorita estructuramos el panel del de hecho en este producto tengo dos sombreros, está todo para que el producto salga del del Discovery hasta el delivery y tenía también el sombrero del producto. 
+
+O sea el que le define al equipo de desarrollo que es lo que vamos a hacer con base en todo ese Roma y en todo eh entonces acá nos toca empezar a crear unas historias de usuario con base, pues entonces ese ese que teníamos y pues se lo tenemos que hacer de una forma y entonces acá lo que dicen. 
+
+Por favor con toda este contexto porque nosotros entonces teníamos un espacio en el repositorio donde teníamos toda la información y todo el detalle del producto de lo que teníamos hasta ahora construido la arquitectura más la investigación. 
+
+Padres son esas características o esos componentes o esas funcionalidades? 
+
+Y cómo las voy a dividir en historias de usuario? 
+
+O sea en requisitos más pequeños para poder entregárse varias veces y el resultado fue un backlog como lo ven donde me lo distribuyó y ya aquí teníamos las tareas que digamos. 
+
+Hacer entonces aquí empecé ya luego a escribir estas historias de usuario que ahorita cuando estemos en la implementación les voy a contar ahí como hemos utilizado la inteligencia artificial y un modelo. 
+
+Entonces ahí interactuamos todos los roles que tienen que ver con un desarrollo de software en otras compañías. 
+
+Esa arquitecto los arquitectos desarrolladores? 
+
+Cómo hacemos las pruebas? 
+
+Eso luego que nosotros tenemos este, entonces me encuentro otro reto y es cómo nos mantenemos como equipo alineados, entonces quiénes somos el equipo? 
+
+Las mismas áreas que les comentaba ahorita desarrollo marketing producto del área de automatización inteligente pesos por qué? 
+
+Porque todos digamos al mismo ronda y manejamos. 
+
+Entonces aquí empezamos a utilizar entonces esas dos sincronizados y saber si alguien se atrasaba o si nos cambiaba algo en el en el back. 
+
+Entonces acá hicimos una reunión, es mensuales, pero cualquiera del equipo pudiera haber en cualquier momento el ronda como estaba y los indicadores. 
+
+Entonces qué hicimos? 
+
+Nosotros definimos unos indicadores que los manejábamos en Google chips y para eso luego nos creamos un lugar. 
+
+Estudio me daba en vivo como estaba cada uno de esas áreas. 
+
+Como estábamos, por ejemplo, con los indicadores de marketing, o sea, eh prospecto no han llegado de marketing en cuanto me han llegado de ventas, eh cuáles sí pueden ser prospectos y los puedo pasar propuestas porque estábamos en ese momento donde nos interesaba saber los ingresos, pero también como se estaban comportando el producto. 
+
+Como les vamos llegando al mercado? 
+
+Cómo nos estaban saliendo las campañas de marketing? 
+
+Lo que estamos haciendo con el envío de correos también hicimos un experimento y es que seamos una cuenta en tiktok donde comenzamos a hablar de productos. 
+
+No para vender por tiktok sino para ver para entrar en gente y trajimos mucha gente. 
+
+O sea vender. 
+
+El objetivo era tener ese reconocimiento y saber que nosotros estábamos y que solucionamos una necesidad y nos llegaron varios leds. 
+
+Entonces esto es donde teníamos en los indicadores y planeación estratégica y la líder de en cualquier momento. 
+
+Querían ver cómo estábamos en en el producto a nivel del PNG porque definimos también de los indicadores de marketing, no de ventas. 
+
+Entonces todos tenemos la información al día. 
+
+Una buena forma. 
+
+Esta forma puede un híbrido entre cosas que hacíamos manual y nos apoyábamos de inteligencia artificial listo. 
+
+Entonces ya vamos a implementación entonces para que retomamos ya tuvimos en nuestra primer fase que era donde definíamos donde teníamos esas necesidades del usuario. 
+
+Donde conocemos la competencia? 
+
+Es acá? 
+
+Venimos al tema de la implementación, o sea, ya donde nosotros construimos en producto lo vamos sacando a producción y le hacemos optimización. 
+
+O sea vamos analizando comportar productos que se iba a que no va a que parece de los clientes y eso nos actualizaba el producto porque el barrio son documentos vivos o sea. 
+
+Bueno, entonces primero las las construyeron entonces recuerdan que también les dije que nosotros en Ceiba tenemos algo que se llama el método es un modelo agente en el cual eh interactuamos las personas que tenemos que de hacer parte de un desarrollo. 
+
+Entonces como ven acá en pantalla, estamos desde la documentación desde que se quedan las historias de usuario desde que sabemos la necesidad hasta que hacemos la entrega a producción. 
+
+Entonces eso se llama el método? 
+
+Entonces lo primero que utilizamos nosotros del método nosotros tenemos todo. 
+
+En un repositorio. 
+
+Se usamos Google clo y ahí en el método tenemos diferentes agentes. 
+
+Tenemos a la gente del producto desarrollados el primer agente que utilizamos es el del produzne. 
+
+Entonces como están? 
+
+Todo el contexto están toda la información del proyecto. 
+
+Que esto es está la arquitectura están las historias de usuario previas porque como les he dicho era un producto. 
+
+Están todas las investigaciones que hicimos o sea está toda la documentación. 
+
+Está absolutamente todo. 
+
+Y le decía más o menos a ese agente va. 
+
+Necesito detallar esta historia de usuario y la funcionalidad es esta entonces de la gente dejó iban analizada todo el contexto y todo lo que tienen el repositorio del proyecto y me comenzaba a hacer preguntas y habían preguntas como esta historia o cómo vamos a hacer acá este criterio de aceptación? 
+
+Que te parece? 
+
+Entonces las preguntas yo le respondí tal cual como si estuviera con una persona también ya está listo. 
+
+Vea que tenía la descripción unos criterios de aceptación y él proponía unos temas de ellos. 
+
+Entonces yo ya le decía acá no aceptación mejor cambia esto y ya de hecho escribe demorarme en escribir una historia de usuario más o menos 45 minutos. 
+
+Hay veces me llamaba demorarme entre tres y cuatro minutos por qué? 
+
+Porque ya está todo el contexto del producto. 
+
+10:46 a.m.
+Ya cuando llegamos a la reunión de refinamiento con el equipo y ya el equipo me hacía preguntas ya el equipo de desarrollo medieval. 
+
+El equipo de desarrollo se quedaba y tenemos el agente que es de estimación. 
+
+Entonces lo que hace ese agente ya el. 
+
+Entonces. 
+
+En la gente. 
+
+Empezaba a hacerle preguntas. 
+
+Solucionado. 
+
+Y ya. 
+
+El resultado de la gente. 
+
+Es. 
+
+Para. 
+
+Esta. 
+
+Historia. 
+
+De usuario. 
+
+Eh. 
+
+Lo que es hacer. 
+
+Son estas cuatro tareas. 
+
+Eh tienes que hacer. 
+
+Tal integración. 
+
+Porque porque ya. 
+
+Tenía. 
+
+Toda. 
+
+La se van en contexto y le decía son esas tareas y el tiempo estimado es este. 
+
+Entonces ya ahí ya teníamos las tareas y nosotros teníamos una sincronización del repositorio de todas las historias visuales y las actividades que tenemos. 
+
+Ya luego que el equipo se iba a estimado atasqueaban con el agente, ya entonces el gente proyecto me decía listo. 
+
+Ya tenemos el porque nosotros trabajamos bajo Marcos, ágiles seguimiento y también tenemos un agente en el método. 
+
+Qué es el que apoya con todo el tema del desarrollo? 
+
+Entonces ya el equipo de desarrollo va y empeza interactuar con esa gente y ya tenían la el desarrollo listo? 
+
+También tenemos las revisiones pares automatizadas antes y aquí también fue un tiempo que nosotros ganamos ante las definiciones padres. 
+
+Las hacían un equipo que se llama el equipo swa desarrollador y ya es la gente de construcción de arquitectura. 
+
+Código limpio. 
+
+Los entonces nosotros tenemos eh ya el vestido continuo que es lo que les va a contar aquí. 
+
+A continuación aquí este complicado. 
+
+Ya entonces todo ese cuello botella que nosotros teníamos de revisiones. 
+
+Pareciendo. 
+
+Entre ya lo solu con el revisor par y ya llegamos a todo el tema. 
+
+Del entonces acá nosotros tenemos un orquestador de lo que hace el arquitecto desarrollador es que va mandando los con frecuencia, pero si hay una persona que valía los currícuezos, o sea ya solucionado porque. 
+
+Nosotros hacemos solo las revisiones pares y el coseno es el arquitecto en producción. 
+
+Entonces por ejemplo nosotros para todo el tema de historia de usuario. 
+
+También teníamos una rama desarrollo que se llamaba historias de usuario donde yo escribía y donde yo siempre subía ya ministerio. 
+
+En la el técnico me las aprobada y ya cuando el equipo desarrollo y lastimarlo a desarrollar se descartaba las historias y todos vamos sobre las mismas versiones. 
+
+Es súper bien, ya sabíamos que sería el cliente. 
+
+Lo planeamos. 
+
+Lo hicimos y lo esperamos a producción. 
+
+Entonces ya yo me puse a pensar listo y y cómo la vamos a decir al cliente que entonces ahí comunicaciones para poder estar llevando a las a los clientes con base. 
+
+En lo entonces nosotros dijimos listo marketing que vamos a para que el cliente sepa en el momento que ya tiene disponible las nuevas funcionalidades porque nosotros tenemos aquí una cadencia. 
+
+Estamos trabajando en una velocidad que salgamos tan seguido de producción, pero sí le tenemos que ir informando. 
+
+Entonces en esas reuniones que yo les conté que hacíamos esas esas reuniones mensuales, el equipo de desarrollo y yo con mi sombrerito vamos a salir a producción. 
+
+En entonces, qué hacemos? 
+
+Le mandamos un programa que tiene el gerente proyecto hizo una automatización con n8n donde sabíamos cuáles eran esas historias de usuario que van a estar listas y le generaba un correo a marketing donde le decía vamos a salir. 
+
+Por ejemplo a producción el martes cinco de octubre a las cinco de la tarde y estas son las funcionalidades. 
+
+Van a salir? 
+
+Estas funcionalidades de estas funcionalidades explicativo o algo específico? 
+
+Por qué si era una funcionalidad nueva o una funcionalidad que haya cambiado mucho con la nueva funcionalidad donde ahí les explicamos al cliente como lo iba a. 
+
+Entonces ya en el correo se iba a funcionar bien, entonces lo que lo último que hicimos en las despegues a producción era que previamente. 
+
+O sea, el día anterior se manda un correo a los usuarios donde se les decía mañana a las cinco de la tarde. 
+
+Va a haber una ventana indisponibilidad a la aplicación porque vamos a hacer actualización HM y al otro día cuando salíamos a producción le llega otro correo donde les decía ya actualizamos nuestro producto. 
+
+Estas son las nuevas funcionalidades y donde necesitamos explicar más o ser más detallados. 
+
+Mandamos un video y pues ya ahí el usuario lo veía y no teníamos que estar capacitando al cliente, pues cada vez aquí también comunicaciones y apoyaban con inteligencia artificial para poder generar el contenido. 
+
+Entonces ellos tenían todo el contexto del proyecto en una gente y con ello ellos se iban y siempre que se iba a sacar alguna pieza. 
+
+Ese en redes sociales sean un correo electrónico o de fuera eh marca siempre nos tenían. 
+
+Nosotros trabajamos con una agencia. 
+
+Teníamos alguien de marketing en Ceiba, pero igual marca no tenía claro el visto bueno, pues porque el producto tiene su personalidad tiene su marca y en esos colores tiene su tono de conversaciones. 
+
+Entonces todo tenía que irme alineado ahora nosotros como sabemos y como no retroalimentamos de todo eso que hicimos entonces en el modelo operativo que nosotros definimos. 
+
+Pues nosotros definimos un modelo operativo de tres meses, donde en esos tres meses, pues hacíamos investigación actualizábamos en romano actualizamos el backlog. 
+
+Acá eh construyamos acá de nosotros cada tres meses hacíamos otra vez. 
+
+Investigaciones periódica, ya estamos prácticamente cada semana y yo como produ humanos y el analizada con la persona encarga de marketing. 
+
+Entonces eso también nos ha llevado a tomar decisiones. 
+
+Decidí vamos por el camino. 
+
+Entonces eso también me hacía que me moviera en el roombat en ese trimestre o en el barrio ya con los usuarios ya hacíamos esa investigación cada tres meses donde ahí volvíamos a tener las entrevistas. 
+
+Teníamos los comentarios y ya con todos esos pues entonces yo ya iba otra vez. 
+
+Por eso les decía que que aquí nosotros lo que hacíamos era era un documentos vivos. 
+
+Entonces acá igual utilizamos la inteligencia artificial igual seguíamos utilizando usuarios sintéticos y y vamos mirando entonces cómo eran esos halla? 
+
+Esto fue lo que hicimos desde el descubrimiento de la necesidad hasta que los entregamos y hacíamos mejor a continua. 
+
+Y como imple de inteligencia artificial eh temas de origen las tres fases que era entender el problema. 
+
+Entender la necesidad, luego hacíamos la definición. 
+
+Miramos esos planes de acciones como los priorizábamos. 
+
+Y ya por último la implementación y recibir el filtro. 
+
+Ya si tienen preguntas de Robinson me cuentan. 
+
+Gracias Marce por por la explicación que nos brinda así hay algunas preguntas. 
+
+Voy a bajar la presentación. 
+
+Entonces está preguntando hace María Victoria dice qué variables externas puede afectar llegar a ese punto de equilibrio? 
+
+María Victoria. 
+
+Equilibrio es el que nosotros tenemos cuando nosotros definimos una tarifa unos planes tenemos unas ventas y lo que yo tengo en ventas me cubre los costos y los gastos que yo tengo en el producto. 
+
+Si quieren nos ponen el chat. 
+
+Si es con referente a la tarifas al precio y al en los estados financieros HM listo, mientras que dice cuál fue la mayor eficiencia en el ciclo de vida de mejorar la facturación listo ahí el cambio. 
+
+El más notorio fue cuando nosotros definíamos esa brecha de que era lo que teníamos que construir con base a las necesidades del cliente, porque antes nos demoramos muchísimo en hacer la investigación con el usuario en hacer el, pero ya ahora cuando la inteligencia artificial nos procesa toda la data y nosotros lo analiza. 
+
+La eficiencia de utilizar la inteligencia normales manuales. 
+
+Ah, ya solamente pasará análisis. 
+
+Entonces que que variables que me repetís porfa la pregunta Rubén que la perdieron de la. 
+
+Pueden afectar llegar a ese punto de equilibrio variables externas de la competencia? 
+
+Porque si la competencia baja las tarifas. 
+
+Pues entonces nosotros no vamos a vender lo que teníamos presupuestado en un mes para poder llegar a ese punto equilibrio en uno o dos años hay algo muchachos? 
+
+Y es que cuando uno emprende o cuando no crean producto uno no puede pensar que va a llegar al punto que va a tener utilidades al mes. 
+
+O a los dos uno tiene que hacer ese estudio? 
+
+De cuáles son mis costos? 
+
+O sea eh yo que son costos para nosotros para nosotros costos es el salario de las personas? 
+
+Es eso fijo que infraestructura todo. 
+
+El tema de licenciamiento ya no hay grupo, vienen gastos y tenemos que pagar impuestos. 
+
+Si si tenemos que hacer como el el IVA o red de fuente cosas y lo que a mí me interesa por ventas. 
+
+Tienen que quedar esto en cero para yo poder dar de punto equilibrio. 
+
+Hay muchas variables extremas, la competencia que ya el cliente no lo necesite. 
+
+Primero la inteligencia la inteligencia artificial para nosotros fue una variable porque cuando comenzamos, pues no estaba tan tan enamorado de la inteligencia cuando ya empezó a salir la competencia. 
+
+Ah es que el producto que muere unos procesos llámelo con inteligencia listo. 
+
+Tenemos una antelación. 
+
+Ella dice Marce desde tu experiencia. 
+
+Y desde el. 
+
+Rol. 
+
+Del. 
+
+Pm que consideran delegar a la hija. 
+
+O en dónde debemos tener esos cuatro un producto y esto lo que le yo en mi experiencia que les puedo hablar desde la experiencia. 
+
+Eh es todo lo que sea procesamiento de datos, todo lo que sea ese esa investigación y yo no le delegaría la inteligencia artificial que el análisis el análisis si debe ser de parte de ese programa. 
+
+Ayer de negocio de esa persona encargada de de orquestar y la edición del producto. 
+
+Porque si le llegamos eso pues nos va a alucinar. 
+
+Y como nos decía ahorita Jorge en la charla de la mañana. 
+
+Pues está el tema. 
+
+La inteligencia artificial. 
+
+Eh es porque no tenemos esos puntos, entonces yo todo el tema de análisis de tomar decisiones es así? 
+
+La dejaría para las personas es así? 
+
+No no son las áreas, las inteligencia emocional listo. 
+
+11:01 a.m.
+Qué aspectos del comportamiento o experiencia humana son imposibles de delegar a usuarios? 
+
+Sintéticos y en qué escenarios su uso introduces sesgos o riesgos significativos? 
+
+Pues ahí hay muchos temas, pues hay algunos temas y es de emociones porque cuando no está haciendo las entrevistas y por ejemplo para los que viene el tema cuando no se han una investigación cuando no sale las entrevistas uno no solo le preguntan usuario y escrito una nota o ya te la puede tomar una artificial sino que uno que analizar la emoción de las personas no solo lo que dice porque la inteligencia artificial. 
+
+Sí depende lo que la persona diga que analiza una emoción sino de su aspecto físico de cómo habla de veces con uno de los ojos. 
+
+Entonces eso percibía yo cuando hacíamos las entrevistas el tema de las emociones siguiente pregunta martes están bastante reactivos chévere súper bien la negra. 
+
+Nos pregunta Marce, qué opinas de ser más generalistas y menos especialistas? 
+
+Y quizás varios roles desempeñarlos? 
+
+Apoyado ejemplo europeo es que yo creo que para nosotros poder utilizar, por ejemplo un agente de peones. 
+
+Necesitamos el especialista para poder que lo cree. 
+
+Inclusive. 
+
+Yo usaba de la gente. 
+
+Peor y lo tenía que corregir, pues él no me define todo. 
+
+Entonces yo yo creo que que ser como tan generalizado la inteligencia artificial era como les decía al inicio. 
+
+Eh alucinamos en nosotros en la toma de decisiones porque si yo no sé mucho de un tema y la inteligencia artificial me la voz de yo no investigo o yo no estoy segura de lo que me contesta. 
+
+Está bien o no, pero puedo tomar decisiones cerradas. 
+
+Yo creo que sí debemos ser especia en algo porque es que está el criterio si yo no soy tan experta en un tema como a tener criterio. 
+
+Por ejemplo, si un gerente de proyecto tiene que estar pendiente del cronograma del costo del tiempo del entonces. 
+
+Si yo no tengo en cuenta esas tres variables a mí, mi proyecto se me va a pique pero ay es que había que estar pendiente del presupuesto. 
+
+Vamos a responder estas preguntas a través del incremento de los invitamos a que estén porfa pendientes de este espacio y nuestra redes también para darle respuesta adecuada para empezar las preguntas que quedaron. 
+
+Eh sin contestar en este espacio en vivo entonces. 
+
+Muchas gracias. 
+
+Eh nos queda claro la ejecución eh, pero la viabilidad del negocio y la empatía siguen existiendo peligros bastante ético entonces? 
+
+Muchas gracias y para todos a las 11:10 nos acompañarán Dani Mejía y Rivera con la charla llamada el espejismo de la velocidad. 
+
+Estamos orquestando valor o solo acelerando el caos con ellos ya regresamos. 
+
+Gracias a todos que estuvieron ahí. 
+
+Sí. 
