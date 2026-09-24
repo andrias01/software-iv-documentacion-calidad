@@ -49,6 +49,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#4/`](Clase%234/) | 26/08/2026 | Semana 6 | Planificación de proyectos: EDT / WBS y Microsoft Planner |
 | [`Clase#5/`](Clase%235/) | 02/09/2026 | Semana 7 | Pruebas de software: principios, ciclo de vida, tipos y niveles |
 | [`Clase#6/`](Clase%236/) | 16/09/2026 | Semana 9 | Técnicas de validación: caja blanca (camino básico) y caja negra |
+| [`Clase#7/`](Clase%237/) | 23/09/2026 | Semana 10 | Plan de pruebas y diseño de casos de prueba (ISO/IEC/IEEE 29119-1) |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -229,6 +230,51 @@ construcción del plan de pruebas y los casos de prueba de SIGRA para el parcial
 
 ---
 
+### Clase 7 — Plan de pruebas y diseño de casos de prueba (23/09/2026)
+
+La sesión abrió con las exposiciones de los estudiantes. Me correspondió presentar la
+**toma de decisiones en ingeniería de software con CMMI e ISO**: el área de proceso
+**DAR**, que vive en el nivel de madurez 3 y evalúa las alternativas identificadas frente a
+criterios establecidos; los métodos para hacerlo, desde la **matriz de decisión ponderada**
+—donde el total de cada alternativa es `Σ (peso × puntaje)`— hasta el **AHP** de Thomas
+Saaty, que en vez de poner los pesos a ojo los deriva de comparaciones por pares y verifica
+la coherencia de los juicios con la **razón de consistencia**, que se acepta cuando
+`CR ≤ 0,10`; y la convergencia con las normas, porque la ISO/IEC/IEEE 12207 describe el
+mismo proceso, la ISO 9001 aporta el principio de decidir con evidencia y la ISO/IEC 25010
+aporta las características que sirven como criterios. La exposición cerró con un taller en
+el que el público definió los criterios, votó los pesos y llenó una matriz en vivo.
+
+Después se explicó el **punto 2 del parcial**, que tiene dos entregables: los artefactos del
+proyecto con el tablero de Planner actualizado y las bitácoras desde la última fecha
+entregada (30 %), y el plan de pruebas con sus casos de prueba (30 %), para el que además
+hay que enviar las instrucciones de uso de la herramienta de prueba seleccionada.
+
+El tema de fondo fue cómo se arma un **plan de pruebas** y cómo se diseñan los **casos**. La
+prueba se entiende como un ciclo —Planificar, Diseñar, Ejecutar, Registrar, Analizar y
+Mejorar— en el que la calidad depende tanto de la planificación como de la precisión del
+diseño. El plan organiza alcance, enfoque, recursos, criterios, riesgos, tareas y
+cronograma; los casos convierten los requisitos en verificaciones reproducibles y objetivas.
+Según la **ISO/IEC/IEEE 29119-1**, un caso se define por tres elementos:
+
+```
+Caso de prueba = precondiciones + entradas/acciones + resultado esperado
+```
+
+y se diseña en cinco pasos: identificar el requisito, identificar las condiciones previas,
+elegir la técnica, definir los datos y definir el resultado esperado. Dos ideas quedaron
+subrayadas. La primera, que un buen caso debe ser **trazable a un requisito** y permitir una
+decisión objetiva de pasa o falla: si al terminar hay que discutir si pasó, el caso está mal
+escrito. La segunda, que un mismo requisito **genera varios casos**, porque la cobertura no
+consiste en repetir el escenario con otros datos sino en explorar las condiciones
+relevantes; del ejemplo del registro de un pedido salieron un caso válido, dos inválidos y
+uno de frontera.
+
+**Trabajo de la semana:** exposición y taller de toma de decisiones, desarrollo del punto 1
+del parcial con las fichas de reflexión del **Ceiba DevFest 2026**, y construcción del plan
+de pruebas y los casos de prueba del proyecto en TestLink para el punto 2.
+
+---
+
 ## Estructura del repositorio
 
 ```
@@ -272,6 +318,13 @@ BITACORAS DE CLASE/
 │   ├── Evaluacion Pares ISO IEC IEEE 29119 _ *.pdf # evaluaciones entre pares (3)
 │   ├── Taller_Caja_Blanca_Camino_Basico.docx       # taller de camino básico (código par)
 │   └── Grafo_flujo_triangulos.png                  # grafo de flujo del ejercicio
+├── Clase#7/
+│   ├── Clase 23 de septiembre 2026.pdf
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 10
+│   ├── Presentacion_Toma_de_Decisiones_CMMI_ISO_realizada_por_mi.pptx  # exposición propia
+│   ├── Calculadora_AHP.xlsx                        # apoyo del taller (AHP y razón CR)
+│   ├── Punto 1 Ceiba DevFest 2026_Andres_velez.docx # punto 1 del parcial
+│   └── LiveTranscribe_Transcript.txt               # transcripción de la jornada
 └── README.md
 ```
 
