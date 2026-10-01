@@ -50,6 +50,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#5/`](Clase%235/) | 02/09/2026 | Semana 7 | Pruebas de software: principios, ciclo de vida, tipos y niveles |
 | [`Clase#6/`](Clase%236/) | 16/09/2026 | Semana 9 | Técnicas de validación: caja blanca (camino básico) y caja negra |
 | [`Clase#7/`](Clase%237/) | 23/09/2026 | Semana 10 | Plan de pruebas y diseño de casos de prueba (ISO/IEC/IEEE 29119-1) |
+| [`Clase#8/`](Clase%238/) | 30/09/2026 | Semana 11 | Métricas de calidad de software, deuda técnica y arranque de la Entrega de Implementación |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -275,6 +276,34 @@ de pruebas y los casos de prueba del proyecto en TestLink para el punto 2.
 
 ---
 
+### Clase 8 — Métricas de calidad, deuda técnica y arranque del proyecto (30/09/2026)
+
+La sesión cerró el ciclo de exposiciones sobre pruebas de software con el mini-taller de
+**métricas de calidad de software** presentado por los compañeros. El taller sigue siete
+pasos (introducción, marco de referencia en ISO/IEC 25010 y CMMI, caso de análisis,
+resultados, propuesta de mejora, conclusiones y producto final) y gira en torno a
+indicadores como la densidad de defectos, la cobertura de pruebas y el tiempo de
+corrección, resumidos en la frase "lo que no se mide, no se puede mejorar". Se mostró
+también el mismo formato de taller aplicado a la **deuda técnica**: qué es, sus ocho tipos
+(de código, diseño, arquitectónica, pruebas, documentación, infraestructura, procesos y
+dependencias), la diferencia entre deuda intencional y no intencional, y cómo se gestiona
+un caso decidiendo si conviene mantenerla, reducirla o eliminarla.
+
+La segunda parte de la clase cerró el bloque de pruebas de software y abrió el módulo del
+**proyecto integrador** con la *Entrega de Implementación*. Esta se organiza en tres
+partes: **Planeación** (Planner, organización del equipo con roles y reglas de trabajo, y
+configuración del ambiente de desarrollo con su README), **Funcionalidad** (código
+integrado con commits identificables, evidencia de funcionamiento y mínimo cinco casos de
+prueba de integración, con entrega el 6 de octubre) y **Ejecución de pruebas** (entrega el
+7 de octubre), cerrando el 20 de octubre con la corrección final.
+
+**Trabajo de la semana:** evaluación entre pares de la exposición de métricas de calidad
+de software, avance del plan de pruebas y los casos de prueba del proyecto en TestLink, y
+arranque de la Parte 1 (Planeación) de la Entrega de Implementación con el tablero de
+Planner, la organización del equipo y el ambiente de desarrollo.
+
+---
+
 ## Estructura del repositorio
 
 ```
@@ -325,6 +354,11 @@ BITACORAS DE CLASE/
 │   ├── Calculadora_AHP.xlsx                        # apoyo del taller (AHP y razón CR)
 │   ├── Punto 1 Ceiba DevFest 2026_Andres_velez.docx # punto 1 del parcial
 │   └── LiveTranscribe_Transcript.txt               # transcripción de la jornada
+├── Clase#8/
+│   ├── clase 30 de septiembre 2026.pdf
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 11
+│   ├── Evaluacion_metricaz_calidad_Juan Jose Narvaez Marin.pdf  # evaluación entre pares
+│   └── Evaluacion_metricaz_calidad_Maicol Oviedo Quintero.pdf   # evaluación entre pares
 └── README.md
 ```
 
