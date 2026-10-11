@@ -51,6 +51,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#6/`](Clase%236/) | 16/09/2026 | Semana 9 | Técnicas de validación: caja blanca (camino básico) y caja negra |
 | [`Clase#7/`](Clase%237/) | 23/09/2026 | Semana 10 | Plan de pruebas y diseño de casos de prueba (ISO/IEC/IEEE 29119-1) |
 | [`Clase#8/`](Clase%238/) | 30/09/2026 | Semana 11 | Métricas de calidad de software, deuda técnica y arranque de la Entrega de Implementación |
+| [`Clase#9/`](Clase%239/) | 07/10/2026 | Semana 12 | Deuda técnica (exposiciones) y reporte de defectos con Mantis Bug Tracker |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -302,6 +303,40 @@ de software, avance del plan de pruebas y los casos de prueba del proyecto en Te
 arranque de la Parte 1 (Planeación) de la Entrega de Implementación con el tablero de
 Planner, la organización del equipo y el ambiente de desarrollo.
 
+### Clase 9 — Deuda técnica y reporte de defectos con Mantis (07/10/2026)
+
+La primera parte de la sesión fue la exposición de **deuda técnica** de los compañeros,
+que partió de la pregunta "¿qué se gana hoy y qué se paga mañana?". Presentaron la
+metáfora financiera de Cunningham y Kruchten (el **principal** es el esfuerzo de
+corregir, los **intereses** la fricción que se acumula), la diferencia entre deuda
+intencional y accidental, los frentes donde aparece (código, arquitectura, pruebas,
+seguridad, documentación e infraestructura) y sus causas típicas: presión por entregar,
+requisitos cambiantes, baja cobertura y falta de automatización.
+
+Para la parte práctica mostraron cómo se detecta —code smells, duplicidad, cobertura
+baja, dependencias desactualizadas y los *hotspots* de cambio— y cómo se mide con el
+**ratio de deuda**, que compara el esfuerzo de corregir contra el costo estimado de
+construir. Sobre un caso simulado de un sistema de domicilios llegaron a un 18 % de ratio
+(alerta alta) con 35 % de cobertura y 14 % de duplicidad, y cerraron con una propuesta de
+gestión en cuatro pasos: detectar, priorizar, pagar y prevenir, dedicando un 20 % de la
+capacidad del equipo a refactorizar y manteniendo un backlog de deuda visible con dueño y
+fecha.
+
+La segunda parte retomó la **Parte 3 de la Entrega de Implementación**: cada estudiante
+presenta su funcionalidad, pero las pruebas las ejecuta el **equipo contrario**, que debe
+entregar los casos de prueba ejecutados, la matriz de resultados, las evidencias y el
+registro de errores. Para ese registro la docente presentó **Mantis Bug Tracker**
+(open source, en PHP y MySQL): el tablero *My View*, los campos esenciales de una
+incidencia —categoría y proyecto, severidad (menor, mayor, bloqueador), prioridad (baja,
+media, urgente), reproducibilidad (siempre, a veces, aleatorio, nunca) y entorno— y los
+detalles que hacen útil el reporte: comportamiento esperado contra el actual, pasos
+numerados para reproducir y archivos adjuntos.
+
+**Trabajo de la semana:** evaluación entre pares de la exposición de deuda técnica, y como
+equipo evaluador, ejecutar en TestLink los casos de prueba que organizó el equipo A sobre
+sus funcionalidades y reportar en Mantis los que no pasen, para presentar la matriz de
+resultados y las evidencias en la revisión del 14 de octubre.
+
 ---
 
 ## Estructura del repositorio
@@ -359,6 +394,12 @@ BITACORAS DE CLASE/
 │   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 11
 │   ├── Evaluacion_metricaz_calidad_Juan Jose Narvaez Marin.pdf  # evaluación entre pares
 │   └── Evaluacion_metricaz_calidad_Maicol Oviedo Quintero.pdf   # evaluación entre pares
+├── Clase#9/
+│   ├── Clase 7 Octubre.pdf                         # presentación de la sesión
+│   ├── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 12
+│   ├── Presentacion_Deuda_Tecnica (1).pptx         # exposición de deuda técnica
+│   ├── Evaluacion deuda tecnica Jose Alejandro Valencia Henao.pdf  # evaluación entre pares
+│   └── Evaluacion prueba tecnica Tomas Marin Estrada.pdf           # evaluación entre pares
 └── README.md
 ```
 
