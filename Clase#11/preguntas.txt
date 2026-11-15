@@ -1,0 +1,13 @@
+Pregunta 1.  Organización del equipo
+¿Consideras que la distribución de roles y responsabilidades es adecuada para realizar el mantenimiento de un producto de software existente?
+¿Qué conflictos o dificultades podrían presentarse entre el equipo de desarrollo y el equipo de calidad?
+¿Qué cambios propondrías en la organización para mejorar la coordinación y la eficiencia del equipo?
+Pregunta 2. Proceso de mantenimiento y aseguramiento de calidad
+Un analista desarrollador termina una modificación solicitada por el usuario, pero el revisor técnico encuentra problemas de legibilidad y el equipo de pruebas identifica errores en funcionalidades que anteriormente funcionaban correctamente.
+¿Cuál debería ser el procedimiento que debe seguir el equipo ante esta situación?
+¿Qué mejoras propondrías al flujo de trabajo y a los filtros de calidad para evitar que esta situación se repita?
+Pregunta 3. Mejora continua y uso de inteligencia artificial
+Durante los 15 días de trabajo, el equipo utiliza inteligencia artificial para generar código, documentar funcionalidades y solucionar errores. Sin embargo, algunos integrantes registran el uso de IA, pero no presentan evidencias de verificación de los resultados.
+¿Qué riesgos representa esta situación para la calidad y mantenibilidad del software?
+¿Consideras suficientes los registros y controles establecidos en el manual?
+Propón al menos tres mejoras al modelo de trabajo para fortalecer la trazabilidad, el uso responsable de IA y el desempeño individual y colectivo.

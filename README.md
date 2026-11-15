@@ -52,6 +52,7 @@ Al final se marca la lista de chequeo, la firma del estudiante y la fecha de sub
 | [`Clase#7/`](Clase%237/) | 23/09/2026 | Semana 10 | Plan de pruebas y diseño de casos de prueba (ISO/IEC/IEEE 29119-1) |
 | [`Clase#8/`](Clase%238/) | 30/09/2026 | Semana 11 | Métricas de calidad de software, deuda técnica y arranque de la Entrega de Implementación |
 | [`Clase#9/`](Clase%239/) | 07/10/2026 | Semana 12 | Deuda técnica (exposiciones) y reporte de defectos con Mantis Bug Tracker |
+| [`Clase#10/`](Clase%2310/) | 21/10/2026 | Semana 14 | Depuración de software, ciclo de vida de bugs en Mantis y proceso de entrega de software |
 
 ### Clase 1 — Calidad, Verificación y Validación (05/08/2026)
 
@@ -337,6 +338,35 @@ equipo evaluador, ejecutar en TestLink los casos de prueba que organizó el equi
 sus funcionalidades y reportar en Mantis los que no pasen, para presentar la matriz de
 resultados y las evidencias en la revisión del 14 de octubre.
 
+### Clase 10 — Depuración de software y proceso de entrega (21/10/2026)
+
+La docente retomó el segundo ciclo de pruebas del proyecto. Primero explicó la
+**depuración de software**: la diferencia entre el síntoma de un error y su causa real, el
+proceso completo para corregirlo (diagnosticar, planificar los cambios, actualizar diseño
+y código, y probar con casos específicos y de regresión) y los dos métodos clásicos,
+**depuración por inducción** (parte de los datos del error para construir una hipótesis) y
+**depuración por deducción** (parte de varias causas posibles y las descarta una por una).
+Sobre esa base presentó el **ciclo de vida de un bug en Mantis** (Nuevo, Reconocido,
+Confirmado, Asignado, Resuelto, Cerrado, con la posibilidad de Reabrir) y el **segundo
+ciclo de pruebas** en cuatro pasos: revisar los bugs y cambiar su estado, crear el plan de
+pruebas en TestLink, corregir y probar, y ejecutar el proceso de prueba completo.
+
+La segunda parte fue el **proceso de entrega de software**: su objetivo (garantizar
+calidad, funcionalidad y rendimiento al pasar el producto al cliente), los cuatro
+atributos clave (confiabilidad, seguridad, usabilidad y portabilidad) y los ocho pasos que
+lo componen, desde la verificación de calidad y la documentación hasta la configuración,
+la capacitación, la aprobación final y las garantías y el soporte posterior a la entrega.
+
+En paralelo, como equipo evaluador (equipo B) seguimos con la ejecución en TestLink de los
+casos de prueba del equipo A. Como la instancia está alojada en el equipo de Bernal (equipo
+A), no podíamos crear usuarios propios para probar; con la asesoría de la docente durante
+la clase se logró habilitar un usuario de TestLink para cada integrante del equipo B.
+
+**Trabajo de la semana:** continuar la ejecución en TestLink de los casos de prueba del
+equipo A con los usuarios ya creados, reportar en Mantis los que no pasen, armar la matriz
+de resultados del equipo evaluador y llevar el proyecto terminado a la próxima clase, que
+es la tarea que dejó la docente.
+
 ---
 
 ## Estructura del repositorio
@@ -400,6 +430,9 @@ BITACORAS DE CLASE/
 │   ├── Presentacion_Deuda_Tecnica (1).pptx         # exposición de deuda técnica
 │   ├── Evaluacion deuda tecnica Jose Alejandro Valencia Henao.pdf  # evaluación entre pares
 │   └── Evaluacion prueba tecnica Tomas Marin Estrada.pdf           # evaluación entre pares
+├── Clase#10/
+│   ├── Clase 21 de octubre.pdf                     # presentación de la sesión
+│   └── Plantilla_Bitacora_Digital_Software4.docx   # bitácora semana 14
 └── README.md
 ```
 
